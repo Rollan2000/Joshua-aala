@@ -1,0 +1,6223 @@
+/* GDES306 | MMDD253 - Coding Your Portfolio     */
+/* Extra small devices (phones, less than 600px) */
+/* No media query since this is the default CSS */
+
+
+/* Basic page styling */
+:root {
+    /* These are global variables that you can use in your CSS */
+    --black:black;
+    --dark-grey:#333;
+    --mid-grey:#666;
+    --light-grey:#999;
+    --navy-blue:#203543;
+    --white:white;
+    --accent-colour:#F8D859;
+    --headline-font:'Calibri';
+    --body-font:'Calibri';
+    --horizontal-shift:6px;
+    --section-padding-top:120px;
+   }
+
+
+   * {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    }
+
+   .auto-height
+   {
+    min-height: auto; 
+   
+   }
+
+
+   html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    }
+
+
+
+    body 
+    { 
+     font-family: var(--body-font);
+    }
+    h1, h2, h3, h4, h5, h6 
+    {
+     font-family:'Calibri';
+    }
+  
+  
+      h1 
+      {
+      font-size: calc(35px + (60 - 40) * (100vw - 400px) / (1800 - 400));
+      text-align: center;
+      margin-top: 4.5rem;
+      color: var(--white); 
+      }
+  
+      h2 
+      {
+       font-size: calc(15px + (48 - 32) * (100vw - 400px) / (1800 - 400));
+       text-align: center;
+       padding-left: 5em;
+       margin-top: 1.3rem;
+       margin-right: 5em;
+  
+       color: var(--white);
+  
+      }
+      h3
+  
+      {
+       font-size: calc(20px + (28 - 20) * (100vw - 400px) / (1800 - 400));
+      }
+  
+      p 
+  
+      {
+       font-size: calc(16px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+       margin-bottom:2rem;
+      }
+      
+  
+  
+      a 
+      
+      {
+        font-size: calc(20px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+        text-decoration: none;
+        font-family: 'Calibri';
+        margin: auto;
+      }
+  
+  
+
+              
+  
+  
+  
+  
+      
+
+  
+  /* Styling the Navigation bar */
+
+
+
+  .menu-icon {
+    display: none;
+    }
+    
+
+#menu-toggle{
+  display: none;
+}
+
+
+  
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    overflow-y: hidden;
+  }
+  
+  nav {
+    background: var(--white);
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#24302B, #203543);
+    padding-bottom: 50px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 1.6em;
+    right: 1em;
+  }
+
+
+
+  
+
+
+  .nav-links li {
+    
+
+    display: inline-block;
+    margin-right: 85px;
+    color: #F8D859;
+    transition: .5s all ease-in-out;
+
+  }
+  
+
+
+  .nav-links li a {
+    font-size: 1.6em;
+    font-weight:500 ;
+
+
+
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+  .nav-links li a:hover {
+    color: var(--accent-colour);
+  }
+  
+  .logo {
+    margin-right: auto;
+    
+  }
+  
+  .logo img  {
+    height: 4.0rem;
+    width: auto;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  
+
+     
+  /* Styling for the Introduction */
+  
+  
+  
+
+
+  #introduction {
+
+  
+      
+  
+      min-height: calc(105vh - var(--section-padding-top));
+      padding-top: var(--section-padding-top);
+
+      align-content: start;
+      background-image: linear-gradient(#24302B, #203543);
+
+     }
+  
+  
+  #introduction  {
+  
+      padding-top:5em; 
+
+  
+  }
+  
+
+  #introduction  h1 {
+  
+      padding-top:2em; 
+      
+      
+  
+  }
+  
+  #introduction h2 {
+  
+    font-weight:390;
+    font-size: calc(6px + (58 - 26) * (100vw - 400px) / (1800 - 400));
+
+    text-align: center;
+    padding-top:30px; 
+     font-family:'Calibri';
+
+
+
+  }
+  
+  
+  
+  
+  #introduction img
+  {
+      height: 7.0rem;
+      width: auto;
+  }
+  
+  .icon1
+  {
+      position: relative;
+      top: 150px;
+      right: -80px;
+  
+  }
+  
+  
+  .icon2
+  {
+      position: relative;
+      top: 10em;
+      left: 97em;
+  }
+  
+  .icon3
+  {
+      position: relative;
+      top: 40em;
+      right: 9em;
+  
+  }
+  
+  
+  
+  .icon4
+  {
+      position: relative;
+       top: 41em;
+      left: 84em;
+  }
+  
+  
+  
+    .icon1{
+      transform: translateY(-10%);
+      animation: floater 4.5s infinite;
+      transition: ease 0.5s;
+      width: 80px;
+      height:80px;
+    }
+  
+  
+    
+    .icon2{
+      transform: translateY(-10%);
+      animation: floater 5.5s infinite;
+      transition: ease 0.5s;
+      width: 80px;
+      height:80px;
+    }
+    
+  
+      
+    .icon3{
+      transform: translateY(-10%);
+      animation: floater 6.0s infinite;
+      transition: ease 0.4s;
+      width: 80px;
+      height:80px;
+    }
+    
+  
+        
+    .icon4{
+      transform: translateY(-10%);
+      animation: floater 6.5s infinite;
+      transition: ease 0.4s;
+      width: 80px;
+      height:80px;
+    }
+    
+  
+    
+    @keyframes floater {
+      0%{transform: translateY(-10%);transition: ease-in-out 0.5s;}
+      50%{transform: translateY(10%);transition: ease-in-out 0.5s;}
+    }
+  
+     
+
+
+
+
+   .btn 
+    {
+     font-size: calc(25px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+      border: 3px solid whitesmoke;
+      border-radius: 25px;
+      font-weight: 450;
+
+      color: var(--white);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      width: fit-content; 
+
+
+      margin-top: 70px;
+      margin-left: 27.5em;
+
+
+
+      transform: translateY(-10%);
+      animation: floater 4.5s infinite;
+      transition: ease-in-out 0.5s;
+     }
+  
+     
+     .btn:hover 
+     {
+      animation: none;
+      background-color: var(--accent-colour);
+      color: var(--navy-blue);
+
+     }
+  
+  
+     .btn:visited 
+     {
+      color: var(--#203543);
+     }
+  
+     .btn:hover:visited 
+     {
+      color: var(--navy-blue);
+     }
+  
+  
+  
+  
+  
+  
+  
+      
+     /* Styling for the Section Portfolio */
+  
+  
+     section 
+     {
+     
+      display: grid;
+      min-height: calc(100vh - var(--section-padding-top));
+      padding-top: var(--section-padding-top);
+      grid-template-columns: 15% 1fr 15%;
+
+      background-color: #ECF2F9;
+      background-image: color(#ECF2F9);
+     }
+     
+    
+  
+  
+  
+  
+  
+  
+  /* Styling for the Portfolio Section */
+  
+  
+  
+  
+  
+  /*----- Portfolio project-----*/
+  
+  .project1{
+      
+     
+      text-align: center;
+      padding-top: 10px;
+
+   
+  }
+     
+  
+  
+  .project1 h1  {
+  
+      font-size: 3em;
+      font-weight: 14px;
+      color:  #203543;
+      text-align: center;
+      width: 660%;
+   
+     
+  
+  
+  }
+  
+  
+  .row h3 {
+    color: var(--white);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+
+
+  .row p{
+      color: var(--white);
+      font-size: 24px;
+      font-weight:390;
+      line-height: 30px;
+      padding: 10px;
+  }
+  
+  .row{
+
+      display: flex;
+      margin-left: 8em;
+      padding-top: 50px;
+      margin-bottom: 300px;
+      
+      
+  }
+  
+  .project-col{
+
+      flex-basis: 31%;
+      background:  linear-gradient(#24302B, #203543);
+      border-radius: 40px 40px 40px;
+      margin-bottom: -60%;
+      margin-left: 70px;
+      padding: 20px px;
+      box-sizing: border-box;
+      transition: 0.5s;
+  
+      cursor: pointer;
+      transform: transform 0.3s ease-in-out;
+      
+  
+  }
+  
+  .project1 img{
+      border-radius: 30px 30px 00px 0px  ;
+      height: 330px;
+      width: auto;
+  }
+
+  
+
+
+
+
+  .project-col:hover{
+  
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+    float:left;
+    transform: translateY(-20px);
+      
+  
+  
+  
+  }
+  
+  
+  
+  
+  .project-btn
+  {
+      position: relative;
+      bottom: 60px;
+
+  }
+  
+  
+  
+  .project-btn
+    {
+      border: 3px solid whitesmoke;
+      border-radius: 20px;
+      color: var(--white);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: calc(20px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+      font-weight: 450;
+
+      width: fit-content; 
+      margin-top: 80px;
+     }
+  
+     
+     .project-btn:hover 
+     {
+      background-color: var(--accent-colour);
+      color: var(--navy-blue);
+  
+     }
+  
+  
+     .project-btn:visited 
+     {
+      color: var(--#203543);
+     }
+  
+     .project-btn:hover:visited 
+     {
+      color: var(--navy-blue);
+     }
+  
+  
+  
+  /* Styling for the About */
+  
+  
+  
+  
+  /* Styling the Contact section */
+
+
+
+
+  .footer-content
+  {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+
+    background: var(--navy-blue);
+    background-size: auto;
+    color:var(--white);
+ 
+  }
+
+
+
+  .footer-content h3{
+
+    font-size: 2.4em;
+
+
+    max-width:600px;
+    margin: 30px auto;
+    line-height: 45px;
+  
+
+
+
+    }
+
+
+  .footer-content p{
+    font-size: 1.5rem;
+    font-weight:390;
+
+  margin: 10px auto;
+  line-height: 28px;
+ 
+
+  }
+
+
+
+
+.socials{
+  list-style: none;
+  display: flex;
+
+  font-size: 32px;
+}
+
+
+.socials li{
+  list-style: none;
+  margin: 5px 0px;
+
+
+
+}
+
+
+
+.socials a i{
+  font-size: 2.1rem;
+  margin: 45px 50px 30px 40px;
+  text-decoration: none;
+  color: var(--accent-colour);
+
+}
+
+
+
+
+.footer-bottom{
+text-align: center;
+width: 100vw;
+padding:10px 30px;
+
+}
+
+
+
+.footer-bottom p{
+  font-size: 20px;
+
+  word-spacing: 2px;
+  text-transform: capitalize;
+  }
+  
+
+
+
+  
+
+     .inverted-colours {
+      background: var(--navy-blue);
+      background-size: auto;
+      color:var(--white);
+     }
+     .inverted-colours a {
+      color:var(--white);
+     }
+     .inverted-colours a:visited {
+      color:var(--white);
+     }
+     .inverted-colours .contact-btn {
+  
+      color:var(--navy-blue);
+      color:var(--white);
+  
+  
+     }
+     
+     .inverted-colours .contact-btn:hover {
+      color:var(--black);
+      background:var(--accent-colour);
+     }
+  
+  
+     
+     .contact-btn
+     {
+      border: 3px solid whitesmoke;
+
+       background-color: var(--navy-blue);
+       border-radius: 20px;
+     
+       color: var(--white);
+       padding: 15px 39px;
+       text-align: center;
+       text-decoration: none;
+       font-weight: 550;
+
+
+       display: inline-block;
+       font-size: calc(25px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+       width: fit-content; 
+       margin-top: 40px;
+      }
+     
+      
+    
+  
+  
+  /*---------------------------Styling for the About Page--------------------------------------------*/
+  
+
+
+  .about 
+  {
+  
+
+  background-color: #ECF2F9;
+
+  }
+
+  .about img
+  {
+  height:400px;
+  width: auto;
+  border-radius: 30px;
+
+  margin-top: -70px;
+
+
+
+  }
+
+
+
+
+  .about-text
+  {
+
+  width: 630px;
+  margin-top: 160px;
+
+  padding-left: 60px;
+
+  }
+
+
+
+ 
+  .about-text h1
+  {
+
+  text-transform: capitalize;
+  margin-bottom: 65px;
+  color: var(--navy-blue);
+  text-align: left;
+  
+  }
+
+
+  .about-text h5
+  {
+
+  font-size:35px;
+  color: var(--navy-blue);
+
+  text-transform: capitalize;
+  text-decoration: underline;
+   margin-bottom: 25px;
+
+  
+  }
+
+
+
+
+  .about-text p
+  {
+
+  line-height: 35px;
+  letter-spacing:.5px;
+  font-size:1.7rem;
+  width: 730px;
+  margin-bottom: 45px;
+  color: var(--navy-blue);
+
+
+
+  
+  
+  }
+
+
+
+
+.main
+  {
+  
+  width: 1130px;
+  max-width:95%;
+  margin: 0 auto ;
+  display:flex;
+  align-items: center;
+  justify-content:space-around ;
+
+  
+  }
+
+
+
+
+
+
+  
+  
+  
+  /*Card slider for Skills*/
+  
+  
+  
+  .skills  {
+   
+    text-align: center;
+    font-size: 2.5em;
+    color: var(--navy-blue);
+    font-weight: 600;
+    line-height: 60px;
+    position: relative;
+    top: 150px;
+
+  
+  }
+  
+  .container 
+  {
+  
+    padding: 10 ;
+    margin-right: auto;
+    margin-left: auto;
+
+  
+  }
+
+
+  
+  .gradient-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    padding: 90px;
+    
+  }
+  
+
+  
+  .card {
+    max-width: 550px;
+    border: 0;
+    width: 100%;
+    margin-inline: auto;
+  }
+  
+  .container-card 
+  {
+    position: relative;
+    border: 2px solid transparent;
+    background: var(--navy-blue);
+    background-clip: padding-box;
+    border-radius: 35px;
+    padding: 40px;
+    margin-top: 5px;
+  
+  
+  
+    cursor: pointer;
+    transform: transform 0.3s ease-in-out;
+  
+  
+  }
+  
+  
+  .card-title 
+  {
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 25px;
+    padding-bottom: 8px;
+  }
+  
+  .card-description 
+  {
+  
+    line-height: 32px;
+    color: var(--white);
+    font-size: 1.5em;
+    max-width: 470px;
+  }
+  
+  
+  .container-card:hover
+  {
+  
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+    float:left;
+    transform: translateY(-20px);
+      
+  }
+  
+  
+  
+  
+  
+   
+  /*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
+  
+  
+  .header
+  {
+  
+    background-color: #ECF2F9;
+    padding-top: 90px;
+
+  
+  }
+  
+  .title
+  
+  {
+  text-align: center;
+
+  }
+  
+  .title img {
+    height: 500px;
+    width: auto;
+
+  }
+  
+  .title h1
+  {
+     padding-bottom: 60px;
+      font-size: 3em;
+      color: #1E3547;
+      text-align: center;
+      
+  
+  }
+  
+  
+  
+  .link  .contact-btn
+  {
+    background-color: var(--navy-blue);
+    border-radius: 20px;
+  
+    color: var(--white);
+    padding: 15px 39px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(25px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+    width: fit-content; 
+    margin-top: 40px;
+   }
+  
+   
+   .contact-btn:hover 
+   {
+    animation: none;
+    background-color: var(--accent-colour);
+    color: var(--navy-blue);
+  
+    cursor: pointer;
+
+   }
+
+
+  
+  .overview h2 
+   {
+  
+  color: var(--navy-blue);
+  text-align:center;
+  padding-top: 30px;
+  letter-spacing:1px;
+
+  }
+  
+
+  .overview p
+   {
+    font-size: 1.8rem;
+    padding-top: 20px;
+
+  }
+
+
+
+  .roles h2 {
+    color: var(--navy-blue);
+    text-align:center;
+    padding-top: 20px;
+    letter-spacing:1px;
+  }
+
+
+  .roles p {
+    font-size: 1.8rem;
+    padding-top: 20px;
+
+
+  }
+  
+
+
+
+  
+  .tools h2
+  {
+    color: var(--navy-blue);
+    text-align:center;
+    padding-top: 20px;
+    letter-spacing:1px;
+  }
+
+
+  .tools p
+  {
+    font-size: 1.8rem;
+    padding-top: 20px;
+
+  }
+  
+  
+  .research-proposal
+  {
+ 
+    padding-top: 50px;
+    color: var(--navy-blue);
+    text-align:left;
+    padding-left: 400px;
+    margin-right: 550px;
+  
+  }
+  
+  .research-proposal h2
+  {
+  
+  color: var(--navy-blue);
+  }
+  
+  
+  .research-proposal p
+
+  {
+
+    font-size: 1.6rem;
+    font-weight:390;
+
+    width: 1100px;
+    line-height: px;
+    letter-spacing:.5px;
+    color: var(--navy-blue);
+    
+  
+  }
+  
+
+  
+  .research-proposal  ul
+
+  {
+    font-size: 1.6rem;
+    font-weight:390;
+
+    width: 1100px;
+    line-height: px;
+    letter-spacing:.5px;
+    color: var(--navy-blue);
+  
+  }
+  
+
+
+  
+  .research-proposal img 
+  {
+  margin-left: 200px;
+  }
+  
+  
+  
+  .process
+  {
+    margin-top: 50px;
+    font-size: 1.1rem;
+    font-size: 22px;
+  
+    letter-spacing:1px;
+  
+  }
+  
+  
+  
+  .project1-row1 ,  .project1-row1 p , .project1-row2  , .project1-row2 p {
+  
+    font-size: 1.3em;
+    color:#1E3547;
+
+
+
+  
+  }
+
+
+ .project1-column1 p{
+  
+  position: relative;
+bottom: 3em;
+
+}
+
+
+
+
+
+.project1-column3 p{
+
+  position: relative;
+  bottom: -1em;
+  
+}
+
+
+  .project1-column3  {
+  
+    margin-top: 10em;
+  
+  }
+
+
+  .project1-column4 p{
+
+    position: relative;
+    bottom: -1em;
+    
+  }
+
+    
+  .project1-column4
+  
+  {
+    margin-top: 10em;
+  }
+    
+
+
+
+  .project1-column5 p
+  {
+      
+  position: relative;
+  bottom: 5em;
+  
+  }
+
+
+
+
+
+  .project1-column6 p
+  {
+      
+  position: relative;
+  bottom: 5em;
+  
+  }
+
+
+
+  .project1-row1 img{
+    height: 650px;
+    width: auto;
+  }
+
+
+  .project1-column4 img
+  {
+    height: 600;
+    width: auto;
+  }
+
+
+  .project1-column5 img
+  {
+    height: 750px;
+    width: auto;
+  }
+
+
+.project1-column6  img
+{
+  height: 750px;
+  width: auto;
+}
+
+
+  
+    /*---------------------------Styling for the Project 2, (Humber cake bakery) -------------------------------------------*/
+
+  
+    .ar-sketches p {
+      font-size: 1.6rem;
+  
+      text-align: center;
+      margin-left: 0.5em;
+  
+      padding-top: 0em;
+    }
+  
+  
+  .ar-process a   
+
+  {
+
+    font-size: 1.6rem;
+    font-weight:390;
+    width: 1100px;
+    line-height: px;
+    letter-spacing:.5px;
+    font-weight: bold;
+
+
+
+    width: 1100px;
+    color: var(--navy-blue);
+    padding-top: 2em;
+  }
+
+
+  .ar-sketches img {
+
+    margin-left: 5em;
+    padding-top: 2em;
+
+  }
+
+
+
+
+  .project2-row1, .project2-row2 , .project2-row3,  .project2-row3 p  , .project2-row1 p  , .project2-row2 p {
+  
+    font-size: 1.3em;
+    color:#1E3547;
+
+  }
+
+
+  .project2-column1 p
+  {
+
+    position: relative;
+    bottom: 9.5em;
+    
+  }
+
+
+  .project2-column3 {
+    padding-top: 150px;
+
+  }
+
+
+
+  .project2-column5
+  {
+    margin-top: 100px;
+  
+  }
+
+
+
+  .project2-row3 p {
+    position: relative;
+    bottom: 1.5em;
+    
+  }
+
+  .project2-row1 img{
+    height: 800px;
+    width: auto;
+
+  }
+
+.project2-column1 p
+{
+  padding-top: 2em;
+
+}
+
+
+.project2-row2 img
+{
+  height: 800px;
+  width: auto;
+}
+
+
+.project2-row3 img
+{
+  
+    height: 800px;
+    width: auto;
+  
+  
+}
+
+
+
+
+
+      /*---------------------------Styling for the Project 3, (Insomnia Cookies) -------------------------------------------*/
+
+
+
+
+
+
+
+
+      .project3-row1, .project3-row2 , .project3-row3,   .project3-row4  , .project3-row4 p, .project3-row3 p  , .project3-row1 p  , .project3-row2 p {
+
+
+
+        font-size: 1.3em;
+        color:#1E3547;
+    
+      }
+    
+
+      .project3-column1 p{
+        position: relative;
+        bottom: 4.5em;
+      }
+
+
+      
+  
+  .project3-row1
+  {
+    margin-top: 100px;
+  
+  }
+  
+  .project3-column3
+  {
+    margin-top: 200px;
+  
+  }
+  
+  
+  
+  
+  .project3-row2 {
+  
+    margin-top: 100px;
+  }
+  
+  
+  .project3-column4 {
+    
+    margin-right: 10px;
+  
+  }
+  
+  
+  .project3-row3
+  {
+ 
+    margin-top: 150px;
+  
+  
+  
+  
+  }
+  
+
+  .project3-row4
+  {
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+
+  }
+
+  .project3-column1 img
+  {
+    height: 800px;
+    width: auto;
+  }
+
+
+
+
+    /*---------------------------Styling for the Project 4, (Nintendo Switch ) -------------------------------------------*/
+
+
+
+
+    
+  
+
+
+    .project4-column2 p , .project4-column5 p , .project4-column7 p , .project4-column8 p, .project4-column9 p
+    {
+      
+      font-size: 1.5em;
+
+      color:#1E3547;
+    }
+    
+
+
+
+
+    .project4-row1
+    {
+      margin-top:150px;
+
+    }
+
+
+
+
+  .project4-row3 {
+
+    margin-top:150px;
+  
+  
+  }
+  
+
+
+  .game-promotion{
+    
+
+      margin-top:150px;
+    
+    
+    
+  }
+
+
+.game-promotion p
+{
+  font-size: 1.5em;
+
+}
+
+
+
+  .project4-column8 {
+
+    margin-bottom:200px;
+  
+  
+  }
+  
+
+  .project4-column9 {
+
+    margin-bottom:200px;
+  
+  
+  }
+  
+  
+.project4-column8 img{
+  height: 1000px;
+  width: auto;
+}
+
+
+.nintendo-vid h2{
+  margin-bottom:60px;
+
+}
+  
+  .nintendo-vid
+  {
+    padding-top: 50px;
+    margin-bottom:60px;
+
+  }
+
+  .nintendo-vid1 h2,.nintendo-vid2 h2, .nintendo-vid3 h2{
+  
+
+    margin-top:90px;
+    color:var(--navy-blue);
+  
+  }
+
+
+
+
+        /*---------------------------Styling for the Project 5, (Juiced ) -------------------------------------------*/
+
+
+.project5-row1, .project5-row2, .project5-row3, .project5-row4, .juiced-vid{
+  margin-top:150px;
+
+}
+.juiced-vid h2{
+color:var(--navy-blue);
+padding-bottom: 50px;
+}
+
+.juiced-vid1 > iframe
+{
+  height: 500px;
+  width:700px; 
+padding-bottom: 100px;
+}
+
+
+  
+          /*---------------------------Styling for the Project 6, (Augmented reality) -------------------------------------------*/
+
+  
+  .augmented-reality
+{
+      margin-bottom:60px;
+  }
+     
+  
+
+  .augmented-reality h2{
+    margin-bottom:60px;
+  
+  }
+    
+
+
+.augmented-reality1 h2 , .augmented-reality2 h2, .augmented-reality3 h2
+  { 
+          
+    margin-top:90px;
+    color:var(--navy-blue);
+
+  } 
+  
+
+  .augmented-reality1 > iframe ,  .augmented-reality2 > iframe  ,  .augmented-reality3 > iframe
+{
+  height: 500px;
+  width:700px; 
+
+}
+
+
+
+
+/* Large devices (i.e. desktop) */
+
+@media (max-width: 1267px) {
+
+
+
+
+
+
+  
+#introduction h2 {
+
+  font-weight:390;
+  font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
+
+
+}
+
+
+
+  
+
+  #project1 h1
+  { 
+    font-size: 2.5em;
+    font-weight: 14px;
+
+  }
+
+
+
+  .menu-icon {
+    display: none;
+    }
+    
+
+
+
+
+
+  html {
+    scroll-behavior: smooth;
+  overflow-x: hidden;
+    }
+
+  
+
+
+
+    .nav-links li a {
+      font-size: 1.4em;
+      font-weight:500 ;
+    
+    }
+    
+
+
+
+
+  .icon2
+  {
+      position: relative;
+      top: 140px;
+      left: 55em;
+  }
+  
+
+
+
+  
+  .icon3
+  {
+      position: relative;
+      top: 35em;
+      right: 9em;
+  
+  }
+  
+
+
+  .icon4
+  {
+      position: relative;
+      top: 35em;
+      left: 43em;
+  }
+  
+
+
+
+  .btn
+  {
+    
+
+      margin-top: 70px;
+      margin-left: 18em;
+
+
+
+     }
+  
+  
+  
+     .row h3 {
+      color: var(--white);
+      text-align: center;
+      font-size: 1.7em;
+      font-weight: 600;
+      margin: 10px 0;
+  }
+  
+  
+
+
+  .row p{
+      color: var(--white);
+      font-size: 23px;
+      font-weight: 450;
+      line-height: 30px;
+      padding: 10px;
+  }
+  
+  .row{
+
+      display: flex;
+      position: relative;
+      right: 8em;
+      
+  }
+  
+  .project-col{
+
+      background:  linear-gradient(#24302B, #203543);
+      border-radius: 40px 40px 40px;
+      margin-bottom: -60%;
+      margin-left: 45px;
+      padding: 20px px;
+      box-sizing: border-box;
+      transition: 0.5s;
+
+
+
+      cursor: pointer;
+      transform: transform 0.3s ease-in-out;
+      margin-right: 1em;
+
+  
+  }
+  
+  .project1 img{
+      border-radius: 30px 30px 00px 0px  ;
+      height: 250px;
+      width: auto;
+  }
+
+
+
+
+
+
+
+
+    /*---------------------------Contact Section -------------------------------------------*/
+
+
+  
+
+  .about 
+  {
+  
+  padding: 0px 0px;
+  background-color: #ECF2F9;
+  
+  
+  }
+  
+  .about img
+  {
+  height:340px;
+  width:auto;
+  margin-top: 180px;
+  margin-left: 70px;
+
+  }
+  
+  
+  
+  
+  
+  
+  .about-text h1
+  {
+
+  font-size:50px;
+  text-transform: capitalize;
+  margin-bottom: 65px;
+  color: var(--navy-blue);
+  text-align: center;
+  
+  }
+
+
+  .about-text h5
+  {
+
+  font-size:30px;
+  color: var(--navy-blue);
+
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-align: center;
+
+   margin-bottom: 25px;
+
+  
+  }
+
+
+
+
+  .about-text p
+  {
+
+    line-height: 35px;
+    letter-spacing:.5px;
+    font-size:1.6rem;
+    width: 750px;
+    margin-bottom: 45px;
+    margin-left: -40px;
+
+    color: var(--navy-blue);
+  
+  }
+
+
+  
+  
+  .main
+  {
+  
+  width: 830px;
+  max-width:00%;
+  margin: 0 auto ;
+  display:flex;
+  
+  flex-direction: column;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  .main2
+  {
+  
+  
+  max-width:95%;
+  margin: 100px auto ;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around ;
+  
+  
+  }
+  
+  
+  
+  .about-text2 h5
+  {
+  
+    font-size:25px;
+    color: var(--navy-blue);
+  text-align: center;
+  letter-spacing:2px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  
+  
+   margin-bottom: 25px;
+  
+  }
+  
+  
+  
+  
+  .about-text2 p
+  {
+  text-align: center;
+   letter-spacing: .1px;
+   line-height:28px;
+   font-size:20px;
+  
+   margin-bottom: 45px;
+   padding-left: 80px;
+   width: 380px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*Card slider for Skills*/
+  
+  
+
+ 
+  
+  
+  
+  
+  .skills  {
+   
+    text-align: center;
+    font-size: 35px;
+    color: var(--navy-blue);
+    line-height: 60px;
+    position: relative;
+    top: 100px;
+
+  
+  }
+  
+  .container 
+  {
+  
+    padding: 10 ;
+    margin-right: auto;
+    margin-left: auto;
+
+  
+  }
+
+
+  
+  .gradient-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    padding: 10px;
+    
+  }
+  
+
+  
+  .card {
+    max-width: 550px;
+    border: 0;
+    width: 100%;
+    margin-inline: auto;
+  }
+  
+  .container-card 
+  {
+    position: relative;
+    border: 2px solid transparent;
+    background: var(--navy-blue);
+    background-clip: padding-box;
+    border-radius: 35px;
+    padding: 40px;
+    margin-top: 5px;
+  
+  
+  
+    cursor: pointer;
+    transform: transform 0.3s ease-in-out;
+  
+  
+  }
+  
+  
+  .card-title 
+  {
+
+    color: white;
+    letter-spacing: -0.02em;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 25px;
+    padding-bottom: 8px;
+  }
+  
+  .card-description 
+  {
+  
+    line-height: 32px;
+    color: var(--white);
+    font-size: 20px;
+    max-width: 470px;
+    font-weight:495;
+
+
+  }
+  
+  
+  .container-card:hover
+  {
+  
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+    float:left;
+    transform: translateY(-20px);
+      
+  }
+  
+  
+  
+  
+  
+  
+    /*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
+  
+  
+  
+  
+  
+  
+    .header
+    {
+    
+      background-color: #ECF2F9;
+      padding-top: 90px;
+  
+    
+    }
+    
+    .title
+    
+    {
+    text-align: center;
+  
+    }
+    
+    
+    
+    
+    .title h1
+    {
+      padding-bottom: 60px;
+      font-size: 2.5em;
+      color: #1E3547;
+      text-align: center;
+    
+    }
+    
+    .title img
+    {
+      height: 500px;
+      width: auto ;
+    }
+    
+    .contact-btn
+    {
+      background-color: var(--navy-blue);
+      border-radius: 20px;
+    
+      color: var(--white);
+      padding: 15px 39px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: calc(30px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+      width: fit-content; 
+      margin-top: 40px;
+     }
+    
+     
+  
+  
+     .overview h2 
+     {
+
+    font-size: 2em;
+    color: var(--navy-blue);
+    text-align:center;
+    padding-top: 30px;
+    letter-spacing:1px;
+
+    }
+    
+  
+    .overview p
+     {
+      font-size:  1.44rem;
+      margin-left: 0em;
+      width: 800px;
+      padding-left: 240px;
+
+    }
+  
+  
+  
+    .roles h2 {
+      font-size: 2em;
+
+      color: var(--navy-blue);
+      text-align:center;
+      padding-top: 20px;
+      letter-spacing:1px;
+    
+    }
+  
+  
+    .roles p {
+      font-size: 1.44rem;
+    }
+    
+  
+  
+  
+    
+    .tools h2
+    {
+      font-size: 2em;
+
+      color: var(--navy-blue);
+      text-align:center;
+      padding-top: 20px;
+      letter-spacing:1px;
+    }
+  
+  
+    .tools p
+    {
+      font-size: 1.44rem;
+  
+    }
+    
+  
+  
+    
+    
+    .research-proposal
+    {
+      padding-top: 50px;
+      color: var(--navy-blue);
+      text-align:left;
+      padding-left: 90px;
+      margin-left: 0px;
+      margin-right: 20px;
+    
+    }
+    
+    .research-proposal h2
+    {
+    
+    color: var(--navy-blue);
+    }
+    
+    
+    .research-proposal p ul
+    {
+  
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing:.5px;
+      color: var(--navy-blue);
+    
+    }
+ 
+  
+  
+    .project1-row1 img
+    {
+      
+      height: 700px;
+      width: auto;
+    }
+  
+
+    .project1-row2 img
+    {
+     
+     
+        
+        height: 600px;
+        width: auto;
+      
+    }
+  
+    .project1-column5 p , .project1-column6 p
+    
+    {
+position: relative;
+bottom:3em ;
+      
+    }
+
+
+
+  
+           /*---------------------------Styling for the Project 2, (Humber Bakery App) -------------------------------------------*/
+
+ 
+    .ar-sketches  p
+    {
+
+    position: relative;
+    right: 2em;
+    }
+    
+    
+    .ar-sketches img 
+    {
+
+    position: relative;
+    right: 3em;
+    }
+    
+   
+
+    .project2-column1 p
+    {
+    position: relative;
+    top: -5em;
+    }
+
+ 
+
+    .project2-row1 img
+    {
+      height: 700px;
+      width: auto;
+    }
+  
+  
+  
+  .project2-row2 img ,   .project2-row3 img
+  
+    {
+      height: 800px;
+      width: auto;
+    
+  
+  }
+  
+   
+              /*---------------------------Styling for the Project 3, (Insomina) -------------------------------------------*/
+
+  
+
+ .project3-row1 img
+ {
+  height: 600px;
+  width: auto;
+}
+
+
+
+.project3-column1 p
+{
+position: relative;
+top: -3em;
+}
+
+
+
+
+              /*---------------------------Styling for the Project 4, (Nintendo switch) -------------------------------------------*/
+
+  
+  
+  
+    .project4-row2
+    {
+  
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+ 
+    .project4-column4 img  
+    {
+      padding-left: 50px;
+      height: 400px;
+      width:auto; 
+      padding-right: 30px;
+    }
+  
+  
+  
+    .project4-column5 img  
+    {
+      padding-left: 50px;
+      height: 400px;
+      width:auto; 
+      padding-right: 30px;
+
+    }
+  
+  
+    
+  
+  
+    .project4-row3
+    {
+  
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+    .project4-row3 img
+    {
+      height: 400px;
+      width:auto; 
+      
+    
+  
+    }
+
+    .project4-column6 img , .project4-column7 img{
+      padding-right: 50px;
+    }
+
+
+
+
+    .game-promotion p
+    {
+      font-size: 1.5em;
+    }
+
+
+
+
+
+
+
+
+
+
+  
+    .project4-column6 img
+    {
+      padding-left: 50px;
+      height: 400px;
+      width:auto; 
+  
+    }
+    .project4-column7 img
+    {
+      padding-left: 50px;
+      height: 400px;
+      width:auto; 
+    }
+  
+  
+    .project4-column8 img
+    {
+      height: 900px;
+      width:auto; 
+    }
+  
+  
+
+    .nintendo-vid1 h2 ,     .nintendo-vid2 h2,     .nintendo-vid3 h2
+    {
+      padding-bottom: 30px;
+      font-size: 2rem;
+  
+    }
+
+    .nintendo-vid1 > iframe
+  
+    {
+      height: 500px;
+      width:800px; 
+  
+    }
+  
+    .nintendo-vid2 > iframe
+  
+  
+    {
+      height: 500px;
+      width:800px; 
+  
+    }
+  
+  
+    
+    .nintendo-vid3 > iframe
+  
+  
+    {
+      height: 500px;
+      width:800px; 
+  
+    }
+  
+  
+  
+  
+
+
+                  /*---------------------------Styling for the Project 5, (Digital Branding- Juiced) -------------------------------------------*/
+
+     .project5-column3 p 
+     {
+    font-size: 1.3em;
+                  
+  }
+  .project5-column5 p
+  {
+    font-size: 1.3em;
+                  
+  }
+  .project5-column6 p       
+
+  {
+    font-size: 1.3em;
+                  
+  }
+
+  .project5-column9 p{
+    
+      font-size: 1.3em;
+                    
+    
+  }
+
+  
+    .project5-row1 img 
+    {
+      height: 500px;
+  
+      width:auto; 
+      padding-bottom: 30px;
+    }
+  
+  
+  
+  
+  
+  
+  
+  .project5-column6
+  {
+    padding-right: 50px;
+
+  }
+
+  .project5-column6 p
+  {
+    position: relative;
+    bottom: 1em;
+  }
+
+  
+
+
+
+  .juiced-vid h2
+  {
+
+    padding-bottom: 30px;
+    color:var(--navy-blue);
+
+  }
+  
+  
+  .juiced-vid
+  
+    {
+      padding-bottom: 50px;
+  
+    }
+  
+  
+  
+                  /*---------------------------Styling for the Project 6 (Augmented Reality) -------------------------------------------*/
+
+
+.augmneted-reality h2
+{
+  margin-bottom: 20px;
+}
+  
+    .augmneted-reality1   > iframe
+  
+    {
+      height: 500px;
+      width:800px; 
+    }
+  
+  
+  
+  
+    .augmneted-reality2   > iframe
+  
+    {
+      height: 500px;
+      width:800px; 
+    }
+  
+  
+  
+  
+    .augmneted-reality3   > iframe
+  
+    {
+      height: 500px;
+      width:800px; 
+  
+    }
+
+
+
+
+}
+
+
+  
+
+
+
+
+/* Medium devices (i.e. tablets in landscape */
+@media (max-width: 900px  )   {
+
+  html {
+    scroll-behavior: smooth;
+  overflow-x: hidden;
+    }
+
+
+  .nav-links li {
+    display: inline-block;
+    margin-right: 50px;
+    color: #F8D859;
+    transition: .5s all ease-in-out;
+
+
+  }
+
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 1.3em;
+    right: 0.5em;
+}
+
+
+
+
+#introduction h2 {
+  
+  font-weight:390;
+  font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
+
+  text-align: center;
+  padding-top:30px; 
+   font-family:'Calibri';
+
+
+
+}
+
+
+
+.nav-links li a {
+  font-size: 1.2em;
+  font-weight:500 ;
+
+}
+
+
+.icon2
+{
+    position: relative;
+    top: 140px;
+    left: 37em;
+}
+
+
+
+
+
+.icon3
+{
+    position: relative;
+    top: 35em;
+    right: 9em;
+
+}
+
+
+
+.icon4
+{
+    position: relative;
+    top: 35em;
+    left: 23em;
+}
+
+
+
+.btn{
+
+
+
+   font-size: calc(23px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+
+    color: var(--white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content; 
+
+
+    margin-top: 70px;
+    margin-left: 13.5em;
+
+
+}
+
+
+.row h3 {
+  color: var(--white);
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+
+.row p{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-weight:500 ;
+
+}
+
+.row{
+  padding-top: 100px;
+    display: flex;
+    position: relative;
+    right: 120px;
+    margin-bottom: 100px;
+
+}
+
+.project-col{
+
+
+    margin-right: -100%;
+    padding: 10px px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: transform 0.3s ease-in-out;
+
+
+}
+
+
+.project1 img{
+    border-radius: 30px 30px 00px 0px  ;
+    height: 175px;
+    width: auto;
+}
+
+
+
+.project-col:hover{
+
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+  float:left;
+  transform: translateY(-20px);
+    
+
+
+
+}
+
+
+
+
+.project-btn
+{
+    position: relative;
+    bottom: 60px;
+
+}
+
+
+
+.project-btn
+  {
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+
+    color: var(--white);
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(19px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+    width: fit-content; 
+    margin-top: 50px;
+   }
+
+   
+   .project-btn:hover 
+   {
+    background-color: var(--accent-colour);
+    color: var(--navy-blue);
+
+   }
+
+
+   .project-btn:visited 
+   {
+    color: var(--#203543);
+   }
+
+   .project-btn:hover:visited 
+   {
+    color: var(--navy-blue);
+   }
+
+
+
+
+
+
+/*---------------------------Styling for the About Page--------------------------------------------*/
+  
+
+
+.about 
+{
+
+padding: 0px 0px;
+background-color: #ECF2F9;
+
+
+}
+
+.about img
+{
+height:340px;
+width:auto;
+border-radius: 25px;
+margin-top: 150px;
+}
+
+
+
+
+
+.about-text
+{
+
+width: 630px;
+margin-top: 160px;
+}
+
+
+
+
+.about-text h1
+{
+
+font-size:50px;
+text-transform: capitalize;
+margin-bottom: 65px;
+color: var(--navy-blue);
+text-align: center;
+
+}
+
+
+.about-text h5
+{
+
+font-size:30px;
+color: var(--navy-blue);
+
+text-transform: capitalize;
+text-decoration: underline;
+ margin-bottom: 25px;
+
+
+}
+
+
+
+
+.about-text p
+{
+
+  line-height: 30px;
+  letter-spacing:.5px;
+ font-size:1.5rem;
+ margin-bottom: 45px;
+ color: var(--navy-blue);
+ width: 630px;
+ padding-left: 50px;
+
+}
+
+
+
+.main
+{
+
+width: 830px;
+max-width:00%;
+margin: 0 auto ;
+display:flex;
+
+flex-direction: column;
+
+
+}
+
+
+
+
+
+
+.main2
+{
+
+
+max-width:95%;
+margin: 100px auto ;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content:space-around ;
+
+
+}
+
+
+
+.about-text2 h5
+{
+
+  font-size:20px;
+  color: var(--navy-blue);
+text-align: center;
+letter-spacing:2px;
+text-transform: capitalize;
+text-decoration: underline;
+
+
+ margin-bottom: 25px;
+
+}
+
+
+
+
+.about-text2 p
+{
+text-align: center;
+ letter-spacing: .1px;
+ line-height:28px;
+ font-size:20px;
+
+ margin-bottom: 45px;
+ padding-left: 80px;
+ width: 380px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Card slider for Skills*/
+
+
+
+.skills  {
+ 
+  text-align: center;
+  font-size: 30px;
+  color: var(--navy-blue);
+  line-height: 60px;
+  position: relative;
+  top: 50px;
+
+
+}
+
+.container 
+{
+
+  padding: 80 ;
+  display: flex;
+
+}
+
+
+
+.gradient-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  padding: 50px;
+  position: relative;
+
+  
+}
+
+
+
+.card {
+  max-width: 400px;
+  border: 0;
+  width: 120%;
+  margin-inline: auto;
+  margin-left:210px;
+}
+
+.container-card 
+{
+  position: relative;
+  border: 2px solid transparent;
+  background: var(--navy-blue);
+  background-clip: padding-box;
+  border-radius: 35px;
+  padding: 30px;
+
+
+
+  cursor: pointer;
+  transform: transform 0.3s ease-in-out;
+
+
+}
+  
+.card-title 
+{
+  font-weight: 600;
+  color: white;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  font-style: normal;
+  font-size: 25px;
+  padding-bottom: 8px;
+}
+
+.card-description 
+{
+
+  line-height: 32px;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 500;
+
+  max-width: 470px;
+}
+
+
+.container-card:hover
+{
+
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+  float:left;
+  transform: translateY(-20px);
+    
+}
+
+
+
+
+
+
+
+
+
+  /*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
+
+
+
+
+
+
+  .header
+  {
+  
+    background-color: #ECF2F9;
+    padding-top: 90px;
+
+  
+  }
+  
+  .title
+  
+  {
+  text-align: center;
+
+  }
+  
+  
+  
+  
+  .title h1
+  {
+     padding-bottom: 60px;
+      font-size: 2em;
+      color: #1E3547;
+      text-align: center;
+      
+  
+  }
+  
+  .title img
+  {
+    height: 450px;
+    width: auto;
+  }
+  
+  .contact-btn
+  {
+    background-color: var(--navy-blue);
+    border-radius: 20px;
+  
+    color: var(--white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(16px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+    width: fit-content; 
+    margin-top: 40px;
+   }
+  
+   
+   .contact-btn:hover 
+   {
+    animation: none;
+    background-color: var(--accent-colour);
+    color: var(--navy-blue);
+  
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(-10px);
+   }
+
+
+
+
+
+    
+   .overview p
+   {
+    padding-left: 2.5em;
+  }
+
+
+
+ 
+
+  
+  .research-proposal
+  {
+    padding-top: 50px;
+    color: var(--navy-blue);
+    text-align:left;
+    padding-left: 40px;
+    margin-left: 0px;
+    margin-right: 20px;
+  
+  }
+  .research-proposal h2
+  {
+  
+  color: var(--navy-blue);
+  }
+  
+  
+  .research-proposal p 
+  {
+
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing:.5px;
+    color: var(--navy-blue);
+    width: 800px;
+  
+  }
+
+  .research-proposal ul
+  {
+
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing:.5px;
+    color: var(--navy-blue);
+    width: 800px;
+  }
+
+
+
+
+
+  .project1-column1 p
+  {
+    position: relative;
+    top: -1em;
+  }
+
+  .project1-row1 img
+  {
+    height: 650px;
+    width: auto;
+  }
+
+
+  .project1-column4 img 
+  {
+    height: 400px;
+    width: auto;
+  }
+  
+
+  .project1-column5 img 
+  {
+    height: 550px;
+    width: auto;
+  }
+  
+  .project1-column6 img 
+  {
+    height: 550px;
+    width: auto;
+  }
+  
+
+  /*---------------------------Styling for the Project 2 (Humber cake bakery ) -------------------------------------------*/
+
+  
+  .ar-sketches p
+  {
+
+  position: relative;
+  left: -1em;
+  }
+      
+  .ar-sketches img 
+  {
+    height: 300px;
+    width: auto;
+
+  position: relative;
+  right: -0.5em;
+  }
+  
+  
+
+  .project2-row1 img{
+    height: 700px;
+    width: auto;
+  }
+  
+
+  .project2-row2 img
+  {
+    height: 700px;
+    width: auto;
+  }
+ 
+  .project2-row3 img
+  {
+    height: 700px;
+    width: auto;
+  }
+
+
+  /*---------------------------Styling for the Project 3 (Insomnia Cookies ) -------------------------------------------*/
+
+
+  .project3-column5 img
+  {
+    height: 480px;
+    width: auto;
+  }
+
+  
+
+  .project3-column6 img
+  {
+    height: 480px;
+    width: auto;
+  }
+
+
+
+
+
+  /*---------------------------Styling for the Project 4 (Nintendo Switch ) -------------------------------------------*/
+
+
+
+  .nintendo-vid1 h2   , .nintendo-vid2 h2 ,   .nintendo-vid3 h2     
+  {
+   font-size: 1.8em;
+  }
+
+
+
+
+  .nintendo-vid1 > iframe
+
+  {
+    height: 500px;
+    width:800px; 
+
+  }
+
+  .nintendo-vid2 > iframe
+
+
+  {
+    height: 500px;
+    width:800px; 
+
+  }
+
+
+  
+  .nintendo-vid3 > iframe
+
+
+  {
+    height: 500px;
+    width:800px; 
+
+  }
+
+
+
+
+  .project4-column8 img{
+    height: 900px;
+    width:auto; 
+    padding-top: 60px;
+
+  }
+
+
+  .project4-column9 img{
+    height: 400px;
+    width:auto; 
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+
+
+
+
+
+    /*---------------------------Styling for the Project 5 (Digital Branding Juiced ) -------------------------------------------*/
+
+
+
+
+  
+  .project5-row1 img 
+  {
+    height: 350px;
+    width:auto; 
+    padding-bottom: 30px;
+  }
+
+
+
+
+
+
+.project5-row3 img
+{
+
+
+
+
+  width:auto; 
+  padding-left: 50px;
+  padding-bottom: 100px;
+
+}
+
+
+.project5-column6 p{
+  position: relative;
+  bottom: 0em;
+  left:2em;
+}
+
+.project5-column9 {
+  
+
+    padding-bottom :70px;
+  
+  
+}
+  
+.project5-row2 img{
+
+  padding-bottom: 0px;
+
+}
+
+    /*---------------------------Styling for the Project 6 (Augmented reality ) -------------------------------------------*/
+
+
+
+    .augmented-reality1 h2   , .augmented-reality2 h2 ,   .augmented-reality3 h2     
+    {
+     font-size: 1.7em;
+    }
+  
+
+
+
+  .augmented-reality1   > iframe
+
+  {
+    height: 400px;
+    width:600px; 
+  }
+
+
+
+
+  .augmented-reality2   > iframe
+
+  {
+    height: 400px;
+    width:600px; 
+
+  }
+
+
+
+
+  .augmented-reality3   > iframe
+
+  {
+    height: 400px;
+    width:600px; 
+
+  }
+
+
+}
+
+
+
+
+
+/************************************************** Small devices (Mobile) ************************************************************************/
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px ) 
+{
+
+
+
+
+/*************Nav bar****************/
+
+
+.menu-icon {
+  display: block;
+  position: fixed;
+  top: 33px;
+  right: 35px;
+  z-index: 11;
+  cursor: pointer;
+  color: #fff;
+  font-size: 35px;
+ 
+}
+
+#menu-toggle {
+  display: none;
+
+
+}
+
+.nav-links {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30%;
+  background: #203543;
+  text-align: center;
+  padding-top: 50px;
+
+  bottom: 1em;
+    left: 0em;
+
+  
+
+}
+
+#menu-toggle:checked + .menu-icon + .nav-links {
+  display: block;
+}
+
+.nav-links li {
+  display: block;
+  margin: 20px 0;
+ 
+
+}
+
+.nav-links li a {
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #F8D859;
+}
+
+
+
+   .auto-height
+   {
+    min-height: auto; 
+   
+   }
+
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    }
+
+
+
+
+    nav 
+    {
+     background: var(--white);
+     height: 60px;
+     background-image: linear-gradient(#24302B, #203543);
+     padding-bottom: 50px;
+     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.2);
+ 
+    }
+ 
+
+   
+ #introduction {
+     
+
+      min-height: calc(100vh - var(--section-padding-top));
+      padding-top: var(--section-padding-top);
+
+      background-image: linear-gradient(#24302B, #203543);
+  
+     }
+  
+
+   
+     #introduction h2 {
+     
+      font-weight:390;
+
+  
+     }
+
+
+
+
+
+
+     
+   
+    .logo {
+
+    position: relative; 
+    right: 50px;
+   
+ 
+    }
+ 
+    .logo img
+    {
+     height: 4.0rem;
+     width: auto;
+     margin-top: 25px;
+     margin-left: 70px;
+     
+  
+    }
+ 
+ 
+  
+    
+   
+ 
+     nav ul > li {
+     flex-basis: auto;
+     }
+    
+ 
+ 
+ 
+ 
+ 
+     #menu-icon {
+     display: none;
+     }
+     
+ 
+ 
+    #menu-icon, #close-icon  {
+     margin-left: auto;
+     flex-basis: 50%;
+     text-align: right;
+     font-size: 40px;
+     margin-top: 0px;
+ 
+    }
+ 
+ 
+    #close-icon {
+     display:none;
+    }
+    .navexpanded #close-icon {
+     display:inline-block;
+    }
+ 
+ 
+    .navexpanded #menu-icon {
+     display:none;
+    }
+ 
+    #logo a:hover,
+    #menu-icon a:hover, #close-icon a:hover {
+     background: none;
+    }
+  
+    
+ 
+    
+ /* Styling for the Introduction */
+ 
+ 
+  
+ #introduction h2 {
+  
+  font-weight: 100;
+  font-size: calc(21px + (55 - 26) * (100vw - 400px) / (1800 - 400));
+
+  text-align: center;
+  padding-top:30px; 
+
+
+
+}
+
+
+ 
+ 
+ #introduction img
+ {
+     height: 4.0rem;
+     width: auto;
+ }
+ 
+ .icon1
+ {
+     position: relative;
+     top: 60px;
+     right: -20px;
+ 
+ }
+ 
+ 
+ .icon2
+ {
+     position: relative;
+     top: 4em;
+     left: 27em; }
+ 
+ .icon3
+ {
+     position: relative;
+     bottom: 10px;
+     right: 7em;
+ 
+ }
+ 
+ 
+ 
+ .icon4
+ {
+     position: relative;
+     top: 35em;    
+     left: 19em;
+
+ }
+ 
+ 
+
+
+    
+   .btn 
+   {
+    font-size: calc(18px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+
+     border: 3px solid whitesmoke;
+     border-radius: 20px;
+ 
+     color: var(--white);
+     padding: 15px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     width: fit-content; 
+
+     margin-top: 65px;
+     margin-left: 11em;
+ 
+ 
+
+    }
+
+
+
+  
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 0;
+      margin-bottom: 50px;
+      padding-left: 17em;
+    }
+    
+    .project-col {
+      flex-basis: calc(30% - 20px);
+      margin: 0 10px;
+      margin-bottom: 60px;
+    }
+
+    .project1 img{
+      border-radius: 30px 30px 00px 0px  ;
+      height: 200px;
+      width: auto;
+  }
+  
+  
+
+
+    
+  .footer-content
+  {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+
+    background: var(--navy-blue);
+    background-size: auto;
+    color:var(--white);
+ 
+  }
+
+
+
+  .footer-content h3{
+
+    max-width:500px;
+    margin: 30px auto;
+    line-height: 28px;
+  
+  
+    }
+
+
+  .footer-content p{
+
+  margin: 10px auto;
+  line-height: 28px;
+
+
+  }
+
+
+
+
+.socials{
+  list-style: none;
+  display: flex;
+
+  font-size: 32px;
+}
+
+
+.socials li{
+  list-style: none;
+  margin: 5px 0px;
+
+
+
+}
+
+.socials a{
+  text-decoration: none;
+  color: var(--accent-colour);
+
+}
+
+
+.socials a i{
+  font-size: 2.1rem;
+  margin: 45px 50px 30px 40px;
+
+}
+
+
+
+
+.footer-bottom{
+text-align: center;
+width: 100vw;
+padding:10px 30px;
+
+}
+
+
+
+.footer-bottom p{
+  font-size: 20px;
+
+  word-spacing: 2px;
+  text-transform: capitalize;
+  }
+  
+
+
+
+  
+
+     .inverted-colours {
+      background: var(--navy-blue);
+      background-size: auto;
+      color:var(--white);
+     }
+     .inverted-colours a {
+      color:var(--white);
+     }
+     .inverted-colours a:visited {
+      color:var(--white);
+     }
+     .inverted-colours .contact-btn {
+  
+      color:var(--navy-blue);
+      color:var(--white);
+  
+  
+     }
+     
+     .inverted-colours .contact-btn:hover {
+      color:var(--black);
+      background:var(--accent-colour);
+     }
+  
+  
+     
+     .contact-btn
+     {
+       border: 3px solid whitesmoke;
+       border-radius: 20px;
+   
+       color: var(--white);
+       padding: 15px 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: calc(16px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+       width: fit-content; 
+       margin-top: 300px;
+      }
+   
+      
+
+      .footer-content h3{
+
+        max-width:500px;
+        margin: 30px auto;
+        line-height: 45px;
+      
+    
+        font-size: 2.3em;
+    
+        }
+    
+
+
+      .footer-content
+      {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        text-align: center;
+    
+        background: var(--navy-blue);
+        background-size: auto;
+        color:var(--white);
+     
+      }
+    
+    
+    
+  
+      .footer-content h3{
+
+    
+        font-size: 1.6em;
+    
+        }
+    
+
+    
+      .footer-content p{
+    
+      margin: 10px auto;
+      line-height: 28px;
+      font-size: 19px;
+    
+      }
+    
+    
+    
+    
+    .socials{
+      list-style: none;
+      display: flex;
+    
+      font-size: 32px;
+    }
+    
+    
+    .socials li{
+      list-style: none;
+      margin: 5px 0px;
+    
+    
+    
+    }
+    
+    .socials a ul{
+      text-decoration: none;
+      color: var(--accent-colour);
+    
+    }
+    
+    
+    .socials a i{
+      font-size: 2.1rem;
+      margin: 45px 40px 30px 40px;
+    
+    }
+    
+    
+    
+    
+    .footer-bottom{
+    text-align: center;
+    width: 100vw;
+    padding:10px 30px;
+    
+    }
+    
+    
+    
+    .footer-bottom p{
+      font-size: 17px;
+    
+      word-spacing: 2px;
+      text-transform: capitalize;
+      }
+      
+    
+    
+    
+      
+    
+         .inverted-colours {
+          background: var(--navy-blue);
+          background-size: auto;
+          color:var(--white);
+         }
+         .inverted-colours a {
+          color:var(--white);
+         }
+         .inverted-colours a:visited {
+          color:var(--white);
+         }
+         .inverted-colours .contact-btn {
+      
+          color:var(--navy-blue);
+          color:var(--white);
+      
+      
+         }
+         
+         .inverted-colours .contact-btn:hover {
+          color:var(--black);
+          background:var(--accent-colour);
+         }
+      
+      
+         
+         .contact-btn
+         {
+           border: 3px solid whitesmoke;
+           border-radius: 20px;
+       
+           color: var(--white);
+           padding: 15px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: calc(16px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+           width: fit-content; 
+           margin-top: 50px;
+          }
+       
+          
+
+
+
+  
+  /*---------------------------Styling for the About Page--------------------------------------------*/
+  
+
+
+  .about 
+  {
+
+  padding: 0px 0px;
+  background-color: #ECF2F9;
+
+  
+  }
+
+  .about img
+  {
+  height:240px;
+  width:auto;
+  margin-right: 40px;
+  margin-top: 150px;
+  }
+
+
+
+  .about-text
+  {
+  
+  width: 630px;
+  margin-top: 10px;
+  }
+  
+  
+  
+  
+  .about-text h1
+  {
+  
+  font-size:40px;
+  text-transform: capitalize;
+  margin-bottom: 65px;
+  color: var(--navy-blue);
+  text-align: center;
+  padding-right: 30px;
+
+  }
+  
+  
+  .about-text h5
+  {
+  
+  font-size:25px;
+  color: var(--navy-blue);
+  
+  text-transform: capitalize;
+  text-decoration: underline;
+   margin-bottom: 25px;
+   padding-right: 45px;
+
+  
+  }
+  
+  
+  
+  
+  .about-text p
+  {
+  
+  line-height: 30px;
+  letter-spacing:.5px;
+   font-size:1.3rem;
+   margin-bottom: 45px;
+   color: var(--navy-blue);
+   width: 450px;
+   padding-left: 120px;
+  
+  }
+  
+
+
+
+  .main
+  {
+  
+  width: 830px;
+  max-width:00%;
+  margin: 0 auto ;
+  display:flex;
+
+  flex-direction: column;
+
+  
+  }
+
+
+
+
+
+
+  .main2
+  {
+  
+
+  max-width:95%;
+  margin: 100px auto ;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around ;
+
+
+  }
+
+
+  .main2 > iframe 
+  {
+  height:400px;
+  width: 390px;;
+  }
+ 
+
+  .about-text2 h5
+  {
+
+    font-size:20px;
+    color: var(--navy-blue);
+  text-align: center;
+  letter-spacing:2px;
+  text-transform: capitalize;
+  text-decoration: underline;
+
+
+   margin-bottom: 25px;
+
+  }
+
+
+
+
+  .about-text2 p
+  {
+
+   letter-spacing: .1px;
+   line-height:28px;
+   font-size:17px;
+
+   margin-bottom: 45px;
+   padding-left: 100px;
+   width: 380px;
+
+  }
+
+
+
+
+  
+  
+  
+  
+  
+  /*Card slider for Skills*/
+  
+  
+  
+  .skills  {
+   
+    text-align: center;
+    font-size: 30px;
+    color: var(--navy-blue);
+    font-weight: 600;
+    line-height: 60px;
+    position: relative;
+    top: 150px;
+
+  
+  }
+  
+  .container 
+  {
+  
+    padding: 80 ;
+    display: flex;
+  
+  }
+
+
+  
+  .gradient-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    padding: 50px;
+    position: relative;
+    left: 0px;
+    
+  }
+  
+
+  
+  .card {
+    max-width: 800px;
+    border: 0;
+    width: 80%;
+    margin-inline: auto;
+    margin-right: 42px;
+  }
+  
+  .container-card 
+  {
+    position: relative;
+    border: 2px solid transparent;
+    background: var(--navy-blue);
+    background-clip: padding-box;
+    border-radius: 35px;
+    padding: 30px;
+  
+  
+  
+    cursor: pointer;
+    transform: transform 0.3s ease-in-out;
+  
+  
+  }
+  
+  
+  .card-title 
+  {
+    font-weight: 600;
+    color: white;
+    letter-spacing: -0.02em;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 23px;
+    padding-bottom: 9px;
+  }
+  
+  .card-description 
+  {
+  
+    line-height: 32px;
+    color: var(--white);
+    font-size: 20px;
+
+  }
+  
+  
+  .container-card:hover
+  {
+  
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+    float:left;
+    transform: translateY(-20px);
+      
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+  /*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
+
+
+
+
+
+
+  .header
+  {
+  
+    background-color: #ECF2F9;
+    padding-top: 90px;
+
+  
+  }
+  
+  .title
+  
+  {
+  text-align: center;
+
+  }
+  
+  
+  
+
+
+  .title h1
+  {
+     padding-bottom: 60px;
+      font-size: 1.4em;
+      color: #1E3547;
+      text-align: center;
+      
+  
+  }
+  
+  .title img
+  {
+    height: 300px;
+    width: 390px ;
+  }
+  
+  .link .contact-btn
+  {
+    background-color: var(--navy-blue);
+    border-radius: 20px;
+  
+    color: var(--white);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(16px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+    width: fit-content; 
+    margin-top: 40px;
+   }
+  
+   
+   .contact-btn:hover 
+   {
+    animation: none;
+    background-color: var(--accent-colour);
+    color: var(--navy-blue);
+  
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(-10px);
+   }
+
+
+
+  
+  .research-proposal
+  {
+    padding-top: 50px;
+    color: var(--navy-blue);
+    text-align:left;
+    padding-left: 40px;
+    margin-left: 0px;
+    margin-right: 20px;
+  
+  }
+ 
+ 
+ 
+
+  
+  .overview h2 
+  {
+
+ font-size: 1.8em;
+ color: var(--navy-blue);
+ text-align:center;
+ padding-top: 30px;
+ letter-spacing:1px;
+ }
+ 
+
+ .overview p
+  {
+   font-size: 1.4rem;
+   width: 500px;
+
+ }
+
+
+
+ .roles h2 {
+  font-size: 1.8em;
+
+   color: var(--navy-blue);
+   text-align:center;
+   padding-top: 20px;
+   letter-spacing:1px;
+ 
+ }
+
+
+ .roles p {
+  font-size: 1.4rem;
+
+ }
+ 
+
+
+
+ 
+ .tools h2
+ {
+  font-size: 1.8em;
+
+   color: var(--navy-blue);
+   text-align:center;
+   padding-top: 20px;
+   letter-spacing:1px;
+ }
+
+
+ .tools p
+ {
+   font-size: 1.4rem;
+
+ }
+ 
+
+
+
+
+  
+  .research-proposal h2
+  {
+  
+  color: var(--navy-blue);
+  }
+  
+  
+  .research-proposal p
+  {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing:.5px;
+    color: var(--navy-blue);
+    width: 540px;
+
+  }
+  
+  
+  .research-proposal  ul
+  {
+
+    font-size: 21px;
+    font-weight: 500;
+
+    line-height: 30px;
+    letter-spacing:.5px;
+    color: var(--navy-blue);
+    width: 550px;
+
+  
+  }
+  
+
+
+
+  .project1-row1 img {
+
+    height: 400px;
+    width: auto;
+  }
+
+  
+  .project1-column4 img
+  {
+
+    height: 300px;
+    width: auto;
+  }
+ 
+  .project1-column5 img
+  {
+
+    height: 500px;
+    width: auto;
+  }
+ 
+
+
+
+
+  .project1-column6
+  img
+  {
+
+    height: 450px;
+    width: auto;
+  }
+ 
+
+
+
+
+
+
+
+    /*---------------------------Styling for the Project 2, (Humber bakery) -------------------------------------------*/
+
+  
+ 
+
+  .ar-sketches img
+   {
+    height: 300px;
+    width: auto;
+    position: relative;
+    right: 5em;
+  }
+
+  .ar-sketches p
+  {
+    position: relative;
+    left: 0em;
+  }
+
+
+
+
+.ar-process p 
+{
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing:.5px;
+}
+
+
+
+.project2-row1 img , .project2-row2 img , .project2-row3 img
+{
+  height: 550px;
+  width: auto; 
+}
+
+ .project2-row2 img , .project2-row3 img
+{
+  height: 560px;
+  width: auto; 
+}
+
+ 
+    
+    /*---------------------------Styling for the Project 3, (Insomnia cookie) -------------------------------------------*/
+
+    .project3-row1 img
+    {
+      height: 400px;
+      width: auto;
+    }
+    .project3-row2 img
+    {
+      height: 300px;
+      width: auto;
+    }
+
+
+    .project3-column5 img{
+      height: 320px;
+      width: auto;
+    }
+
+    .project3-row3 img
+    {
+      height: 400px;
+      width: auto;
+    }
+
+    .project3-row4 img{
+      height: 340px;
+      width: auto;
+    }
+
+    /*---------------------------Styling for the Project 4, (Nintendo switch) -------------------------------------------*/
+
+
+
+  
+  .project4-row1 img
+  {
+    height: 200px;
+    width: 200px; 
+  }
+
+
+
+
+  
+
+  .project4-row1 img{
+    height: 300px;
+    width:auto; 
+  }
+
+
+
+  .project4-row2 img  
+  {
+    height: 350px;
+    width:auto; 
+  }
+
+
+
+
+
+  .project4-row3 img
+  {
+    height: 350px;
+    width:auto; 
+  }
+
+
+  .project4-column6 img
+  {
+    padding-left: 30px;
+    height: 350px;
+    width:auto;
+
+
+  }
+
+
+  .project4-column7 img
+  {
+    padding-left: 30px;
+    height: 350px;
+    width:auto;
+
+  }
+
+.game-promotion img
+{
+  height: 350px;
+  width:auto; 
+
+
+}
+
+.game-promotion1 img
+{
+  
+  padding-top: 150px;
+
+
+}
+
+
+
+
+.game-promotion p{
+font-size: 1.5em;
+color: #1E3547;
+}
+
+
+
+
+.project4-column8 img{
+  height: 900px;
+  width:auto; 
+
+}
+
+
+
+.project4-column9 img{
+  height: 250px;
+  width:auto; 
+
+}
+
+
+
+
+  .nintendo-vid1 > iframe
+
+  {
+    height: 300px;
+    width:500px; 
+
+  }
+
+  .nintendo-vid2 > iframe
+
+
+  {
+    height: 300px;
+    width:500px; 
+
+  }
+
+
+  
+  .nintendo-vid3 > iframe
+
+
+  {
+    height: 300px;
+    width:500px; 
+
+  }
+
+
+    /*---------------------------Styling for the Project 5, (Juiced) -------------------------------------------*/
+
+
+
+    .juiced-vid1 h2
+    {
+      font-size: 1.7em;
+    }
+
+
+
+
+
+
+
+  .project5-row1 img 
+  {
+    height: 250px;
+
+    width:auto; 
+    padding-bottom: 30px;
+  }
+
+
+  .project5-row2 img
+
+{
+  height: 250px;
+  width:auto; 
+  padding-bottom: 30px;
+}
+
+
+
+
+.project5-column6 img
+{
+  height: 250px;
+  width:auto; 
+  padding-bottom: 30px;
+
+
+}
+
+.project5-column6 p{
+padding-right: 20px;
+
+}
+
+
+
+.project5-column7 img,  .project5-column8 img ,  .project5-column9 img 
+
+{
+  padding-right: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.juiced-vid1  > iframe
+
+{
+  height: 400px;
+  width:550px; 
+
+}
+
+
+
+
+
+    /*---------------------------Styling for the Project 6, (Augmented reality ) -------------------------------------------*/
+
+
+ 
+
+  .augmented-reality1   > iframe
+
+  {
+    height: 400px;
+    width:550px; 
+
+  }
+
+
+
+  .augmented-reality2   > iframe
+
+  {
+    height: 400px;
+    width:550px; 
+
+  }
+
+
+
+
+  .augmented-reality3   > iframe
+
+  {
+    height: 400px;
+    width:550px; 
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 414px ) 
+{
+
+
+
+
+
+
+
+/*************Nav bar****************/
+
+
+.menu-icon {
+  display: block;
+  position: fixed;
+  top: 35px;
+  right: 30px;
+  z-index: 11;
+  cursor: pointer;
+  color: #fff;
+  font-size: 30px;
+ 
+}
+
+#menu-toggle {
+  display: none;
+
+
+}
+
+.nav-links {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30%;
+  background: #203543;
+  text-align: center;
+  padding-top: 50px;
+
+  bottom: 1em;
+    left: 0em;
+
+  
+
+}
+
+#menu-toggle:checked + .menu-icon + .nav-links {
+  display: block;
+}
+
+.nav-links li {
+  display: block;
+  margin: 20px 0;
+ 
+
+}
+
+.nav-links li a {
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #F8D859;
+}
+
+
+
+   .auto-height
+   {
+    min-height: auto; 
+   
+   }
+
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    }
+
+
+
+
+    nav 
+    {
+     background: var(--white);
+     height: 60px;
+     background-image: linear-gradient(#24302B, #203543);
+     padding-bottom: 50px;
+     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.2);
+ 
+    }
+ 
+
+   
+ #introduction {
+     
+
+      min-height: calc(100vh - var(--section-padding-top));
+      padding-top: var(--section-padding-top);
+
+      background-image: linear-gradient(#24302B, #203543);
+  
+     }
+  
+
+   
+     #introduction h2 {
+     
+      font-weight:390;
+
+  
+     }
+
+
+
+
+
+
+     
+   
+    .logo {
+
+    position: relative; 
+    right: 50px;
+   
+ 
+    }
+ 
+    .logo img
+    {
+     height: 4.0rem;
+     width: auto;
+     margin-top: 25px;
+     margin-left: 70px;
+     
+  
+    }
+ 
+ 
+  
+    
+   
+ 
+     nav ul > li {
+     flex-basis: auto;
+     }
+    
+ 
+ 
+ 
+ 
+ 
+     #menu-icon {
+     display: none;
+     }
+     
+ 
+ 
+    #menu-icon, #close-icon  {
+     margin-left: auto;
+     flex-basis: 50%;
+     text-align: right;
+     font-size: 40px;
+     margin-top: 0px;
+ 
+    }
+ 
+ 
+    #close-icon {
+     display:none;
+    }
+    .navexpanded #close-icon {
+     display:inline-block;
+    }
+ 
+ 
+    .navexpanded #menu-icon {
+     display:none;
+    }
+ 
+    #logo a:hover,
+    #menu-icon a:hover, #close-icon a:hover {
+     background: none;
+    }
+  
+    
+ 
+    
+ /* Styling for the Introduction */
+ 
+ 
+  
+ #introduction h2 {
+  
+  font-weight: 100;
+  font-size: calc(21px + (55 - 26) * (100vw - 400px) / (1800 - 400));
+
+  text-align: center;
+  padding-top:30px; 
+
+
+
+}
+
+
+ 
+ 
+ #introduction img
+ {
+     height: 4.0rem;
+     width: auto;
+ }
+ 
+ .icon1
+ {
+     position: relative;
+     top: 60px;
+     right: -20px;
+ 
+ }
+ 
+ 
+ .icon2
+ {
+     position: relative;
+     top: 4em;
+     left: 16em;
+ }
+ 
+ .icon3
+ {
+     position: relative;
+     bottom: 10px;
+     right: 7em;
+ 
+ }
+ 
+ 
+ 
+ .icon4
+ {
+     position: relative;
+     top: 35em;    
+     left: 8em;
+
+ }
+ 
+ 
+
+
+    
+   .btn 
+   {
+    font-size: calc(18px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+
+     border: 3px solid whitesmoke;
+     border-radius: 20px;
+ 
+     color: var(--white);
+     padding: 15px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     width: fit-content; 
+
+     margin-top: 65px;
+     margin-left: 6.5em;
+ 
+ 
+
+    }
+
+
+
+  
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 0;
+      margin-bottom: 50px;
+      padding-left: 175px;
+    }
+    
+    .project-col {
+      flex-basis: calc(30% - 20px);
+      margin: 0 10px;
+      margin-bottom: 60px;
+    }
+
+
+
+
+    
+  .footer-content
+  {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+
+    background: var(--navy-blue);
+    background-size: auto;
+    color:var(--white);
+ 
+  }
+
+
+
+  .footer-content h3{
+
+    max-width:500px;
+    margin: 30px auto;
+    line-height: 28px;
+  
+  
+    }
+
+
+  .footer-content p{
+
+  margin: 10px auto;
+  line-height: 28px;
+
+
+  }
+
+
+
+
+.socials{
+  list-style: none;
+  display: flex;
+
+  font-size: 32px;
+}
+
+
+.socials li{
+  list-style: none;
+  margin: 5px 0px;
+
+
+
+}
+
+.socials a{
+  text-decoration: none;
+  color: var(--accent-colour);
+
+}
+
+
+.socials a i{
+  font-size: 2.1rem;
+  margin: 45px 50px 30px 40px;
+
+}
+
+
+
+
+.footer-bottom{
+text-align: center;
+width: 100vw;
+padding:10px 30px;
+
+}
+
+
+
+.footer-bottom p{
+  font-size: 20px;
+
+  word-spacing: 2px;
+  text-transform: capitalize;
+  }
+  
+
+
+
+  
+
+     .inverted-colours {
+      background: var(--navy-blue);
+      background-size: auto;
+      color:var(--white);
+     }
+     .inverted-colours a {
+      color:var(--white);
+     }
+     .inverted-colours a:visited {
+      color:var(--white);
+     }
+     .inverted-colours .contact-btn {
+  
+      color:var(--navy-blue);
+      color:var(--white);
+  
+  
+     }
+     
+     .inverted-colours .contact-btn:hover {
+      color:var(--black);
+      background:var(--accent-colour);
+     }
+  
+  
+     
+     .contact-btn
+     {
+       border: 3px solid whitesmoke;
+       border-radius: 20px;
+   
+       color: var(--white);
+       padding: 15px 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: calc(16px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+       width: fit-content; 
+       margin-top: 300px;
+      }
+   
+      
+
+      .footer-content h3{
+
+        max-width:500px;
+        margin: 30px auto;
+        line-height: 45px;
+      
+    
+        font-size: 2.3em;
+    
+        }
+    
+
+
+      .footer-content
+      {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        text-align: center;
+    
+        background: var(--navy-blue);
+        background-size: auto;
+        color:var(--white);
+     
+      }
+    
+    
+    
+  
+      .footer-content h3{
+
+    
+        font-size: 1.6em;
+    
+        }
+    
+
+    
+      .footer-content p{
+    
+      margin: 10px auto;
+      line-height: 28px;
+font-size: 19px;
+    
+      }
+    
+    
+    
+    
+    .socials{
+      list-style: none;
+      display: flex;
+    
+      font-size: 32px;
+    }
+    
+    
+    .socials li{
+      list-style: none;
+      margin: 5px 0px;
+    
+    
+    
+    }
+    
+    .socials a ul{
+      text-decoration: none;
+      color: var(--accent-colour);
+    
+    }
+    
+    
+    .socials a i{
+      font-size: 2.1rem;
+      margin: 45px 40px 30px 40px;
+    
+    }
+    
+    
+    
+    
+    .footer-bottom{
+    text-align: center;
+    width: 100vw;
+    padding:10px 30px;
+    
+    }
+    
+    
+    
+    .footer-bottom p{
+      font-size: 17px;
+    
+      word-spacing: 2px;
+      text-transform: capitalize;
+      }
+      
+    
+    
+    
+      
+    
+         .inverted-colours {
+          background: var(--navy-blue);
+          background-size: auto;
+          color:var(--white);
+         }
+         .inverted-colours a {
+          color:var(--white);
+         }
+         .inverted-colours a:visited {
+          color:var(--white);
+         }
+         .inverted-colours .contact-btn {
+      
+          color:var(--navy-blue);
+          color:var(--white);
+      
+      
+         }
+         
+         .inverted-colours .contact-btn:hover {
+          color:var(--black);
+          background:var(--accent-colour);
+         }
+      
+      
+         
+         .contact-btn
+         {
+           border: 3px solid whitesmoke;
+           border-radius: 20px;
+       
+           color: var(--white);
+           padding: 15px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: calc(16px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+           width: fit-content; 
+           margin-top: 50px;
+          }
+       
+          
+
+
+
+  
+  /*---------------------------Styling for the About Page--------------------------------------------*/
+  
+
+
+  .about 
+  {
+
+  padding: 0px 0px;
+  background-color: #ECF2F9;
+
+  
+  }
+
+  .about img
+  {
+  height:240px;
+  width:330px;
+  border-radius: 25px;
+  margin-top: 150px;
+  }
+
+
+
+  .about-text
+  {
+  
+  width: 630px;
+  margin-top: 10px;
+  }
+  
+  
+  
+  
+  .about-text h1
+  {
+  
+  font-size:40px;
+  text-transform: capitalize;
+  margin-bottom: 65px;
+  color: var(--navy-blue);
+  text-align: center;
+  
+  }
+  
+  
+  .about-text h5
+  {
+  
+  font-size:25px;
+  color: var(--navy-blue);
+  
+  text-transform: capitalize;
+  text-decoration: underline;
+   margin-bottom: 25px;
+  
+  
+  }
+  
+  
+  
+  
+  .about-text p
+  {
+  
+    line-height: 30px;
+    letter-spacing:.5px;
+   font-size:1.3rem;
+   margin-bottom: 45px;
+   color: var(--navy-blue);
+   width: 370px;
+   padding-left: 150px;
+  
+  }
+  
+
+
+
+  .main
+  {
+  
+  width: 830px;
+  max-width:00%;
+  margin: 0 auto ;
+  display:flex;
+
+  flex-direction: column;
+
+  
+  }
+
+
+
+
+
+
+  .main2
+  {
+  
+
+  max-width:95%;
+  margin: 100px auto ;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around ;
+
+
+  }
+
+
+  .main2 > iframe 
+  {
+  height:400px;
+  width: 390px;;
+  }
+ 
+
+  .about-text2 h5
+  {
+
+    font-size:20px;
+    color: var(--navy-blue);
+  text-align: center;
+  letter-spacing:2px;
+  text-transform: capitalize;
+  text-decoration: underline;
+
+
+   margin-bottom: 25px;
+
+  }
+
+
+
+
+  .about-text2 p
+  {
+
+   letter-spacing: .1px;
+   line-height:28px;
+   font-size:17px;
+
+   margin-bottom: 45px;
+   padding-left: 100px;
+   width: 380px;
+
+  }
+
+
+
+
+  
+  
+  
+  
+  
+  /*Card slider for Skills*/
+  
+  
+  
+  .skills  {
+   
+    text-align: center;
+    font-size: 30px;
+    color: var(--navy-blue);
+    font-weight: 600;
+    line-height: 60px;
+    position: relative;
+    top: 150px;
+
+  
+  }
+  
+  .container 
+  {
+  
+    padding: 80 ;
+    display: flex;
+  
+  }
+
+
+  
+  .gradient-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    padding: 50px;
+    position: relative;
+    left: -30px;
+    
+  }
+  
+
+  
+  .card {
+    max-width: 800px;
+    border: 0;
+    width: 120%;
+    margin-inline: auto;
+    margin-right: 42px;
+  }
+  
+  .container-card 
+  {
+    position: relative;
+    border: 2px solid transparent;
+    background: var(--navy-blue);
+    background-clip: padding-box;
+    border-radius: 35px;
+    padding: 30px;
+  
+  
+  
+    cursor: pointer;
+    transform: transform 0.3s ease-in-out;
+  
+  
+  }
+  
+  
+  .card-title 
+  {
+    font-weight: 600;
+    color: white;
+    letter-spacing: -0.02em;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 23px;
+    padding-bottom: 9px;
+  }
+  
+  .card-description 
+  {
+  
+    line-height: 32px;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+
+  }
+  
+  
+  .container-card:hover
+  {
+  
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+    float:left;
+    transform: translateY(-20px);
+      
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+  /*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
+
+
+
+
+
+
+  .header
+  {
+  
+    background-color: #ECF2F9;
+    padding-top: 90px;
+
+  
+  }
+  
+  .title
+  
+  {
+  text-align: center;
+
+  }
+  
+  
+  
+
+
+  .title h1
+  {
+     padding-bottom: 60px;
+      font-size: 1.4em;
+      color: #1E3547;
+      text-align: center;
+      
+  
+  }
+  
+  .title img
+  {
+    height: 300px;
+    width: 390px ;
+  }
+  
+  .link .contact-btn
+  {
+    background-color: var(--navy-blue);
+    border-radius: 20px;
+  
+    color: var(--white);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(16px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+    width: fit-content; 
+    margin-top: 40px;
+   }
+  
+   
+   .contact-btn:hover 
+   {
+    animation: none;
+    background-color: var(--accent-colour);
+    color: var(--navy-blue);
+  
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(-10px);
+   }
+
+
+
+  
+  .research-proposal
+  {
+    padding-top: 50px;
+    color: var(--navy-blue);
+    text-align:left;
+    padding-left: 40px;
+    margin-right: 20px;
+  
+  }
+ 
+ 
+ 
+
+  
+  .overview h2 
+  {
+
+ font-size: 1.8em;
+ color: var(--navy-blue);
+ text-align:center;
+ padding-top: 30px;
+ letter-spacing:1px;
+ }
+ 
+
+ .overview p
+  {
+   font-size: 1.14rem;
+
+   position: relative;
+   right: -1em;
+   width: 280px;
+
+ }
+
+
+
+ .roles h2 {
+  font-size: 1.8em;
+
+   color: var(--navy-blue);
+   text-align:center;
+   padding-top: 20px;
+   letter-spacing:1px;
+ 
+ }
+
+
+ .roles p {
+  font-size: 1.14rem;
+
+ }
+ 
+
+
+
+ 
+ .tools h2
+ {
+  font-size: 1.8em;
+
+   color: var(--navy-blue);
+   text-align:center;
+   padding-top: 20px;
+   letter-spacing:1px;
+ }
+
+
+ .tools p
+ {
+   font-size: 1.14rem;
+
+ }
+ 
+
+
+
+
+  
+  .research-proposal h2
+  {
+  
+  color: var(--navy-blue);
+  }
+  
+  
+  .research-proposal p
+  {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing:.5px;
+    color: var(--navy-blue);
+    width: 340px;
+
+  }
+  
+  
+  .research-proposal  ul
+  {
+
+    font-size: 20px;
+    font-weight: 500;
+
+    line-height: 30px;
+    letter-spacing:.5px;
+    color: var(--navy-blue);
+    width: 340px;
+
+  
+  }
+  
+
+
+
+  .project1-row1 img
+  {
+    height: 350px;
+    width: auto;
+  }
+
+
+  .project1-column4 img {
+    height: 250px;
+    width: auto;
+  }
+
+  .project1-column5 img{
+    height: 390px;
+    width: auto;
+  }
+
+  .project1-column5 p
+  {
+padding-top: 30px;
+  }
+
+
+
+
+  .project1-column6 img{
+    height: 400px;
+    width: auto;
+  }
+
+
+  .project1-column6 p
+  {
+padding-top: 30px;
+  }
+
+
+
+
+    /*---------------------------Styling for the Project 2, (Humber bakery) -------------------------------------------*/
+
+  
+  .ar-sketches img
+  {
+  height: 200px;
+  width: auto;
+
+  }
+  
+
+  .ar-sketches p
+  {
+
+padding-left: 0px;
+  }
+
+  
+  .project2-row1 img{
+    height: 390px;
+    width: auto;
+  }
+
+  .project2-row1 p
+  {
+padding-top: 50px;
+  };
+  
+
+  .project2-column2 img{
+
+    width: auto;
+  } 
+ 
+  .project2-row2 img{
+
+    height: 400px;
+    width: auto;
+  
+  } 
+
+
+  .project2-row3 img
+  {
+
+    height: 400px;
+    width: auto;
+  }
+
+
+  .project2-row3 p
+  {
+    padding-top: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+    /*---------------------------Styling for the Project 3, (Insomnia cookie) -------------------------------------------*/
+
+    .project3-column1 img{
+
+      height: 400px;
+      width: auto; 
+    }
+
+    .project3-column2 img
+    {
+      height: 300px;
+      width: auto;
+    }
+
+
+    .project3-column3 img{
+      height: 260px;
+      width: auto;
+    }
+
+
+    .project3-column4 img  
+    {
+      height: 250px;
+      width: auto;
+    }
+
+    .project3-column5 img
+    {
+      height: 250px;
+      width: 360px;
+    }
+
+
+.project3-row4 img{
+  height: 230px;
+  width: auto;
+}
+
+
+    /*---------------------------Styling for the Project 4, (Nintendo switch) -------------------------------------------*/
+
+
+
+  
+  .project4-row1 img
+  {
+    height: 200px;
+    width: 200px; 
+  }
+
+
+
+
+  .research-proposal-2 , .research-proposal-3
+  {
+   
+
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing:.5px;
+
+
+    padding-top: 40px;
+    color: var(--navy-blue);
+    text-align:left;
+    padding-left: 10px;
+    margin-right: 0px;
+  
+  
+  }
+  
+  .project4-row1 img
+  {
+    height: 200px;
+    width:auto; 
+  }
+ 
+
+  .project4-row2 img{
+    height: 250px;
+    width:auto; 
+    padding-right: 2em;
+  }
+
+  .project4-row3 img
+  {
+    height: 250px;
+    width:auto; 
+    padding-left: 2em;
+  }
+
+
+  .project4-column8 img{
+    height: 550px;
+    width:auto; 
+  }
+
+
+  .project4-column9 img{
+    height: 200px;
+    width:auto; 
+    padding-left: 1em;
+
+  }
+
+
+
+
+ 
+  .nintendo-vid1 > iframe
+
+  {
+    height: 300px;
+    width:400px; 
+
+  }
+
+  .nintendo-vid2 > iframe
+
+
+  {
+    height: 300px;
+    width:400px; 
+
+  }
+
+
+  .nintendo-vid h2{
+    width:400px;
+    padding-left: 0px;
+  
+  }
+  
+  
+  .nintendo-vid
+  {
+    padding-bottom: 10em;
+  
+  }
+
+
+
+  .nintendo-vid3 > iframe
+
+
+  {
+    height: 300px;
+    width:400px; 
+
+  }
+
+
+
+
+
+    /*---------------------------Styling for the Project 5, (Juiced) -------------------------------------------*/
+
+
+
+
+
+  .project5-row1 img 
+  {
+    height: 300px;
+
+    width:410px; 
+    padding-bottom: 30px;
+  }
+
+
+  .project5-row2 img
+
+{
+  height: 300px;
+
+  width:410px; 
+  padding-bottom: 30px;
+}
+
+
+
+
+.project5-row3 img
+{
+
+  width:470px; 
+  padding-bottom: 30px;
+
+}
+
+
+
+
+    /*---------------------------Styling for the Project 5 (Digital Branding - Juiced ) -------------------------------------------*/
+
+.project5-row1 img{
+  height: 230px;
+  width:auto; 
+}
+
+
+.project5-row2 img{
+  height: 230px;
+  width:auto; 
+}
+
+
+
+.project5-row3 img
+{
+
+  height: 230px;
+  width:auto; 
+  margin-left: -40px;
+}
+
+
+.project5-row2 img
+{
+  height: 230px;
+  width:auto; 
+}
+
+
+.juiced-vid1  > iframe
+
+{
+  height: 300px;
+  width:410px; 
+
+}
+
+
+
+
+
+    /*---------------------------Styling for the Project 6, (Augmented reality ) -------------------------------------------*/
+
+
+    .augmented-reality h2
+    {
+      width: 350px;
+     font-size: 1.5em;
+     position: relative;
+     right: 3.5em;
+    }
+
+
+  .augmented-reality1   > iframe
+
+  {
+    height: 300px;
+    width:390px; 
+
+  }
+
+
+
+  .augmented-reality2   > iframe
+
+  {
+    height: 300px;
+    width:390px; 
+
+  }
+
+
+
+
+  .augmented-reality3   > iframe
+
+  {
+    height: 300px;
+    width:390px; 
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
