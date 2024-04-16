@@ -228,13 +228,13 @@ nav{
   }
   
   #introduction h2 {
-  
+
+    font-family:'Calibri', sans-serif;
     font-weight:390;
     font-size: calc(6px + (58 - 26) * (100vw - 400px) / (1800 - 400));
 
     text-align: center;
     padding-top:30px; 
-   font-family:'Calibri', sans-serif;
 
 
 
