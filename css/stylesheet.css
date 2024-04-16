@@ -13,8 +13,8 @@
     --navy-blue:#203543;
     --white:white;
     --accent-colour:#F8D859;
-    --headline-font:'Calibri';
-    --body-font:'Calibri';
+    --headline-font: 'Calibri', sans-serif;
+    --body-font:'Calibri', sans-serif;
     --horizontal-shift:6px;
     --section-padding-top:120px;
    }
@@ -46,7 +46,7 @@
      font-family: var(--body-font);
     }
     h1, h2, h3, h4, h5, h6, p, a    {
-     font-family:'Calibri';
+     font-family:'Calibri', sans-serif;
     }
   
   
@@ -89,7 +89,7 @@
       {
         font-size: calc(20px + (20 - 16) * (100vw - 400px) / (1800 - 400));
         text-decoration: none;
-        font-family: 'Calibri';
+        font-family: 'Calibri', sans-serif;
         margin: auto;
       }
   
@@ -234,7 +234,7 @@ nav{
 
     text-align: center;
     padding-top:30px; 
-   font-family:'Calibri';
+   font-family:'Calibri', sans-serif;
 
 
 
@@ -341,7 +341,7 @@ nav{
       border: 3px solid whitesmoke;
       border-radius: 25px;
       font-weight: 450;
-      font-family:'Calibri';
+      font-family:'Calibri', sans-serif;
   
 
       color: var(--white);
@@ -536,7 +536,7 @@ nav{
       display: inline-block;
       font-size: calc(20px + (20 - 16) * (100vw - 400px) / (1800 - 400));
       font-weight: 450;
-      font-family:'Calibri';
+      font-family:'Calibri', sans-serif;
 
 
       width: fit-content; 
