@@ -46,7 +46,7 @@
      font-family: var(--body-font);
     }
     h1, h2, h3, h4, h5, h6, p, a    {
-     font-family:'Calibri', sans-serif;
+     font-family:'Calibri';
     }
   
   
@@ -341,7 +341,7 @@ nav{
       border: 3px solid whitesmoke;
       border-radius: 25px;
       font-weight: 450;
-      font-family:'Calibri' , sans-serif;
+      font-family:'Calibri';
   
 
       color: var(--white);
@@ -536,7 +536,7 @@ nav{
       display: inline-block;
       font-size: calc(20px + (20 - 16) * (100vw - 400px) / (1800 - 400));
       font-weight: 450;
-      font-family:'Calibri' sans-serif;
+      font-family:'Calibri';
 
 
       width: fit-content; 
