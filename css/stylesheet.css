@@ -3948,6 +3948,8 @@ padding:10px 30px;
            text-decoration: none;
            display: inline-block;
            font-size: calc(16px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+            font-family:'Calibri' sans-serif;
+
            width: fit-content; 
            margin-top: 50px;
           }
