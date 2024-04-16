@@ -234,7 +234,7 @@ nav{
 
     text-align: center;
     padding-top:30px; 
-   font-family:'Calibri' sans-serif;
+   font-family:'Calibri', sans-serif;
 
 
 
@@ -341,7 +341,7 @@ nav{
       border: 3px solid whitesmoke;
       border-radius: 25px;
       font-weight: 450;
-      font-family:'Calibri' sans-serif;
+      font-family:'Calibri' , sans-serif;
   
 
       color: var(--white);
