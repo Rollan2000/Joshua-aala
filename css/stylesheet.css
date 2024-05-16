@@ -36,6 +36,7 @@
 
  html {
   scroll-behavior: smooth;
+
   }
 
 
@@ -1998,11 +1999,6 @@ padding-bottom: 100px;
         width: 60em;
 }
 
-.augmented-reality
-{
-    margin-bottom:60px;
-}
-   
 
 
 .augmented-reality h2{
@@ -2036,6 +2032,1621 @@ width:700px;
   padding-bottom: 3em;
   padding-right: 60em;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1440px) {
+
+
+
+
+
+
+.logo img  {
+  height: 5.0rem;
+  width: auto;
+  margin-top: 19px;
+  margin-left: 50px;
+}
+
+
+   
+/* Styling for the Introduction */
+
+
+
+#introduction h1 {
+
+  font-size: calc(30px + (58 - 26) * (100vw - 400px) / (1800 - 400));
+  position: relative;
+  top: 1.2em;
+
+  }
+
+
+#introduction h2 {
+
+  font-weight:390;
+  font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
+  padding-top: 3em;
+
+  }
+
+
+
+
+#introduction img
+{
+    height: 7.0rem;
+    width: auto;
+}
+
+.icon1
+{
+    position: relative;
+    top: 150px;
+    right: -80px;
+
+}
+
+
+.icon2
+{
+    position: relative;
+    top: 10em;
+    left: 70em;
+}
+
+
+.icon4
+{
+    position: relative;
+     top: 41em;
+     left: 55em;
+    }
+
+
+
+
+
+
+
+ .btn 
+  {
+   font-size: calc(40px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+    font-weight: 450;
+    font-family:'Calibri', sans-serif;
+
+
+    color: var(--white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content; 
+
+
+    margin-top: 70px;
+    margin-left: 12.5em;
+
+
+   }
+
+   
+   .btn:hover 
+   {
+    animation: none;
+    background-color: var(--accent-colour);
+    color: var(--navy-blue);
+
+   }
+
+
+   .btn:visited 
+   {
+    color: var(--#203543);
+   }
+
+   .btn:hover:visited 
+   {
+    color: var(--navy-blue);
+   }
+
+
+
+
+
+
+
+
+/*----- Portfolio project-----*/
+
+
+
+.project1 h1  {
+
+  font-size: 3.5em;
+  font-weight: 14px;
+ position: relative;
+ left: 8em;
+ width: 9em;
+
+}
+
+
+
+
+
+.row h3 {
+  color: var(--white);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px 0;
+
+}
+
+
+.row p{
+    color: var(--white);
+    font-size: 24px;
+    font-weight:390;
+    line-height: 30px;
+    padding: 10px;
+}
+.row{
+
+    display: flex;
+    margin-left:-2em;
+    padding-top: 50px;
+    margin-bottom: 300px;
+    
+    
+}
+
+.project-col{
+
+    flex-basis: 31%;
+    background:  linear-gradient(#24302B, #203543);
+    border-radius: 40px 40px 40px;
+    margin-bottom: -60%;
+    margin-left: 90px;
+    padding: 20px px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+    
+
+
+}
+
+.project1 img{
+    border-radius: 30px 30px 00px 0px  ;
+    height: 17em;
+    width: auto;
+}
+
+
+
+
+
+
+.project-col:hover{
+
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+  float:left;
+  transform: translateY(-20px);
+    
+
+
+
+}
+
+
+
+
+.project-btn
+{
+    position: relative;
+    bottom: 60px;
+
+}
+
+
+
+.project-btn
+  {
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    color: var(--white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(20px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+    font-weight: 450;
+    font-family:'Calibri', sans-serif;
+
+
+    width: fit-content; 
+    margin-top: 80px;
+   }
+
+   
+   .project-btn:hover 
+   {
+    background-color: var(--accent-colour);
+    color: var(--navy-blue);
+
+   }
+
+
+   .project-btn:visited 
+   {
+    color: var(--#203543);
+   }
+
+   .project-btn:hover:visited 
+   {
+    color: var(--navy-blue);
+   }
+
+
+
+
+/*---------------------------Styling for the About Page--------------------------------------------*/
+
+
+
+.about 
+{
+
+
+  background-color: #ECF2F9;
+  padding: 4rem 0;
+  text-align: center;
+
+}
+
+.about img
+{
+  height: 400px;
+  width: auto;
+  border-radius: 30px;
+  margin-top: -70px;
+
+
+
+}
+
+
+
+
+.about-text
+{
+
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+
+
+.about-text h1
+{
+
+  font-size: 3em;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  color: #203543;
+}
+
+
+.about-text h5
+{
+
+  font-size: 2em;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  color: #203543;
+
+
+}
+
+
+
+
+.about-text p
+{
+
+  line-height: 1.6;
+  font-size: 1.6em;
+  width: 700px;
+  text-align: left;
+  color: #203543;
+
+
+
+}
+
+
+
+
+.main
+{
+
+width: 1230px;
+max-width:95%;
+margin: 0 auto ;
+display:flex;
+align-items: center;
+justify-content:space-around ;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*Card slider for Skills*/
+
+
+
+.skills  {
+ 
+  text-align: center;
+  font-size: 2.5em;
+  color: var(--navy-blue);
+  font-weight: 600;
+  line-height: 60px;
+  position: relative;
+  top: 2em;
+
+
+}
+
+.container 
+{
+
+  padding: 10 ;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+
+
+
+.gradient-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  padding: 10px;
+  
+}
+
+
+
+.card {
+  max-width: 550px;
+  border: 0;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.container-card 
+{
+  position: relative;
+  border: 2px solid transparent;
+  background: var(--navy-blue);
+  background-clip: padding-box;
+  border-radius: 35px;
+  padding: 40px;
+  margin-top: 5px;
+
+
+    
+  cursor: pointer;
+  transform: transform 0.3s ease-in-out;
+  transition: 0.5s;
+
+
+
+}
+
+
+.card-title 
+{
+  font-weight: bold;
+  color: white;
+  line-height: 40px;
+  font-style: normal;
+  font-size: 25px;
+  padding-bottom: 8px;
+}
+
+.card-description 
+{
+
+  line-height: 32px;
+  color: var(--white);
+  font-size: 1.5em;
+  max-width: 470px;
+}
+
+
+.container-card:hover
+{
+
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+  float:left;
+  transform: translateY(-20px);
+
+
+  
+}
+
+
+
+
+
+ 
+/*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
+
+.header
+{
+
+overflow-x: hidden;
+
+}
+
+
+
+.header {
+  background-color: #ECF2F9;
+  padding-top: 90px;
+}
+
+
+
+.title
+
+{
+text-align: center;
+
+}
+
+.title img {
+  height: 500px;
+  width: auto;
+
+}
+
+.title h1
+{
+   padding-bottom: 60px;
+    font-size: 3em;
+    color: #1E3547;
+    text-align: center;
+    
+
+}
+
+
+
+.link  .contact-btn
+{
+  background-color: var(--navy-blue);
+  border-radius: 20px;
+
+  color: var(--white);
+  padding: 15px 39px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: calc(25px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+  width: fit-content; 
+  margin-top: 40px;
+ }
+
+ 
+ .contact-btn:hover 
+ {
+  background-color: var(--accent-colour);
+  color: var(--navy-blue);
+  cursor: pointer;
+
+
+ }
+
+
+
+.overview h2 
+ {
+
+color: var(--navy-blue);
+text-align:center;
+padding-top: 30px;
+letter-spacing:1px;
+font-size: 2em;
+
+}
+
+
+.overview p
+ {
+  font-size: 1.8rem;
+  padding-top: 20px;
+
+}
+
+
+
+.roles h2 {
+  color: var(--navy-blue);
+  text-align:center;
+  padding-top: 20px;
+  letter-spacing:1px;
+  font-size: 2em;
+
+}
+
+
+.roles p {
+  font-size: 1.8rem;
+  padding-top: 20px;
+
+
+}
+
+
+
+
+
+.tools h2
+{
+  color: var(--navy-blue);
+  text-align:center;
+  padding-top: 20px;
+  letter-spacing:1px;
+  font-size: 2em;
+
+}
+
+
+.tools p
+{
+  font-size: 1.8rem;
+  padding-top: 20px;
+
+}
+
+
+.research-proposal
+{
+
+  padding-top: 50px;
+  color: var(--navy-blue);
+  text-align: left;
+  padding-left: 14em;
+  width: 80em;
+
+
+}
+
+
+
+.research-proposal p
+
+{
+
+  font-size: 1.6rem;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: var(--navy-blue);
+
+  
+
+}
+
+
+
+.research-proposal  ul
+
+{
+  font-size: 1.6rem;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: var(--navy-blue);
+
+
+}
+
+
+
+
+.problem-state-1
+{
+
+  font-size: 1.6rem;
+  font-weight:390;
+
+  width: 1000px;
+  line-height: px;
+  letter-spacing:.5px;
+  color: var(--navy-blue);
+
+  padding-top: 50px;
+
+}
+
+.problem-state-2
+{
+
+ 
+  font-size: 1.6rem;
+  font-weight:390;
+
+  width: 1000px;
+  line-height: px;
+  letter-spacing:.5px;
+  color: var(--navy-blue);
+
+  padding-top: 50px;
+
+}
+
+
+
+.problem-state-3
+{
+  font-size: 1.6rem;
+  font-weight:390;
+
+  width: 1000px;
+  line-height: px;
+  letter-spacing:.5px;
+  color: var(--navy-blue);
+
+  padding-top: 50px;
+
+}
+
+
+
+
+
+.pain-points img{
+  padding-left: 2em;
+    height: 33em;
+    width: auto;
+
+}
+
+.pain-points p{
+  text-align: center;
+  padding-bottom: 3em;
+
+ 
+
+}
+
+
+
+.user-solution img{
+  padding-left: 2em;
+  height: 33em;
+  width: auto;
+
+}
+
+
+
+
+.user-solution-2 p{
+  text-align: center;
+  padding-bottom: 3em;
+
+}
+
+
+.Persona img 
+{
+  padding-left: 4em;
+  height: 20em;
+  width: auto;
+  text-align: center;
+  
+
+}
+
+
+.Persona-2 p
+{
+
+
+  text-align: center;
+  padding-left: 3em;
+
+}
+
+
+
+.Empathy img{
+  padding-left: 4em;
+  margin-top: 50px;
+
+  height: 34em;
+  width: auto;
+}
+
+
+.Empathy p
+{
+text-align: center;
+padding-left: 3em;
+
+}
+
+.selected-problem-statement
+{
+  font-size: 1.6rem;
+  font-weight:390;
+
+  width: 1000px;
+  line-height: px;
+  letter-spacing:.5px;
+  color: var(--navy-blue);
+
+  padding-top: 50px;
+}
+
+
+
+.selected-problem-statement img
+{
+  padding-left: 4em;
+  margin-top: 50px;
+
+  height: 20em;
+  width: auto;
+}
+
+
+
+.selected-problem-statement-text p
+{
+  text-align: center;
+  padding-left: 3em;
+
+}
+
+
+
+.process
+{
+  margin-top: 50px;
+  font-size: 1.1rem;
+  font-size: 22px;
+
+  letter-spacing:1px;
+
+}
+
+
+
+.project1-row1 ,  .project1-row1 p , .project1-row2  , .project1-row2 p {
+
+  font-size: 1.3em;
+  color:#1E3547;
+
+
+
+
+}
+
+
+.project0-column0 img
+{
+height: 32em;
+width:auto;
+padding-left: 6em;
+padding-top: 5em;
+}
+
+
+
+.project0-column0 p
+{
+
+  padding-left: 18em;
+ 
+}
+
+
+
+.project1-column1 img
+{
+  height: 30em;
+  width:auto;
+  padding-left: 6em;
+  padding-top: 5em;
+}
+
+
+.project1-column1 p
+{
+
+  padding-left: 18em;
+ 
+}
+
+
+.project1-column2 img
+{
+  height: 25em;
+  width:auto;
+  padding-left: 12em;
+  padding-top: 5em;
+}
+
+
+
+.project1-column2 p
+{
+
+  padding-left: 16em;
+ 
+}
+
+
+.project1-column3 img
+{
+  height: 40em;
+  width:auto;
+  padding-left: 8em;
+  padding-top: 5em;
+}
+
+.project1-column3 p
+{
+  padding-left: 17.5em;
+
+}
+
+
+.project1-column4 img
+{
+  height: 25em;
+  width:auto;
+  padding-left: 9em;
+  padding-top: 6em;
+}
+
+
+
+.project1-column4 p
+{
+  padding-left: 15em;
+
+}
+
+
+.project1-column5 img
+{
+  height: 25em;
+  width:auto;
+  padding-left: 7em;
+  padding-top: 5em;
+
+}
+
+.project1-column5 p
+{
+  padding-left: 15.5em;
+}
+
+
+
+.project1-column6 img
+{
+  height: 25em;
+  width:auto;
+  padding-left: 6em;
+  padding-top: 5em;
+
+}
+
+
+
+.project1-column6 p
+{
+  padding-left: 15.5em;
+
+}
+
+
+
+
+
+  .next-btn ,.prev-btn
+{
+  background-color: var(--navy-blue);
+  border-radius: 30px;
+
+  color: var(--white);
+  padding: 15px 39px;
+  text-align: center;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: calc(25px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+  width: fit-content; 
+  margin-top: 40px;
+ }
+
+ 
+ .next-btn:hover  , .prev-btn:hover 
+ {
+  background-color: var(--accent-colour);
+  color: var(--navy-blue);
+  cursor: pointer;
+
+
+ }
+
+ .slide-button1{
+
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3em;
+  padding-left: 60em;
+ }
+
+
+
+
+
+
+
+
+
+
+  /*---------------------------Styling for the Project 2, (Humber cake bakery) -------------------------------------------*/
+
+
+  .ar-sketches p {
+    font-size: 1.6rem;
+
+    text-align: center;
+    margin-left: 0.5em;
+
+    padding-top: 0em;
+  }
+
+
+.ar-process a   
+
+{
+
+
+  
+  font-size: 1.6rem;
+  font-weight:390;
+
+  width: 1100px;
+  line-height: px;
+  letter-spacing:.5px;
+  color: var(--navy-blue);
+
+}
+
+
+.ar-sketches img {
+
+  margin-left: 5em;
+  padding-top: 2em;
+
+}
+
+
+.pain-points-bakery img
+{
+  height: 23em;
+  width:auto;
+  padding-bottom: 2em;
+  padding-left: 4em;
+}
+
+
+.user-persona-jounrey-goal p{
+  font-size: 1.7em;
+  color:#1E3547;
+}
+
+
+
+
+.user-persona img
+{
+  height: 23em;
+  width:auto;
+  padding-top: 3em;
+
+}
+
+
+
+.jounrey-goal img
+{
+  height: 23em;
+  width:auto;
+  padding-top: 3em;
+
+}
+
+
+
+
+
+.project2-row1, .project2-row2 , .project2-row3,  .project2-row3 p  , .project2-row1 p  , .project2-row2 p {
+
+  font-size: 1.3em;
+  color:#1E3547;
+
+}
+
+
+
+
+
+
+
+
+.project2-column1 img
+{
+height: 20em;
+width:auto;
+padding-top: 3em;
+
+}
+
+
+
+.project2-column2 img
+{
+height: 40em;
+width:auto;
+padding-top: 3em;
+
+}
+
+
+
+
+.project2-column3 img
+{
+height: 40em;
+width:auto;
+padding-top: 3em;
+
+}
+
+
+
+.project2-column5 img
+{
+  height: 40em;
+width:auto;
+padding-top: 3em;
+}
+
+
+
+
+
+
+
+
+.slide-button2{
+
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3em;
+ }
+
+
+
+
+    /*---------------------------Styling for the Project 3, (Insomnia Cookies) -------------------------------------------*/
+
+
+
+    .cookie-retro-app p
+    {
+    font-size: 1.6rem;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: var(--navy-blue);
+    text-align: left;
+    padding-left: 15em;
+    padding-top: 1em;
+    width: 40em;
+    
+    
+    
+    }
+    
+
+
+
+
+.cookie-retro-app img
+{
+height: 35em;
+width: auto;
+  padding-top: 4em;
+}
+ 
+
+
+
+
+
+.cookie-pain-points p
+{
+font-size: 1.6rem;
+line-height: 30px;
+letter-spacing: 0.5px;
+color: var(--navy-blue);
+text-align: left;
+padding-left: 15em;
+padding-top: 1em;
+width: 45em;
+
+
+
+}
+
+
+.cookie-pain-points img{
+  height: 30em;
+width: auto;
+  padding-top: 4em;
+}
+
+
+
+.cookie-user-persona img{
+  height: 30em;
+  width: auto;
+  padding-top: 5em;
+
+}
+
+
+.cookie-user-persona p{
+  font-size: 1.7em;
+  color:#1E3547;
+}
+
+
+.cookie-user-journey img{
+
+  height: 30em;
+  width: auto;
+  padding-top: 5em;
+}
+
+.cookie-user-journey p{
+  font-size: 1.7em;
+  color:#1E3547;
+
+}
+
+
+
+
+.cookie-problem-statement-solution{
+  padding-top: 5em;
+
+}
+
+
+.cookie-problem-statement-solution p{
+  font-size: 1.6rem;
+line-height: 30px;
+letter-spacing: 0.5px;
+color: var(--navy-blue);
+text-align: left;
+padding-left: 15em;
+width: 50em;
+
+}
+
+
+.cookie-problem-statement-solution img{
+  height: 40em;
+  width: auto;
+  padding-top: 3em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .project3-row1, .project3-row2 , .project3-row3,   .project3-row4  , .project3-row4 p, .project3-row3 p  , .project3-row1 p  , .project3-row2 p {
+
+
+
+      font-size: 1.3em;
+      color:#1E3547;
+  
+    }
+  
+    .project3-column1 img{
+    height: 30em;
+    width:auto;
+padding-top: 5em;
+    }
+
+
+    .project3-column1 p{
+      padding: 1em;
+      
+    }
+
+    .project3-column2 img
+
+    {
+      height: 25em;
+      width:auto;
+      padding-top: 5em;
+
+    }
+    
+    .project3-column3 img
+
+    {
+      height: 30em;
+      width:auto;
+      padding-top: 5em;
+
+    }
+    
+    .project3-column3 p
+
+    {
+    
+      padding: 1em;
+
+    }
+    
+
+    .project3-column4 img
+
+    {
+  
+      height: 30em;
+      width:auto;
+      padding-top: 5em;
+
+    }
+    
+
+    .project3-column5 img
+    {
+      height: 30em;
+      width:38em;
+
+    }
+
+
+    .project3-column6 img
+    {
+      height: 30em;
+      width:auto;
+      padding-top: 5em;
+    }
+
+    .project3-column7 img
+    {
+      height: 25em;
+      width:24em;
+    }
+
+    .project3-column9 img{
+
+      height: 29em;
+      width:auto;
+      padding-top: 7em;
+    }
+
+
+
+
+.slide-button3{
+
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3em;
+ }
+
+
+
+
+
+  /*---------------------------Styling for the Project 4, (Nintendo Switch ) -------------------------------------------*/
+
+
+
+
+
+
+
+
+  .project4-column2 p , .project4-column5 p , .project4-column7 p , .project4-column8 p, .project4-column9 p
+  {
+    
+    font-size: 1.5em;
+
+    color:#1E3547;
+  }
+  
+
+
+  .project4-column1 img{
+    height: 25em;
+    width: 37em;
+  }
+
+  .project4-row1
+  {
+    margin-top:150px;
+
+  }
+
+
+
+
+.project4-row3 {
+
+  margin-top:150px;
+
+
+}
+
+
+
+.game-promotion{
+  
+
+    margin-top:150px;
+  
+  
+  
+}
+
+
+.game-promotion p
+{
+font-size: 1.5em;
+
+}
+
+
+
+.nintendo-research p
+{
+  font-size: 1.6rem;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: var(--navy-blue);
+  text-align: left;
+  padding-left: 9em;
+  width: 50em;
+  
+}
+
+
+
+
+
+
+.project4-column6 img{
+  height: 20em;
+  width: 28em;
+}
+
+
+.project4-column8 {
+
+  margin-bottom:200px;
+
+
+}
+
+
+.project4-column9 {
+
+  margin-bottom:200px;
+
+
+}
+
+
+.project4-column8 img{
+height: 1000px;
+width: auto;
+}
+
+
+.nintendo-vid h2{
+margin-bottom:60px;
+
+}
+
+.nintendo-vid
+{
+  padding-top: 50px;
+  margin-bottom:60px;
+
+}
+
+.nintendo-vid1 h2,.nintendo-vid2 h2, .nintendo-vid3 h2{
+font-size: 2.5em;
+
+  margin-top:90px;
+  color:var(--navy-blue);
+
+}
+
+
+
+.slide-button4{
+font-size: 2em;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3em;
+ }
+
+
+
+
+      /*---------------------------Styling for the Project 5, (Juiced ) -------------------------------------------*/
+
+
+
+
+
+
+
+.project5-row1, .project5-row2, .project5-row3, .project5-row4, .juiced-vid{
+margin-top:150px;
+}
+
+.project5-column3 p, .project5-column5 p, .project5-column6 p, .project5-column9 p{
+font-size: 1.5em;
+}
+
+
+
+
+
+.juiced-vid h2{
+font-size: 2.5em;
+padding-bottom: 50px;
+}
+
+.juiced-vid1 > iframe
+{
+height: 500px;
+width:700px; 
+padding-bottom: 100px;
+}
+
+
+
+.slide-button5{
+
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3em;
+ }
+
+
+
+
+
+
+        /*---------------------------Styling for the Project 6, (Augmented reality) -------------------------------------------*/
+
+
+
+.Tasks-plan p , .Tasks-plan ul{
+        font-size: 1.6rem;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        color: var(--navy-blue);
+        text-align: left;
+        padding-left: 9em;
+        width: 50em;
+}
+
+
+
+.augmented-reality h2{
+  margin-bottom:60px;
+
+}
+  
+
+
+.augmented-reality1 h2 , .augmented-reality2 h2, .augmented-reality3 h2
+{ 
+    font-size: 2em;    
+  margin-top:90px;
+  color:var(--navy-blue);
+
+} 
+
+
+.augmented-reality1 > iframe ,  .augmented-reality2 > iframe  ,  .augmented-reality3 > iframe, .augmented-reality4 > iframe
+{
+height: 500px;
+width:700px; 
+
+}
+
+
+.slide-button6{
+
+
+
+  padding-bottom: 3em;
+  padding-right: 60em;
+ }
+
+
+
+
+
+
+
+}
+
 
 
 
@@ -2127,9 +3738,9 @@ font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
 
 .btn
 {
-
+    font-size: 2em;
     margin-top: 70px;
-    margin-left: 14.5em;
+    margin-left: 11.5em;
 
 }
 
@@ -2142,7 +3753,7 @@ font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
   font-size: 2.7em;
   font-weight: 14px;
  position: relative;
- left: 7.5em;
+ left: 7.3em;
  width: 9em;
 }
 
@@ -2174,7 +3785,7 @@ font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
 
     display: flex;
     position: relative;
-    right: 6.5em;
+    right: 0em;
     
 }
 
@@ -4996,7 +6607,9 @@ text-transform: capitalize;
 
 /*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
 
-
+.header{
+  overflow-x: hidden;
+}
 
 .research-proposal{
 width: 44em;
@@ -5700,11 +7313,9 @@ width: 30em;
   .project5-row1,
   .project5-row2,
   .project5-row3 {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    width:48em
   }
 
   .research-proposal ul {
@@ -5724,7 +7335,7 @@ width: 30em;
   font-size: 1.4em;
  text-align: center;
   position: relative;  
-   right: 0em;
+   right: 2.5em;
 }
 
 
@@ -6072,7 +7683,7 @@ font-size: calc(21px + (55 - 26) * (100vw - 400px) / (1800 - 400));
    width: fit-content; 
 
    margin-top: 65px;
-   margin-left: 7.2em;
+   margin-left: 7.4em;
 
 
 
@@ -6459,9 +8070,11 @@ text-align: center;
 font-size: 35px;
 color: var(--navy-blue);
 line-height: 60px;
-padding-left:1em ;
+padding-left: 1em;
+
 
 }
+
 
 
 .container 
@@ -6563,35 +8176,320 @@ transform: translateY(-20px);
 
 /*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
 
-.title img {
-  max-width: 100%; /* Make the image responsive */
-  height: auto;
+
+
+
+
+
+.header
+{
+
+overflow-x: hidden;
+
 }
 
-.link {
-  text-align: center; /* Center align the links */
+.title
+
+{
+text-align: center;
+
 }
 
-/* Adjust the width of elements if necessary */
+
+
+
+
+.title h1
+{
+   padding-bottom: 60px;
+    font-size: 2em;
+    color: #1E3547;
+    text-align: center;
+    
+
+}
+
+.title img
+{
+  height: 20em;
+  width:auto ;
+}
+
+
+
+
+.research-proposal
+{
+  padding-top: 50px;
+  color: var(--navy-blue);
+  text-align:left;
+  padding-left: 40px;
+  margin-right: 20px;
+
+}
+
+
+
+
+
+.overview h2 
+{
+
+font-size: 1.8em;
+color: var(--navy-blue);
+text-align:center;
+padding-top: 30px;
+letter-spacing:1px;
+}
+
+
+.overview p
+{
+ font-size: 1.2rem;
+padding-left: 0em;
+
+}
+
+
+
+.roles h2 {
+font-size: 1.8em;
+
+ color: var(--navy-blue);
+ text-align:center;
+ padding-top: 20px;
+ letter-spacing:1px;
+
+}
+
+
+.roles p {
+  font-size: 1.2rem;
+
+}
+
+
+
+
+
+.tools h2
+{
+font-size: 1.8em;
+
+ color: var(--navy-blue);
+ text-align:center;
+ padding-top: 20px;
+ letter-spacing:1px;
+}
+
+
+.tools p
+{
+ font-size: 1.2rem;
+
+}
+
+
+
+
+
+
+
+
+.research-proposal p
+{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+padding-left: 0em;
+  width: 18em;
+
+}
+
+
+.research-proposal  ul
+{
+
+  font-size: 20px;
+  font-weight: 500;
+
+  line-height: 30px;
+  letter-spacing:.5px;
+  color: var(--navy-blue);
+  width: 340px;
+
+
+}
+
+
+.problem-state-1{
+  
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width:19em;
+}
+
+
+.problem-state-1 li{
+  
+  font-size: 0.8em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width:19em;
+
+  padding-left: 0%;
+}
+
+.problem-state-2{
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width:19em;
+
+  padding-left: 0%;
+}
+
+
+.pain-points img
+{
+  height: 20em;
+  width: auto;
+position: relative;
+right: 8em;
+}
+
+.user-solution img
+{
+  height: 20em;
+  width: auto;
+position: relative;
+right: 8em;
+}
+
+.Persona img
+{
+  height: 14em;
+  width: auto;
+position: relative;
+right: 8em;
+}
+
+
+.Empathy img {
+  height: 25em;
+  width: auto;
+position: relative;
+right: 8em;
+}
+
+
+.selected-problem-statement li {
+  font-size: 0.8em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width:18.5em;
+
+  padding-left: 0em;
+}
+
 .selected-problem-statement img {
-  max-width: 100%;
-  height: auto;
-  margin-right: 0; /* Reset any right margin if necessary */
+  height: 10em;
+  width: auto;
+  position: relative;
+  right: 5.5em;
 }
 
-/* Other adjustments for elements as needed */
 
-/* Ensure the container doesn't overflow */
-.header {
-  overflow-x: hidden;
+.project0-column0 img{
+  height: 20em;
+  width: auto;
+position: relative;
+right: 8em;
 }
+
+
+
+
+
+.project1-row1 img
+{
+  height: 19em;
+  width: auto;
+  position: relative;
+right: 6.4em;
+}
+
+
+.project1-column3 img
+{
+  height: 25em;
+  width: auto;
+  position: relative;
+right: 6.4em;
+}
+
+.project1-column4 img {
+  height: 20em;
+  width: auto;
+  position: relative;
+  right: 6.4em;
+}
+
+.project1-column5 img{
+  height: 20em;
+  width: auto;
+  position: relative;
+  right: 6.4em
+  ;}
+
+.project1-column5 p
+{
+padding-top: 30px;
+}
+
+
+
+
+.project1-column6 img{
+  height: 17em;
+  width: auto;
+  position: relative;
+  right: 7em
+}
+
+
+.project1-column6 p
+{
+padding-top: 30px;
+}
+
+
+
+.slide-button1{
+  font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 70em;
+    position: relative;
+    right: 31em;
+ }
+
   /*---------------------------Styling for the Project 2, (Humber bakery) -------------------------------------------*/
 
 
 .ar-sketches img
 {
-height: 200px;
+height:13em;
 width: auto;
+position: relative;
+right: 6em
 
 }
 
@@ -6603,102 +8501,204 @@ padding-left: 0px;
 }
 
 
-.project2-row1 img{
-  height: 390px;
+.pain-points-bakery img{
+  height:17em;
+  width: auto;
+  position: relative;
+  right: 7em;
+
+}
+
+.user-persona img{
+  height:17em;
   width: auto;
 }
 
-.project2-row1 p
-{
-padding-top: 50px;
-};
 
+.jounrey-goal p,.user-persona p{
+font-size: 1.3em;
+}
+
+
+.project2-column0 p, .project2-column1 p, .project2-column2 p, .project2-column3 p ,.project2-column5 p{
+  font-size: 1em;
+}
+
+
+
+
+
+.project2-column1 img{
+  height:17em;
+  width: auto;
+}
 
 .project2-column2 img{
-
-  width: auto;
-} 
-
-.project2-row2 img{
-
-  height: 400px;
-  width: auto;
-
-} 
-
-
-.project2-row3 img
-{
-
-  height: 400px;
+  height:30em;
   width: auto;
 }
 
 
-.project2-row3 p
-{
-  padding-top: 50px;
+
+.project2-column3 img{
+  height:30em;
+  width: auto;
 }
 
 
 
+.project2-column5 img{
+  height:25em;
+  width: auto;
+}
 
 
 
-
-
-
+.slide-button2{
+  font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 50em;
+padding-right:22em;
+   }
 
 
   /*---------------------------Styling for the Project 3, (Insomnia cookie) -------------------------------------------*/
 
+  .cookie-retro-app img{
+    height:25em;
+    width: auto;
+  }
+
+
+  .cookie-retro-app p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing:.5px;
+    width: 20em;
+    padding-left: 2em;
+  }
+
+
+.cookie-pain-points p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width: 20em;
+  padding-left: 2em;
+}
+
+
+.cookie-pain-points img{
+  height:18em;
+  width: auto;
+}
+
+.cookie-user-journey img
+{
+  height:18em;
+  width: auto;
+
+}
+
+.cookie-problem-statement-solution p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width: 20em;
+  padding-left: 2em;
+}
+
+
+.cookie-problem-statement-solution img{
+  height:30em;
+  width: auto;
+}
+
+
+
+
+
   .project3-column1 img{
 
-    height: 400px;
-    width: auto; 
+    height:20em;
+    width: auto;
   }
 
   .project3-column2 img
   {
-    height: 300px;
+    height:20em;
     width: auto;
   }
 
 
   .project3-column3 img{
-    height: 260px;
+    height:20em;
     width: auto;
   }
 
 
   .project3-column4 img  
   {
-    height: 250px;
+    height:19em;
     width: auto;
   }
 
   .project3-column5 img
   {
-    height: 250px;
-    width: 360px;
+    height:19em;
+    width: auto;
   }
 
 
-.project3-row4 img{
-height: 230px;
-width: auto;
+  .project3-column6 img
+  {
+    height:26em;
+    width: auto;
+  }
+
+.project3-row1 p, .project3-row2 p, .project3-row3 p{
+  font-size: 1em;
 }
+
+
+
+
+
+
+  .slide-button3{
+    font-size: 1em;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 3em;
+      width: 50em;
+  padding-right:22em;
+     }
 
 
   /*---------------------------Styling for the Project 4, (Nintendo switch) -------------------------------------------*/
 
 
 
+  .research-proposal ul{
+    padding-left: 0em;
+  }
 
-.project4-row1 img
+
+
+
+
+
+
+
+  .project4-column1 img
 {
-  height: 200px;
-  width: 200px; 
+  height:30em;
+  width: auto;
 }
 
 
@@ -6722,41 +8722,107 @@ width: auto;
 
 }
 
-.project4-row1 img
+
+
+.project4-column2 p, .project4-column5 p, .project4-column7 p, .game-promotion2 p, .project4-column8 p, .project4-column9 p{
+font-size: 1.2em;
+
+}
+.project4-column1 img
 {
-  height: 200px;
-  width:auto; 
+  height:19em;
+  width: auto;
 }
 
 
-.project4-row2 img{
-  height: 250px;
-  width:auto; 
-  padding-right: 2em;
+
+.project4-column2 img{
+  height:15em;
+  width: auto;
 }
 
-.project4-row3 img
+
+
+
+
+.project4-column3 img
 {
-  height: 250px;
-  width:auto; 
-  padding-left: 2em;
+  height:14em;
+  width: auto;
+}
+
+
+.project4-column4 img{
+  height:15em;
+  width: auto;
+}
+
+
+
+
+.project4-column5 img{
+  height:15em;
+  width: auto;}
+
+
+
+.project4-column6 img{
+  height:13em;
+  width: auto;
+}
+
+
+.project4-column7 img{
+  height:13em;
+  width: auto;
 }
 
 
 .project4-column8 img{
-  height: 550px;
-  width:auto; 
+  height:13em;
+  width: auto;
+
 }
 
+.game-promotion1 img{
+  height:13em;
+  width: auto;
+}
+.game-promotion2 img{
+  height:13em;
+  width: auto;
+}
+
+.game-promotion2 p{
+padding-left: 2.5em;
+text-align: center ;
+
+}
+
+
+
+.nintendo-research p
+{
+  font-size: 1.2em;
+  line-height: 30px;
+  letter-spacing:.5px;
+
+  text-align:left;
+  padding-left: 2em;
+  width: 21em;
+ 
+}
+
+
+.project4-column8 img{
+  height:50em;
+  width: auto;
+}
 
 .project4-column9 img{
-  height: 200px;
-  width:auto; 
-  padding-left: 1em;
-
+  height:15em;
+  width: auto;
 }
-
-
 
 
 
@@ -6804,6 +8870,15 @@ width: auto;
 
 
 
+.slide-button4{
+  font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 50em;
+padding-right:22em;
+   }
+
 
 
   /*---------------------------Styling for the Project 5, (Juiced) -------------------------------------------*/
@@ -6811,99 +8886,123 @@ width: auto;
 
 
 
-
-.project5-row1 img 
-{
-  height: 300px;
-
-  width:410px; 
-  padding-bottom: 30px;
+.project5-column1 img , .project5-column2 img, .project5-column3 img {
+  height: 15em;
+  width:auto;
 }
 
-
-.project5-row2 img
-
-{
-height: 300px;
-
-width:410px; 
-padding-bottom: 30px;
-}
-
-
-
-
-.project5-row3 img
-{
-
-width:470px; 
-padding-bottom: 30px;
+.project5-column3 p{
+text-align: center;
+font-size:1.3em;
 
 }
 
-
-
-
-  /*---------------------------Styling for the Project 5 (Digital Branding - Juiced ) -------------------------------------------*/
-
-.project5-row1 img{
-height: 230px;
-width:auto; 
-}
-
-
-.project5-row2 img{
-height: 230px;
-width:auto; 
-}
-
-
-
-.project5-row3 img
-{
-
-height: 230px;
-width:auto; 
-margin-left: -40px;
-}
-
-
-.project5-row2 img
-{
-height: 230px;
-width:auto; 
-}
-
-
-.juiced-vid1  > iframe
-
-{
-height: 300px;
-width:410px; 
+.project5-column4 img, .project5-column5 img{
+  height: 12em;
+  width:auto;
 
 }
 
+.project5-column5 p{
+  text-align: center;
+  font-size:1.3em;
+  
+  }
 
 
+  .project5-column6 img{
+    height: 14em;
+    width: 30em;
+    position: relative;
+    right: 0em;
+  
+  }
+
+  .project5-column6 p{
+    text-align: center;
+    font-size:1.3em;
+    
+    }
+  
+
+    .project5-column7 img, .project5-column8 img, .project5-column9 img{
+      height: 12em;
+      width:auto;
+      position: relative;
+      right: 0.5em;
+        
+    }
+    
+    .project5-column9 p{
+      text-align: center;
+      font-size:1.3em;
+      
+      }
+
+  .juiced-vid1 h2{
+
+    font-size:1.8em;
+    text-align: center;
+  }
+
+
+
+  .juiced-vid1 > iframe {
+    height: 30em;
+    width:30em; 
+  }
+
+
+
+  .slide-button5{
+    font-size: 1em;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 3em;
+      width: 50em;
+      padding-right: 15em;
+     }
+  
+  
 
 
   /*---------------------------Styling for the Project 6, (Augmented reality ) -------------------------------------------*/
 
 
+
+
+
+
+
+.Tasks-plan  ul {
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-left: 1.2em;
+  width: 21em;
+
+}
+
+
+
+
+
   .augmented-reality h2
   {
-    width: 350px;
-   font-size: 1.5em;
+    width: 20em;
+   font-size: 1.3em;
+   text-align: center;
    position: relative;
-   right: 3.5em;
+   right: 2em;
   }
 
 
 .augmented-reality1   > iframe
 
 {
-  height: 300px;
-  width:390px; 
+height: 20em;
+width:25em;
 
 }
 
@@ -6912,8 +9011,9 @@ width:410px;
 .augmented-reality2   > iframe
 
 {
-  height: 300px;
-  width:390px; 
+  height: 20em;
+  width:25em;
+  
 
 }
 
@@ -6923,14 +9023,2144 @@ width:410px;
 .augmented-reality3   > iframe
 
 {
+  height: 20em;
+  width:25em;
+  
+}
+
+.augmented-reality4   > iframe
+
+{
+  height: 20em;
+  width:25em;
+  
+}
+
+
+
+
+
+.slide-button6{
+  font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 50em;
+padding-right:28em;
+   }
+  }
+
+
+
+
+
+
+
+
+/* small devices (i.e. Iphone */
+
+
+@media (max-width: 375px ) 
+{
+
+#introduction h1{
+  margin-left: 0.5em;
+}
+
+
+  .icon2{
+    position: relative;
+    left: 14em;
+  }
+
+
+
+  .icon4{
+    position: relative;
+    left: 7em;
+  }
+
+
+  .btn 
+  {
+
+ 
+    margin-left: 6em;
+ 
+ 
+ 
+   }
+ 
+
+   .project1{
+  overflow-x: hidden;
+}
+
+
+.project1 h1
+{
+
+  text-align: center;
+padding-right: 5.55em;
+
+}
+
+
+.project-col img{
+height: 12em;
+width: auto;
+}
+
+
+
+
+.project-col {
+
+position: relative;
+right: 1em;
+  }
+  
+
+
+
+
+  
+
+
+
+/*---------------------------Styling for the About Page--------------------------------------------*/
+
+.about{
+overflow-x: hidden;}
+
+.about-text {
+
+  padding-right: 5em;
+}
+
+
+.about-text p{
+
+  width: 17em;
+}
+
+.skills  {
+
+
+  position: relative;
+  top: 100px;
+  right: 0.5em;
+  }
+  
+  .container 
+  {
+  
+  padding: 9 ;
+  margin-right: auto;
+  margin-left: auto;
+  
+  
+  }
+  
+  
+  
+
+  
+ 
+  
+  
+  .card-title 
+  {
+  
+  color: white;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  font-style: normal;
+  font-size: 25px;
+  padding-bottom: 8px;
+  }
+  
+  .card-description 
+  {
+  
+  line-height: 32px;
+  color: var(--white);
+  font-size: 19px;
+  max-width: 470px;
+  font-weight:495;
+  
+  
+  }
+  
+
+.container-card:hover
+{
+
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+  float:left;
+  transform: translateY(-20px);
+    
+}
+
+
+
+/*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
+
+
+
+
+
+.header
+{
+
+overflow-x: hidden;
+
+}
+
+.title
+
+{
+text-align: center;
+
+}
+
+
+
+
+
+.title h1
+{
+   padding-bottom: 60px;
+    font-size: 2em;
+    color: #1E3547;
+    text-align: center;
+    
+
+}
+
+.title img
+{
+  height: 17em;
+  width:auto ;
+}
+
+
+
+
+.research-proposal
+{
+  padding-top: 50px;
+  color: var(--navy-blue);
+  text-align:left;
+  padding-left: 40px;
+  margin-right: 20px;
+
+}
+
+
+
+
+
+.overview h2 
+{
+
+font-size: 1.8em;
+padding-left: 4.5em;
+text-align:center;
+padding-top: 30px;
+}
+
+
+.overview p
+{
+ font-size: 1.2rem;
+padding-left: 0em;
+
+}
+
+
+
+.roles h2 {
+font-size: 1.8em;
+
+ color: var(--navy-blue);
+ text-align:center;
+ padding-top: 20px;
+ letter-spacing:1px;
+
+}
+
+
+.roles p {
+  font-size: 1.2rem;
+
+}
+
+
+
+
+
+.tools h2
+{
+font-size: 1.8em;
+
+ color: var(--navy-blue);
+ text-align:center;
+ padding-top: 20px;
+ letter-spacing:1px;
+}
+
+
+.tools p
+{
+ font-size: 1.2rem;
+
+}
+
+
+
+
+
+
+
+
+.research-proposal p
+{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-right: 1em;
+  width: 17em;
+
+}
+
+
+.research-proposal  ul
+{
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-right: 1em;
+  width: 17em;
+
+}
+
+
+.problem-state-1{
+  
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-right: 1em;
+  width: 17em;
+
+
+
+  
+}
+
+
+.problem-state-1 li{
+  
+  font-size: 0.8em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-right: 1em;
+  width: 17em;
+}
+
+.problem-state-2{
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width:19em;
+
+  padding-left: 0%;
+}
+
+
+.pain-points img
+{
+  height: 20em;
+  width: auto;
+position: relative;
+right: 9.5em;
+}
+
+.user-solution img
+{
+  height: 20em;
+  width: auto;
+position: relative;
+right: 9.5em;
+}
+
+.Persona img
+{
+  height: 12em;
+  width: auto;
+position: relative;
+right: 8em;
+}
+
+
+.Empathy img {
+  height: 22em;
+  width: auto;
+position: relative;
+right: 8em;
+}
+
+
+.selected-problem-statement li {
+  font-size: 0.8em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-right: 1em;
+  width: 16em;
+}
+
+.selected-problem-statement img {
+  height: 9em;
+  width: auto;
+  position: relative;
+  right: 5.5em;
+}
+
+
+.project0-column0 img{
+  height: 18em;
+  width: auto;
+position: relative;
+right: 8em;
+}
+
+
+
+
+
+.project1-row1 img
+{
+  height: 17.5em;
+  width: auto;
+  position: relative;
+right: 6.4em;
+}
+
+
+
+.project1-column2 p {
+  text-align: center;
+  padding-right: 2.5em;
+  }
+  
+
+
+.project1-column3 img
+{
+  height: 25em;
+  width: auto;
+  position: relative;
+right: 8em;
+}
+
+.project1-column3 p {
+text-align: center;
+padding-right: 2em;
+}
+
+.project1-column4 img {
+  height: 18em;
+  width: auto;
+  position: relative;
+  right: 6.4em;
+}
+
+.project1-column5 img{
+  height: 18em;
+  width: auto;
+  position: relative;
+  right: 6.4em
+  ;}
+
+
+
+.project1-column5 p
+{
+  text-align: center;
+}
+
+
+
+
+.project1-column6 img{
+  height: 16em;
+  width: auto;
+  position: relative;
+  right: 8em
+}
+
+
+.project1-column6 p
+{
+text-align: center;
+padding-right: 2em;
+
+}
+
+
+
+.slide-button1{
+  font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 70em;
+ padding-left: 22em;
+ }
+
+  /*---------------------------Styling for the Project 2, (Humber bakery) -------------------------------------------*/
+
+
+.ar-sketches img
+{
+height:13em;
+width: auto;
+position: relative;
+right: 6em
+
+}
+
+
+.ar-sketches p
+{
+
+padding-left: 0px;
+}
+
+
+.pain-points-bakery img{
+  height:17em;
+  width: auto;
+  position: relative;
+  right: 7em;
+
+}
+
+.user-persona img{
+  height:17em;
+  width: auto;
+}
+
+
+.jounrey-goal p,.user-persona p{
+font-size: 1.3em;
+}
+
+
+.project2-column0 p, .project2-column1 p, .project2-column2 p, .project2-column3 p ,.project2-column5 p{
+  font-size: 1em;
+}
+
+
+
+
+
+.project2-column1 img{
+  height:17em;
+  width: auto;
+}
+
+.project2-column2 img{
+  height:30em;
+  width: auto;
+}
+
+
+
+.project2-column3 img{
+  height:30em;
+  width: auto;
+}
+
+
+
+.project2-column5 img{
+  height:25em;
+  width: auto;
+}
+
+
+
+.slide-button2{
+  font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 50em;
+padding-right:20em;
+   }
+
+
+  /*---------------------------Styling for the Project 3, (Insomnia cookie) -------------------------------------------*/
+
+  .cookie-retro-app img{
+    height:23em;
+    width: auto;
+  }
+
+
+  .cookie-retro-app p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing:.5px;
+    width: 20em;
+    padding-left: 2em;
+  }
+
+
+.cookie-pain-points p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width: 20em;
+  padding-left: 2em;
+}
+
+
+.cookie-pain-points img{
+  height:15em;
+  width: auto;
+}
+
+.cookie-user-journey img
+{
+  height:18em;
+  width: auto;
+
+}
+
+.cookie-problem-statement-solution p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width: 20em;
+  padding-left: 2em;
+}
+
+
+.cookie-problem-statement-solution img{
+  height:30em;
+  width: auto;
+}
+
+
+
+
+
+  .project3-column1 img{
+
+    height:20em;
+    width: auto;
+  }
+
+  .project3-column2 img
+  {
+    height:20em;
+    width: auto;
+  }
+
+
+  .project3-column3 img{
+    height:20em;
+    width: auto;
+  }
+
+
+  .project3-column4 img  
+  {
+    height:17em;
+    width: auto;
+  }
+
+  .project3-column5 img
+  {
+    height:15em;
+    width: 18em;
+  }
+
+
+  .project3-column6 img
+  {
+    height:24em;
+    width: auto;
+  }
+
+
+  .project3-column7 img
+  {
+    height:20em;
+    width: auto;
+  }
+
+
+
+  .project3-column9 img{
+    height:20em;
+    width: auto;
+  }
+
+.project3-row1 p, .project3-row2 p, .project3-row3 p{
+  font-size: 1.1em;
+}
+
+
+
+
+
+
+  .slide-button3{
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 50em;
+padding-right:20em;
+     }
+
+
+  /*---------------------------Styling for the Project 4, (Nintendo switch) -------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+  .research-proposal ul{
+    padding-left: 0em;
+  }
+
+
+
+
+.project4-column2 p, .project4-column5 p, .project4-column7 p, .game-promotion2 p, .project4-column8 p, .project4-column9 p{
+font-size: 1.2em;
+
+}
+.project4-column1 img
+{
+  height:15em;
+  width: 20em;
+}
+
+
+
+.project4-column2 img{
+  height:13em;
+  width: auto;
+}
+
+
+
+
+
+
+
+.project4-column4 img{
+  height:13em;
+  width: auto;
+  
+}
+
+
+
+
+.project4-column5 img{
+  height:12em;
+  width: auto;}
+
+
+
+.project4-column6 img{
+  height:13em;
+  width: auto;
+}
+
+
+.project4-column7 img{
+  height:13em;
+  width: auto;
+}
+
+
+.project4-column8 img{
+  height:13em;
+  width: auto;
+
+}
+
+.game-promotion1 img{
+  height:13em;
+  width: auto;
+}
+.game-promotion2 img{
+  height:13em;
+  width: auto;
+}
+
+.game-promotion2 p{
+padding-left: 2.5em;
+text-align: center ;
+padding-right: 2em;
+
+}
+
+
+
+.nintendo-research p
+{
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-right: 1em;
+  width: 19em;
+
+
+
+
+}
+
+
+.project4-column8 img{
+  height:50em;
+  width: auto;
+}
+
+.project4-column9 img{
+  height:15em;
+  width: auto;
+}
+
+
+
+.nintendo-vid1 > iframe
+
+{
   height: 300px;
-  width:390px; 
+  width:400px; 
+
+}
+
+.nintendo-vid2 > iframe
+
+
+{
+  height: 300px;
+  width:400px; 
 
 }
 
 
+.nintendo-vid h2{
+  font-size: 1.7em;
+  width:400px;
+  padding-right: 18px;
+
 }
 
+
+.nintendo-vid
+{
+  padding-bottom: 10em;
+
+}
+
+
+
+.nintendo-vid3 > iframe
+
+
+{
+  height: 300px;
+  width:400px; 
+
+}
+
+
+
+.slide-button4{
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3em;
+  width: 50em;
+padding-right:20em;
+   }
+
+
+
+  /*---------------------------Styling for the Project 5, (Juiced) -------------------------------------------*/
+
+
+
+
+.project5-column1 img , .project5-column2 img, .project5-column3 img {
+  height: 15em;
+  width:auto;
+}
+
+.project5-column3 p{
+text-align: center;
+font-size:1.3em;
+
+}
+
+.project5-column4 img, .project5-column5 img{
+  height: 12em;
+  width:auto;
+  margin-bottom: 2em;
+
+}
+
+.project5-column5 p{
+  text-align: center;
+  font-size:1.3em;
+  
+  }
+
+
+  .project5-column6 img{
+    height: 14em;
+    width: 17em;
+   padding-left: 0em;
+   position: relative;
+   left: 1em;
+  
+  }
+
+  .project5-column6 p{
+    text-align: center;
+    font-size:1.3em;
+    
+    }
+  
+
+    .project5-column7 img, .project5-column8 img, .project5-column9 img{
+      height: 12em;
+      width:auto;
+      position: relative;
+      right: 1em;
+      margin-bottom: 2em;
+        
+    }
+    
+    .project5-column9 p{
+      text-align: center;
+      font-size:1.3em;
+      
+      }
+
+  .juiced-vid1 h2{
+
+    font-size:1.6em;
+    text-align: center;
+  }
+
+
+
+  .juiced-vid1 > iframe {
+    height: 25em;
+    width:25em; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .slide-button5{
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 50em;
+  padding-right:13em;
+     }
+  
+  
+
+
+  /*---------------------------Styling for the Project 6, (Augmented reality ) -------------------------------------------*/
+
+
+
+
+
+
+
+.Tasks-plan  ul {
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-left: 1.2em;
+  width: 20em;
+
+}
+
+
+
+
+
+  .augmented-reality h2
+  {
+    width: 20em;
+   font-size: 1.2em;
+   text-align: center;
+   position: relative;
+   right: 2em;
+  }
+
+
+.augmented-reality1   > iframe
+
+{
+height: 15em;
+width:25em;
+
+}
+
+
+
+.augmented-reality2   > iframe
+
+{
+  height: 15em;
+  width:25em;
+  
+
+}
+
+
+
+
+.augmented-reality3   > iframe
+
+{
+  height: 15em;
+  width:25em;
+  
+}
+
+.augmented-reality4   > iframe
+
+{
+  height: 20em;
+  width:25em;
+  
+}
+
+
+
+
+
+.slide-button6{
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3em;
+  width: 50em;
+padding-right:25em;
+   }
+  
+
+
+
+
+}
+
+
+@media (max-width: 320px ) 
+{
+
+
+html{
+  overflow-x: hidden;  
+
+}
+
+
+  #introduction h2 {
+
+    font-weight: 100;
+    font-size: calc(18px + (55 - 26) * (100vw - 400px) / (1800 - 400));
+    
+    
+    
+    
+    }
+    
+    
+
+
+
+
+
+#introduction h1{
+  font-size: calc(30px + (55 - 26) * (100vw - 400px) / (1800 - 400));
+
+  margin-left: 0.5em;
+}
+
+
+  .icon2{
+    position: relative;
+    left: 10em;
+  }
+
+
+
+  .icon4{
+    position: relative;
+    left: 3em;
+  }
+
+
+  .btn 
+  {
+
+ 
+    margin-left: 4.5em;
+ 
+ 
+ 
+   }
+ 
+
+
+
+     
+ 
+.project1 h1
+{
+font-size: 1.8em;
+position: relative;
+right: 9em;
+}
+
+
+.project-col img{
+height: 12em;
+width: auto;
+}
+
+
+
+
+.project-col {
+
+position: relative;
+right: 3em;
+  }
+  
+
+  .project-col h3{
+
+    font-size: 1.5em;
+
+      }
+
+  .project-col p{
+
+    font-size: 1.3em;
+
+      }
+      
+    
+    
+
+
+
+  
+
+
+
+/*---------------------------Styling for the About Page--------------------------------------------*/
+
+
+.about-text {
+font-size: 1em;
+  padding-right: 8em;
+}
+
+
+.about-text p{
+
+  width: 14.5em;
+}
+
+.skills  {
+
+
+  position: relative;
+  top: 100px;
+  right: 0.5em;
+  }
+  
+  .container 
+  {
+  
+  padding: 9 ;
+  margin-right: auto;
+  margin-left: auto;
+  
+  
+  }
+  
+  
+  
+
+  
+ 
+  
+  
+  .card-title 
+  {
+  
+  color: white;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  font-style: normal;
+  font-size: 23px;
+  padding-bottom: 8px;
+  }
+  
+  .card-description 
+  {
+  
+  line-height: 32px;
+  color: var(--white);
+  font-size: 20px;
+  max-width: 470px;
+  font-weight:495;
+  
+  
+  }
+  
+
+.container-card:hover
+{
+
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 100px 0px rgba(0,0,0,0.2);
+  float:left;
+  transform: translateY(-20px);
+    
+}
+
+
+
+/*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
+
+
+
+
+
+.header
+{
+
+overflow-x: hidden;
+
+}
+
+.title
+
+{
+text-align: center;
+
+}
+
+
+
+
+
+.title h1
+{
+   padding-bottom: 60px;
+    font-size: 1.8em;
+    color: #1E3547;
+    text-align: center;
+    
+
+}
+
+.title img
+{
+  height: 15em;
+  width:auto ;
+}
+
+
+
+
+.research-proposal
+{
+  padding-top: 50px;
+  color: var(--navy-blue);
+  text-align:left;
+  padding-left: 40px;
+  margin-right: 20px;
+
+}
+
+
+
+
+
+.overview h2 
+{
+
+font-size: 1.8em;
+padding-left: 4.5em;
+text-align:center;
+padding-top: 30px;
+padding-left: 4em;
+}
+
+
+.overview p
+{
+ font-size: 1.2rem;
+padding-left: 0em;
+
+}
+
+
+
+.roles h2 {
+font-size: 1.8em;
+
+ color: var(--navy-blue);
+ text-align:center;
+ padding-top: 20px;
+ letter-spacing:1px;
+ padding-left: 4.7em;
+
+}
+
+
+.roles p {
+  font-size: 1.2rem;
+
+}
+
+
+
+
+
+.tools h2
+{
+font-size: 1.8em;
+
+ color: var(--navy-blue);
+ text-align:center;
+ padding-top: 20px;
+ letter-spacing:1px;
+ padding-left: 4.7em;
+
+}
+
+
+.tools p
+{
+ font-size: 1.2rem;
+
+}
+
+
+
+
+
+
+
+
+.research-proposal p
+{
+
+  width: 14em;
+
+}
+
+
+
+.problem-state-1{
+
+  width: 14em;
+
+
+
+  
+}
+
+
+.problem-state-1 li{
+  
+
+  width: 14em;
+}
+
+.problem-state-2{
+
+  width:19em;
+
+}
+
+
+.pain-points img
+{
+  height: 19em;
+  width: auto;
+position: relative;
+right: 10.7em;
+}
+
+.user-solution img
+{
+  height: 19em;
+  width: auto;
+position: relative;
+right: 10.7em;
+}
+
+.Persona img
+{
+  height: 10em;
+  width: auto;
+position: relative;
+right: 8em;
+}
+
+
+.Empathy img {
+  height: 20em;
+  width: auto;
+position: relative;
+right: 8.9em;
+}
+
+
+.selected-problem-statement li {
+  font-size: 0.8em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-right: 1em;
+  width: 14em;
+}
+
+.selected-problem-statement img {
+  height: 8em;
+  width: auto;
+  position: relative;
+  right: 6.5em;
+}
+
+
+.project0-column0 img{
+  height: 16em;
+  width: auto;
+  position: relative;
+  right: 8em;
+}
+
+
+
+
+
+.project1-column1 img
+{
+  height: 15em;
+  width: auto;
+  position: relative;
+right: 6em;
+}
+
+.project1-column2 img
+{
+  height: 18em;
+  width: auto;
+  position: relative;
+right: 9em;
+
+}
+
+.project1-column2 p {
+  text-align: center;
+  padding-right: 2.5em;
+  }
+  
+
+
+.project1-column3 img
+{
+  height: 23em;
+  width: auto;
+  position: relative;
+right:8.5em;
+}
+
+.project1-column3 p {
+text-align: center;
+padding-right: 2em;
+}
+
+.project1-column4 img {
+  height: 15em;
+  width: auto;
+  position: relative;
+  right: 5em;
+}
+
+.project1-column5 img{
+  height: 16em;
+  width: auto;
+  position: relative;
+  right: 6.4em
+  ;}
+
+
+
+.project1-column5 p
+{
+  text-align: center;
+}
+
+
+
+
+.project1-column6 img{
+  height: 14em;
+  width: auto;
+  position: relative;
+  right: 7em;
+}
+
+
+.project1-column6 p
+{
+text-align: center;
+
+}
+
+
+
+.slide-button1{
+  font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 70em;
+ padding-left: 21em;
+ }
+
+  /*---------------------------Styling for the Project 2, (Humber bakery) -------------------------------------------*/
+
+
+.ar-sketches img
+{
+height:10em;
+width: auto;
+position: relative;
+right: 6em
+
+}
+
+
+.ar-sketches p
+{
+
+  text-align: center;
+  padding-right: 2em;
+}
+
+
+.pain-points-bakery img{
+  height:15em;
+  width: auto;
+  position: relative;
+  right: 7em;
+
+}
+
+.user-persona img{
+  height:15em;
+  width: auto;
+}
+
+
+.jounrey-goal p,.user-persona p{
+font-size: 1.3em;
+}
+
+
+.project2-column0 p, .project2-column1 p, .project2-column2 p, .project2-column3 p ,.project2-column5 p{
+  font-size: 1em;
+}
+
+
+
+
+
+.project2-column1 img{
+  height:15em;
+  width: auto;
+}
+
+.project2-column2 img{
+  height:30em;
+  width: auto;
+}
+
+
+
+.project2-column3 img{
+  height:25em;
+  width: auto;
+}
+
+
+
+
+
+.project2-column5 img{
+  height:25em;
+  width: auto;
+}
+
+
+
+.slide-button2{
+  font-size: 0.7em;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3em;
+  width: 70em;
+padding-right: 40em;
+   }
+
+
+  /*---------------------------Styling for the Project 3, (Insomnia cookie) -------------------------------------------*/
+
+  .cookie-retro-app img{
+    height:20em;
+    width: auto;
+  }
+
+
+  .cookie-retro-app p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing:.5px;
+    width: 15em;
+    padding-left: 2em;
+  }
+
+
+.cookie-pain-points p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width: 15em;
+  padding-left: 2em;
+}
+
+
+.cookie-pain-points img{
+  height:15em;
+  width: auto;
+}
+
+.cookie-user-journey img
+{
+  height:16em;
+  width: auto;
+
+}
+
+.cookie-problem-statement-solution p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  width: 15em;
+}
+
+
+.cookie-problem-statement-solution img{
+  height:30em;
+  width: auto;
+}
+
+
+
+
+
+  .project3-column1 img{
+
+    height:18em;
+    width: auto;
+  }
+
+  .project3-column2 img
+  {
+    height:18em;
+    width: auto;
+  }
+
+
+  .project3-column3 img{
+    height:20em;
+    width: auto;
+  }
+
+
+  .project3-column4 img  
+  {
+    height:15em;
+    width: auto;
+  }
+
+  .project3-column5 img
+  {
+    height:12em;
+    width: 15em;
+  }
+
+
+  .project3-column6 img
+  {
+    height:24em;
+    width: auto;
+  }
+
+
+  .project3-column7 img
+  {
+    height:20em;
+    width: auto;
+  }
+
+
+
+  .project3-column9 img{
+    height:20em;
+    width: auto;
+  }
+
+.project3-row1 p, .project3-row2 p, .project3-row3 p{
+  font-size: 1.1em;
+}
+
+
+
+
+
+
+  .slide-button3{
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 70em;
+    padding-right: 40em;
+     }
+
+
+  /*---------------------------Styling for the Project 4, (Nintendo switch) -------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+  .research-proposal ul{
+    padding-left: 0em;
+    width: 14em;
+
+  }
+
+
+
+
+.project4-column2 p, .project4-column5 p, .project4-column7 p, .game-promotion2 p, .project4-column8 p, .project4-column9 p{
+font-size: 1.2em;
+
+}
+.project4-column1 img
+{
+  height:13em;
+  width: 20em;
+  margin-bottom: 2em;
+}
+
+
+
+.project4-column2 img{
+  height:13em;
+  width: auto;
+}
+
+
+
+
+
+
+
+.project4-column4 img{
+  height:10em;
+  width: auto;
+  
+}
+
+
+
+
+.project4-column5 img{
+  height:12em;
+  width: 20em;
+}
+
+
+
+.project4-column6 img{
+  height:12em;
+  width: auto;
+}
+
+
+.project4-column7 img{
+  height:13em;
+  width: auto;
+}
+
+
+.project4-column8 img{
+  height:13em;
+  width: auto;
+
+}
+
+.game-promotion1 img{
+  height:13em;
+  width: auto;
+}
+.game-promotion2 img{
+  height:13em;
+  width: auto;
+}
+
+.game-promotion2 p{
+padding-left: 2.5em;
+text-align: center ;
+padding-right: 5em;
+
+}
+
+
+
+.nintendo-research p
+{
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-right: 1em;
+  width: 17em;
+
+
+
+
+}
+
+
+.project4-column8 img{
+  height:60em;
+  width: auto;
+}
+
+.project4-column9 img{
+  height:12em;
+  width: auto;
+}
+
+
+
+.nintendo-vid1 > iframe
+
+{
+  height: 15em;
+  width:20em; 
+
+}
+
+.nintendo-vid2 > iframe
+
+
+{
+  height: 15em;
+  width:20em;  
+
+}
+
+
+.nintendo-vid h2{
+  font-size: 1.2em;
+text-align: center;
+position: relative;
+right: 1.6em;
+}
+
+
+.nintendo-vid
+{
+  padding-bottom: 10em;
+
+}
+
+
+
+.nintendo-vid3 > iframe
+
+
+{
+  height: 15em;
+  width:20em; 
+
+}
+
+
+
+.slide-button4{
+  font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 70em;
+    padding-right: 40em;
+   }
+
+
+
+  /*---------------------------Styling for the Project 5, (Juiced) -------------------------------------------*/
+
+
+
+
+.project5-column1 img , .project5-column2 img, .project5-column3 img {
+  height: 13em;
+  width:auto;
+}
+
+.project5-column3 p{
+text-align: center;
+font-size:1.3em;
+
+}
+
+.project5-column4 img, .project5-column5 img{
+  height: 10em;
+  width:auto;
+  margin-bottom: 2em;
+
+}
+
+.project5-column5 p{
+  text-align: center;
+  font-size:1.3em;
+  
+  }
+
+
+  .project5-column6 img{
+    height: 14em;
+    width: 20em;
+   padding-left: 0em;
+   position: relative;
+   left: 1em;
+  
+  }
+
+  .project5-column6 p{
+    text-align: center;
+    font-size:1.3em;
+    padding-right: 1em;
+    
+    }
+  
+
+    .project5-column7 img, .project5-column8 img, .project5-column9 img{
+      height: 10em;
+      width:auto;
+      position: relative;
+      right: 1em;
+      margin-bottom: 2em;
+        
+    }
+    
+    .project5-column9 p{
+      text-align: center;
+      font-size:1.3em;
+      
+      }
+
+  .juiced-vid1 h2{
+
+    font-size:1.4em;
+    text-align: center;
+  }
+
+
+
+  .juiced-vid1 > iframe {
+    height: 25em;
+    width:25em; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .slide-button5{
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    width: 70em;
+    padding-right: 34em;
+     }
+  
+  
+
+
+  /*---------------------------Styling for the Project 6, (Augmented reality ) -------------------------------------------*/
+
+
+
+
+
+
+
+.Tasks-plan  ul {
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing:.5px;
+  padding-left: 1.2em;
+  width: 16em;
+
+}
+
+
+
+
+
+  .augmented-reality h2
+  {
+    width: 20em;
+   font-size: 1.2em;
+   text-align: center;
+   position: relative;
+   right: 4em;
+  }
+
+
+.augmented-reality1   > iframe
+
+{
+height: 13em;
+width:20em;
+
+}
+
+
+
+.augmented-reality2   > iframe
+
+{
+  height: 13em;
+  width:20em;
+  
+
+}
+
+
+
+
+.augmented-reality3   > iframe
+
+{
+  height: 13em;
+  width:20em;
+  
+}
+
+.augmented-reality4   > iframe
+
+{
+  height: 13em;
+  width:20em;
+}
+
+
+
+
+
+.slide-button6{
+  font-size: 0.7em;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3em;
+  width: 70em;
+  padding-right: 46em;;
+   }
+}
 
 
 
