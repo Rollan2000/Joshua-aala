@@ -1,3 +1,8 @@
+
+
+
+
+
 /* GDES306 | MMDD253 - Coding Your Portfolio     */
 /* Extra small devices (phones, less than 600px) */
 /* No media query since this is the default CSS */
@@ -1095,6 +1100,9 @@ color: var(--navy-blue);
 
 
 
+
+
+
 .problem-state-1
 {
 
@@ -1594,9 +1602,9 @@ padding-top: 3em;
     letter-spacing: 0.5px;
     color: var(--navy-blue);
     text-align: left;
-    padding-left: 15em;
+    padding-left: 1em;
     padding-top: 1em;
-    width: 60em;
+    width: 40em;
     
     
     
@@ -1608,9 +1616,10 @@ padding-top: 3em;
 
 .cookie-retro-app img
 {
-height: 35em;
+height: 30em;
 width: auto;
   padding-top: 4em;
+  padding-left: 6em;
 }
  
 
@@ -1625,9 +1634,9 @@ line-height: 30px;
 letter-spacing: 0.5px;
 color: var(--navy-blue);
 text-align: left;
-padding-left: 15em;
+padding-left: 1em;
 padding-top: 1em;
-width: 60em;
+width: 40em;
 
 
 
@@ -1643,7 +1652,7 @@ width: auto;
 
 
 .cookie-user-persona img{
-  height: 30em;
+  height: 25em;
   width: auto;
   padding-top: 5em;
 
@@ -1653,19 +1662,26 @@ width: auto;
 .cookie-user-persona p{
   font-size: 1.7em;
   color:#1E3547;
+  text-align: center;
+  padding-right: 3em;
 }
 
 
 .cookie-user-journey img{
 
-  height: 30em;
+  height: 23em;
   width: auto;
   padding-top: 5em;
+  padding-right: 0em;
+
 }
 
 .cookie-user-journey p{
   font-size: 1.7em;
   color:#1E3547;
+  text-align: center;
+  padding-right: 3em;
+
 
 }
 
@@ -1684,8 +1700,8 @@ line-height: 30px;
 letter-spacing: 0.5px;
 color: var(--navy-blue);
 text-align: left;
-padding-left: 15em;
-width: 60em;
+padding-left: 1em;
+width: 40em;
 
 }
 
@@ -1694,6 +1710,7 @@ width: 60em;
   height: 40em;
   width: auto;
   padding-top: 3em;
+  padding-left: 7em;
 
 }
 
@@ -1719,15 +1736,18 @@ width: 60em;
     }
   
     .project3-column1 img{
-    height: 30em;
+    height: 28em;
     width:auto;
-padding-top: 5em;
+    padding-left: -3em;
+
+    padding-top: 5em;
     }
 
 
     .project3-column1 p{
-      padding: 1em;
-      
+text-align: center;     
+padding-right: 5em;
+
     }
 
     .project3-column2 img
@@ -1736,8 +1756,23 @@ padding-top: 5em;
       height: 25em;
       width:auto;
       padding-top: 5em;
+      padding-left: 8em;
+
 
     }
+
+
+
+    
+    .project3-column2 p
+
+    {
+    text-align: left;
+    padding-left: 13em;
+
+
+    }
+    
     
     .project3-column3 img
 
@@ -1745,14 +1780,13 @@ padding-top: 5em;
       height: 30em;
       width:auto;
       padding-top: 5em;
+      padding-left: 1em;
 
     }
     
-    .project3-column3 p
-
-    {
-    
-      padding: 1em;
+    .project3-column3 p{
+      text-align: center;
+      padding-right: 7em;
 
     }
     
@@ -1761,7 +1795,7 @@ padding-top: 5em;
 
     {
   
-      height: 30em;
+      height: 28.5em;
       width:auto;
       padding-top: 5em;
 
@@ -1770,10 +1804,24 @@ padding-top: 5em;
 
     .project3-column5 img
     {
-      height: 30em;
-      width:38em;
+      height: 25em;
+      width:auto;
 
     }
+
+
+
+    .project3-row2 p
+
+    {
+  
+      text-align: center;
+      padding-right: 7em;
+
+
+    }
+    
+
 
 
     .project3-column6 img
@@ -1781,23 +1829,37 @@ padding-top: 5em;
       height: 30em;
       width:auto;
       padding-top: 5em;
+      padding-left: 5em;
+
     }
 
     .project3-column7 img
     {
       height: 25em;
-      width:24em;
+      width:29em;
+      padding-left: 5em;
+
     }
+
+
+.project3-row3 p{
+  text-align: center;
+      padding-right: 7em;
+}
+
 
     .project3-column9 img{
 
       height: 29em;
       width:auto;
       padding-top: 7em;
+
     }
 
-
-
+    .project3-column9 p{
+  text-align: center;
+      padding-right: 7em;
+    }
 
 .slide-button3{
 
@@ -3023,7 +3085,7 @@ padding-top: 5em;
   display: flex;
   justify-content: space-between;
   padding-bottom: 3em;
-  padding-left: 60em;
+  padding-left: 50em;
  }
 
 
@@ -3192,7 +3254,7 @@ padding-top: 3em;
     letter-spacing: 0.5px;
     color: var(--navy-blue);
     text-align: left;
-    padding-left: 15em;
+    padding-left: 1em;
     padding-top: 1em;
     width: 40em;
     
@@ -3223,9 +3285,9 @@ line-height: 30px;
 letter-spacing: 0.5px;
 color: var(--navy-blue);
 text-align: left;
-padding-left: 15em;
+padding-left: 1em;
 padding-top: 1em;
-width: 45em;
+width: 40em;
 
 
 
@@ -3241,9 +3303,10 @@ width: auto;
 
 
 .cookie-user-persona img{
-  height: 30em;
+  height: 26em;
   width: auto;
   padding-top: 5em;
+
 
 }
 
@@ -3256,7 +3319,7 @@ width: auto;
 
 .cookie-user-journey img{
 
-  height: 30em;
+  height: 26em;
   width: auto;
   padding-top: 5em;
 }
@@ -3282,8 +3345,8 @@ line-height: 30px;
 letter-spacing: 0.5px;
 color: var(--navy-blue);
 text-align: left;
-padding-left: 15em;
-width: 50em;
+padding-left: 1em;
+width: 40em;
 
 }
 
@@ -3292,6 +3355,7 @@ width: 50em;
   height: 40em;
   width: auto;
   padding-top: 3em;
+  padding-left: 10em;
 
 }
 
@@ -3319,13 +3383,17 @@ width: 50em;
     .project3-column1 img{
     height: 30em;
     width:auto;
-padding-top: 5em;
+    padding-top: 5em;
+    padding-left: 3.5em;
+
     }
 
 
     .project3-column1 p{
       padding: 1em;
-      
+      text-align: left ;   
+      padding-left: 17.7em;
+   
     }
 
     .project3-column2 img
@@ -3334,15 +3402,29 @@ padding-top: 5em;
       height: 25em;
       width:auto;
       padding-top: 5em;
+      padding-left: 14em;
+
 
     }
     
+
+    .project3-column2 p
+
+    {
+      padding-left: 17em;
+
+
+
+
+    }
+
     .project3-column3 img
 
     {
       height: 30em;
       width:auto;
       padding-top: 5em;
+      padding-left: 6.5em;
 
     }
     
@@ -3351,6 +3433,8 @@ padding-top: 5em;
     {
     
       padding: 1em;
+      padding-left: 2em;
+
 
     }
     
@@ -3361,6 +3445,8 @@ padding-top: 5em;
   
       height: 30em;
       width:auto;
+      position: relative;
+      left: 4em;
       padding-top: 5em;
 
     }
@@ -3370,29 +3456,66 @@ padding-top: 5em;
     {
       height: 30em;
       width:38em;
-
+      position: relative;
+      left: 4em;
     }
+
+
+    
+
+    .project3-row2 p
+    {
+padding-left:8em;   
+ }
+
+
 
 
     .project3-column6 img
     {
       height: 30em;
-      width:auto;
-      padding-top: 5em;
-    }
+      width:30em;
+      position: relative;
+      left: 6em;    }
 
     .project3-column7 img
     {
       height: 25em;
-      width:24em;
+      width:30em;
+      position: relative;
+      left: 6em;
     }
+
+
+
+    
+    .project3-row3 p
+    {
+    text-align: center;
+    padding-left: 7.5em;
+
+    }
+
+
+
+
 
     .project3-column9 img{
 
       height: 29em;
       width:auto;
       padding-top: 7em;
+      padding-left: 4em;
     }
+
+
+
+    
+    .project3-column9 p{
+
+      padding-left: 6em;
+    }
+
 
 
 
@@ -3636,7 +3759,7 @@ width:700px;
 
 
   padding-bottom: 3em;
-  padding-right: 60em;
+  padding-right: 50em;
  }
 
 
@@ -4285,6 +4408,8 @@ font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
           height: 30em;
         width: auto;
           padding-top: 4em;
+          padding-left: 11.5em;
+          
         }
          
         
@@ -4312,6 +4437,8 @@ font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
           height: 25em;
         width: auto;
           padding-top: 4em;
+          padding-left: 8em;
+
         }
         
         
@@ -4320,6 +4447,9 @@ font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
           height: 25em;
           width: auto;
           padding-top: 5em;
+          position: relative;
+          left: 3.5em;
+
         
         }
         
@@ -4327,6 +4457,8 @@ font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
         .cookie-user-persona p{
           font-size: 1.7em;
           color:#1E3547;
+          padding-left: 8em;
+
         }
         
         
@@ -4335,12 +4467,15 @@ font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
           height: 25em;
           width: auto;
           padding-top: 5em;
+          position: relative;
+          left: 3.5em;
         }
         
         .cookie-user-journey p{
           font-size: 1.7em;
           color:#1E3547;
-        
+          padding-left: 8em;
+
         }
         
         
@@ -4368,6 +4503,8 @@ font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
           height: 40em;
           width: auto;
           padding-top: 3em;
+          padding-left: 12.5em;
+
         
         }
         
@@ -4375,25 +4512,116 @@ font-size: calc(16px + (58 - 26) * (100vw - 400px) / (1800 - 400));
 
 
 
+        .project3-column1 img
+        {
+          height: 30em;
+        width: auto;
+        position: relative;
+        left: 2em;
+        }
+
+
+        .project3-column1 p
+        {
+text-align: center;
+padding-left: 6em;
+
+        }
 
 
 
 
-.project3-row1 img
+
+.project3-column2 img
 {
-height: 600px;
+  height: 25em;
 width: auto;
+padding-left: 14em;
+
 }
+.project3-column2 p
+{
+  position: relative;
+  left: 13em;  
+  padding: 1em;
+
+}
+
+
+.project3-column3 p{
+  text-align: center;
+  padding-left: 6em;
+
+}
+
+
+.project3-column3 img
+{
+  height: 27em;
+width: auto;
+padding-left: 9em;
+
+}
+
+
+
+.project3-column4 img{
+  height: 25em;
+width:36.5em;
+padding-left: 4em;
+
+}
+
 
 
 .project3-column5 img{
   height: 20em;
-width: 37.7em;
+  width:36.5em;
+  padding-left: 4em;
+
 }
 
+.project3-row2 p{
+  padding: 1em;
+padding-left: 6.4em;
+
+}
+
+
+
+
 .project3-column6 img{
-  height: 37em;
+  height: 30em;
+width: 33.5em;
+padding-left: 3em;
+
+}
+
+.project3-column7 img{
+  height: 30em;
 width: auto;
+padding-left: 3em;
+}
+
+
+
+
+
+.project3-row3 p{
+  padding: 1em;
+  padding-left: 6em;
+}
+
+.project3-column9 img{
+  height: 26em;
+width: auto;
+padding-left: 8.5em;
+}
+
+
+.project3-column9 p{
+padding-left: 11.5em;
+
 }
 
 
@@ -4838,7 +5066,7 @@ padding-right: 3em;}
 
     display: flex;
     position: relative;
-    right: 6.5em;
+    right: 0.9em;
     
 }
 
@@ -4863,7 +5091,7 @@ padding-right: 3em;}
 
 .project1 img{
     border-radius: 30px 30px 00px 0px  ;
-    height: 10.4em;
+    height: 11em;
     width: auto;
 }
 
@@ -5143,7 +5371,6 @@ font-size: 1.8em;
 
 .research-proposal p{
   font-size: 1.5em;
-  padding-left: 2em;
 }
 
 .problem-state-1 p
@@ -5181,19 +5408,54 @@ font-size: 1.8em;
 
 .pain-points img
 {
-  padding-left: 2em;
+  padding-left: 0.5em;
+}
+
+
+
+.pain-points p
+{
+  padding-left: 3em;
 }
 
 .user-solution img{
-  padding-left: 2em;
+  padding-left: 0.5em;
 
 
 }
+
+
+
+.user-solution p{
+position: relative;
+right:3em;
+}
+
+
+
+
+
 
 .Persona img , .Empathy img{
   padding-left: 2em;
 
 }
+
+
+
+
+
+.Persona-2 p{
+  padding-left: 5em;
+
+}
+
+
+.Empathy p{
+  padding-left: 4em;
+
+}
+
 
 
 .selected-problem-statement img
@@ -5222,7 +5484,7 @@ text-align: center;
 
 .project0-column0 p{
  text-align: center;
- padding-left: 4em;
+ padding-left: 5em;
 
 }
 
@@ -5232,7 +5494,7 @@ text-align: center;
 {
   height: 27em;
   width: auto;
-  padding-left: 6em;
+  padding-left: 7em;
 
 }
 
@@ -5273,7 +5535,8 @@ text-align: center;
     {
       font-size: 1.2em;
       text-align: center;
-   
+      padding-left: 3em;
+
       
       }
 
@@ -5288,7 +5551,8 @@ text-align: center;
   {
     font-size: 1.2em;
       text-align: center;
-   
+      padding-left: 3em;
+
       
   }
 
@@ -5303,7 +5567,8 @@ text-align: center;
   {
     font-size: 1.2em;
     text-align: center;
- 
+    padding-left: 2em;
+
     
   }
 
@@ -5320,6 +5585,7 @@ text-align: center;
   {
     font-size: 1.2em;
     text-align: center;
+    padding-left: 2.5em;
  
     
   }
@@ -5342,6 +5608,7 @@ text-align: center;
 {
 
 text-align: center; 
+padding-left: 2em;
 }
 
 
@@ -5425,6 +5692,8 @@ width: 34em;
 height: 30em;
 width: auto;
 padding-top: 4em;
+padding-left: 8em;
+
 }
 
 
@@ -5452,6 +5721,8 @@ width: 35em;
 height: 25em;
 width: auto;
 padding-top: 4em;
+padding-left: 4em;
+
 }
 
 
@@ -5467,19 +5738,23 @@ padding-top: 5em;
 .cookie-user-persona p{
   font-size: 1.5em;
 color:#1E3547;
+padding-left: 5em;
 }
 
 
 .cookie-user-journey img{
 
-height: 23em;
+height: 21em;
 width: auto;
 padding-top: 5em;
+
 }
 
 .cookie-user-journey p{
   font-size: 1.5em;
 color:#1E3547;
+padding-left: 4em;
+
 
 }
 
@@ -5508,6 +5783,7 @@ width: 37em;
 height: 40em;
 width: auto;
 padding-top: 3em;
+padding-left: 9em;
 
 }
 
@@ -5519,35 +5795,118 @@ padding-top: 3em;
 
 
 
-.project3-row1 img
+.project3-column1 img
 {
-  height: 30em;
-  width: auto;
-}
-
-.project3-column2 img{
   height: 25em;
   width: auto;
+  padding-left: 4.5em;
+
+}
+
+.project3-column1 p
+{
+  
+  padding-left: 6em;
+  font-size: 1.2em;
+
+}
+
+
+
+.project3-column2 img{
+  height: 20em;
+  width: auto;
+  padding-left: 15em;
+
+}
+
+.project3-column2 p{
+position: relative;
+left: 15.5em;
+font-size: 1.2em;
+
 }
 
 
 .project3-column3 img{
   height: 30em;
   width: auto;
+  padding-left: 5em;
+}
+.project3-column3 p{
+  padding-left: 5em;
+  font-size: 1.2em;
+
 }
 
+
+.project3-column4 img{
+  height: 24.8em;
+  width: auto;
+  padding-left: 3em;
+}
 
 .project3-column5 img{
-height: 20em;
-width: 37.7em;
+  height: 21em;
+  width: auto;
+  padding-left: 3em;
 }
+
+.project3-row2 p{
+  padding-right:3em;
+  font-size: 1.2em;
+
+}
+
+
+
+
 
 .project3-column6 img{
-height: 37em;
-width: auto;
+  height: 25em;
+  width: 29em;
+  padding-left: 3.5em;
+}
+
+.project3-column7 img{
+  height: 25em;
+  width: auto;
+  padding-left: 3.5em;
+}
+
+.project3-row3 p{
+
+  text-align: center;
+  padding-left: 6em;
+  font-size: 1.2em;
+
 }
 
 
+
+
+
+
+
+
+
+
+
+
+.project3-column9 img{
+  height: 25em;
+  width: auto;
+  padding-left: 8em;
+
+
+}
+.project3-column9 p{
+text-align: center;
+padding-left: 11em;
+font-size: 1.2em;
+
+
+}
 
 
 /*---------------------------Styling for the Project 4 (Nintendo Switch ) -------------------------------------------*/
@@ -6081,6 +6440,7 @@ color: #F8D859;
 
 #introduction h1{
   margin-left: 1em;
+  padding-top:30px; 
 
 }
 
@@ -6091,7 +6451,7 @@ font-weight: 100;
 font-size: calc(21px + (55 - 26) * (100vw - 400px) / (1800 - 400));
 
 text-align: center;
-padding-top:30px; 
+padding-top:90px; 
 margin-left: 1em;
 
 }
@@ -6168,7 +6528,7 @@ margin-left: 1em;
 
 #project1 h1
 {
-  margin-left: -1.5em;
+  margin-left: -1em;
 }
 
   .row {
@@ -6176,7 +6536,7 @@ margin-left: 1em;
     flex-wrap: wrap;
     margin-left: 0;
     margin-bottom: 50px;
-    padding-left: 16em;
+    padding-left: 11em;
   }
   
   .project-col {
@@ -6637,7 +6997,7 @@ width: 44em;
   padding-right: 2em;
 }
 .pain-points p{
- padding-left: 5em;
+ padding-left: 2.5em;
 }
 
 
@@ -6648,8 +7008,17 @@ width: 44em;
 }
 
 
+
+.user-solution p {
+  padding-left: 7em;
+
+}
+
+
+
+
 .user-solution-2 p{
-  padding-left: 5em;
+  padding-left: 2.5em;
 
 }
 
@@ -6846,6 +7215,7 @@ text-align: center;}
 
 .ar-process p{
   font-size: 1.5em;
+  padding-left: 4em;
 }
 
 .ar-sketches  p
@@ -6950,6 +7320,7 @@ width: 28em;
 height: 30em;
 width: auto;
 padding-top: 4em;
+padding-left: 5.5em;
 }
 
 
@@ -6974,17 +7345,21 @@ width: 28em;
 
 
 .cookie-pain-points img{
-height: 25em;
+height: 20em;
 width: auto;
 padding-top: 4em;
+padding-left: 5em;
+
 }
 
 
 
 .cookie-user-persona img{
-  height: 23em;
+  height: 20em;
   width: auto;
 padding-top: 5em;
+padding-left: 0em;
+
 
 }
 
@@ -6992,12 +7367,14 @@ padding-top: 5em;
 .cookie-user-persona p{
   font-size: 1.5em;
 color:#1E3547;
+padding-left: 7em;
+
 }
 
 
 .cookie-user-journey img{
 
-height: 21em;
+height: 19em;
 width: auto;
 padding-top: 5em;
 }
@@ -7005,6 +7382,7 @@ padding-top: 5em;
 .cookie-user-journey p{
   font-size: 1.5em;
 color:#1E3547;
+padding-left: 7em;
 
 }
 
@@ -7034,7 +7412,7 @@ width: 28em;
 height: 40em;
 width: auto;
 padding-top: 3em;
-
+padding-left: 7em;
 }
 
 
@@ -7045,16 +7423,32 @@ padding-top: 3em;
 
 
 
-.project3-row1 img
+.project3-column1 img
 {
   height: 25em;
   width: auto;
+  padding-left: 0.5em;
+
 }
+
+.project3-column1 p
+{
+  padding-left: 5em;
+}
+
+
 
 .project3-column2 img{
   height: 20em;
   width: auto;
+  padding-left: 12em;
 }
+
+.project3-column2 p{
+  position: relative;
+  left: 12.5em;
+}
+
 
 
 .project3-column3 img{
@@ -7066,27 +7460,41 @@ padding-top: 3em;
 
 .project3-column4 img{
   height: 20em;
-  width: 28.5em;
+  width: 27em;
   }
 
 .project3-column5 img{
-height: 20em;
+height: 17em;
 width:   auto;
-;
+
 }
 
 .project3-column6 img{
-  height: 35em;
-  width:   auto;
+  height: 33em;
+  width:  40em;
+position: relative;
+left: 0em;
 }
 
 .project3-column7 img{
-  height: 35em;
-  width:   29em;
+  height: 33em;
+  width:   auto;
+position: relative;
+left: 0em;
 }
 
 
 
+
+.project3-row3 p{
+  padding-left: 4.5em;
+
+}
+
+
+.project3-column9 img{
+padding-left: 5em;
+}
 
 .slide-button3 a {
 
@@ -7278,7 +7686,10 @@ width: 30em;
 
     display: flex;
     justify-content: space-between;
-    font-size: 1.4em;
+    font-size: 0.7em;
+   text-align: center;
+    position: relative;  
+     right: 0em;
    }
 
 
@@ -7287,6 +7698,12 @@ width: 30em;
 
 
   /*---------------------------Styling for the Project 5 (Digital Branding Juiced ) -------------------------------------------*/
+
+  .research-proposal ul{
+    position: relative;
+    left: 3em;
+
+  }
 
   .juiced-vid1 > iframe {
     width: 85%;
@@ -7350,7 +7767,7 @@ line-height: 30px;
  letter-spacing: 0.5px;
 color: var(--navy-blue);
 text-align: left;
-padding-left: 2em;
+padding-left: 4em;
 width: 30em;
 }
            
@@ -7693,7 +8110,7 @@ font-size: calc(21px + (55 - 26) * (100vw - 400px) / (1800 - 400));
 .project1 h1{
 font-size: 2em;
 position: relative;
-left: 5.5em;
+left: 4.7em;
 
 
 
@@ -7703,7 +8120,7 @@ left: 5.5em;
     flex-wrap: wrap;
     margin-left: 0;
     margin-bottom: 50px;
-    padding-left: 10.5em;
+    padding-left: 4.5em;
   }
   
   .project-col {
@@ -8070,7 +8487,7 @@ text-align: center;
 font-size: 35px;
 color: var(--navy-blue);
 line-height: 60px;
-padding-left: 1em;
+padding-left: 0em;
 
 
 }
@@ -8081,7 +8498,7 @@ padding-left: 1em;
 {
 
 padding: 10 ;
-margin-right: auto;
+margin-right: 1em;
 
 
 }
@@ -8360,7 +8777,7 @@ padding-left: 0em;
   height: 20em;
   width: auto;
 position: relative;
-right: 8em;
+right: 7em;
 }
 
 .user-solution img
@@ -8368,8 +8785,17 @@ right: 8em;
   height: 20em;
   width: auto;
 position: relative;
-right: 8em;
+right: 7em;
 }
+
+.user-solution p
+{
+  padding-left: 3.5em;
+  width: 20em;
+}
+
+
+
 
 .Persona img
 {
@@ -8555,12 +8981,12 @@ font-size: 1.3em;
 
 
 .slide-button2{
-  font-size: 1em;
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     padding-bottom: 3em;
     width: 50em;
-padding-right:22em;
+    padding-right:23em;
    }
 
 
@@ -8569,6 +8995,8 @@ padding-right:22em;
   .cookie-retro-app img{
     height:25em;
     width: auto;
+    position: relative;
+    right: 7em;
   }
 
 
@@ -8577,8 +9005,8 @@ padding-right:22em;
     font-weight: 500;
     line-height: 30px;
     letter-spacing:.5px;
-    width: 20em;
-    padding-left: 2em;
+    width: 18em;
+    padding-left: 0em;
   }
 
 
@@ -8587,36 +9015,63 @@ padding-right:22em;
   font-weight: 500;
   line-height: 30px;
   letter-spacing:.5px;
-  width: 20em;
-  padding-left: 2em;
+  width: 18em;
+  padding-left: 0em;
 }
 
 
 .cookie-pain-points img{
-  height:18em;
+  height:16em;
   width: auto;
+  position: relative;
+  right: 6em;
 }
+
+
+.cookie-user-persona img{
+  height:14em;
+  width: auto;
+  position: relative;
+  left: 0em;
+}
+
+.cookie-user-persona p{
+  padding-left: 2.5em;
+}
+
+
+
 
 .cookie-user-journey img
 {
-  height:18em;
+  height:13em;
   width: auto;
+  position: relative;
+  left: 0em;
+}
+
+
+.cookie-user-journey p
+{
+  padding-left: 2.5em;
 
 }
+
 
 .cookie-problem-statement-solution p{
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing:.5px;
-  width: 20em;
-  padding-left: 2em;
+  width: 19em;
+  padding-left: 0em;
 }
 
 
 .cookie-problem-statement-solution img{
   height:30em;
   width: auto;
+  padding-left: 0em;
 }
 
 
@@ -8625,33 +9080,66 @@ padding-right:22em;
 
   .project3-column1 img{
 
-    height:20em;
+    height:15em;
     width: auto;
+    position: relative;
+    left: 0em;
+
   }
 
   .project3-column2 img
   {
-    height:20em;
+    height:15em;
     width: auto;
+    padding-left: 3em;
+
+  }
+
+
+  .project3-column2 p
+  {
+    position: relative;
+    left: 5em;
+
   }
 
 
   .project3-column3 img{
-    height:20em;
+    height:18em;
     width: auto;
+    padding-left: 0em;
+
   }
 
 
+  
+
   .project3-column4 img  
   {
-    height:19em;
-    width: auto;
+    height:18em;
+    width: 23em;
+    position: relative;
+   left: -4.5em;
   }
 
   .project3-column5 img
   {
-    height:19em;
-    width: auto;
+    height:13em;
+    width: 23em;
+    position: relative;
+    left: -4.5em;
+
+  }
+  .project3-row2 p
+  {
+    position: relative;
+    left: 1em;
+
+  }
+
+  .project3-row3 img{
+    position: relative;
+    left: -5em;
   }
 
 
@@ -8659,6 +9147,7 @@ padding-right:22em;
   {
     height:26em;
     width: auto;
+ 
   }
 
 .project3-row1 p, .project3-row2 p, .project3-row3 p{
@@ -8667,6 +9156,15 @@ padding-right:22em;
 
 
 
+.project3-column9 img{
+  position: relative;
+  left: -6.5em;
+}
+
+.project3-column9 p{
+  padding-left: 5.5em;
+
+}
 
 
 
@@ -8685,7 +9183,9 @@ padding-right:22em;
 
 
   .research-proposal ul{
-    padding-left: 0em;
+width: 20em;
+    position: relative;
+    left: -1.5em;
   }
 
 
@@ -8876,7 +9376,8 @@ text-align: center ;
     flex-direction: column;
     padding-bottom: 3em;
     width: 50em;
-padding-right:22em;
+padding-right:37em;
+font-size: 2em;
    }
 
 
@@ -9052,8 +9553,153 @@ padding-right:28em;
 
 
 
+/* small devices (i.e. Iphone XR */
 
 
+@media (max-width: 414px ) {
+
+
+.btn{
+position: relative;
+right: 0.7em;
+}
+
+.row{
+
+
+  padding-left: 4em;
+}
+
+
+/*---------------------------Styling for the Project 1, (Booster Juice) -------------------------------------------*/
+
+
+.Persona img{
+
+  padding-left: 0.5em;
+}
+
+
+
+
+.Empathy img{
+  position: relative;
+  right:8.5em;
+}
+
+.Empathy p{
+  padding-right: 2em;
+}
+
+
+
+.selected-problem-statement li {
+  width: 17.5em;
+}
+
+
+
+.selected-problem-statement img{
+  padding-left: 4.5em;
+}
+
+
+.project0-column0 img{
+  padding-left: 6.5em;
+
+}
+
+
+.project1-column1 img{
+  padding-left: 4.8em;
+
+}
+
+
+
+.project1-column2 img{
+  padding-left: 7em;
+
+}
+
+
+
+.project1-column3 img{
+  padding-left: 6.5em;
+
+}
+
+
+.project1-column3 p{
+  padding-right: 1em;
+
+}
+
+.project1-column4 img{
+  padding-left: 4.8em;
+
+}
+
+
+
+.project1-column5 img{
+  padding-left: 3em;
+
+}
+
+
+
+.project1-column6 img{
+  padding-left: 5.5em;
+
+}
+
+
+.slide-button1 {
+  padding-left: 18em;
+}
+
+
+
+/*---------------------------Styling for the Project 3, (Insomia Cookies) -------------------------------------------*/
+
+.slide-button3 {
+  position: relative;
+  right: 1em;
+}
+
+
+
+
+
+/*---------------------------Styling for the Project 5, (Digital Brand - Juiced) -------------------------------------------*/
+
+
+
+.slide-button5 {
+  position: relative;
+  right: 1em;
+}
+  
+
+/*---------------------------Styling for the Project 6, (AR Animation) -------------------------------------------*/
+
+
+
+.Tasks-plan p{
+  padding-left: 1.5em;
+}
+
+
+
+.slide-button6 {
+position: relative;
+right: 1em;}
+
+
+
+
+}
 
 
 
@@ -9085,7 +9731,7 @@ padding-right:28em;
   {
 
  
-    margin-left: 6em;
+    margin-left: 6.5em;
  
  
  
@@ -9101,7 +9747,7 @@ padding-right:28em;
 {
 
   text-align: center;
-padding-right: 5.55em;
+padding-right: 4.7em;
 
 }
 
@@ -9117,7 +9763,7 @@ width: auto;
 .project-col {
 
 position: relative;
-right: 1em;
+right: 0.5em;
   }
   
 
@@ -9149,9 +9795,13 @@ overflow-x: hidden;}
 
   position: relative;
   top: 100px;
-  right: 0.5em;
+  right: 0em;
   }
   
+
+  
+
+
   .container 
   {
   
@@ -9332,8 +9982,7 @@ font-size: 1.8em;
   font-weight: 500;
   line-height: 30px;
   letter-spacing:.5px;
-  padding-right: 1em;
-  width: 17em;
+  width: 15.9em;
 
 }
 
@@ -9345,7 +9994,6 @@ font-size: 1.8em;
   font-weight: 500;
   line-height: 30px;
   letter-spacing:.5px;
-  padding-right: 1em;
   width: 17em;
 
 }
@@ -9392,7 +10040,7 @@ font-size: 1.8em;
   height: 20em;
   width: auto;
 position: relative;
-right: 9.5em;
+right: 8em;
 }
 
 .user-solution img
@@ -9400,7 +10048,7 @@ right: 9.5em;
   height: 20em;
   width: auto;
 position: relative;
-right: 9.5em;
+right: 8em;
 }
 
 .Persona img
@@ -9408,7 +10056,7 @@ right: 9.5em;
   height: 12em;
   width: auto;
 position: relative;
-right: 8em;
+right: 7.5em;
 }
 
 
@@ -9441,7 +10089,7 @@ right: 8em;
   height: 18em;
   width: auto;
 position: relative;
-right: 8em;
+right: 7.5em;
 }
 
 
@@ -9470,7 +10118,7 @@ right: 6.4em;
   height: 25em;
   width: auto;
   position: relative;
-right: 8em;
+right: 7.5em;
 }
 
 .project1-column3 p {
@@ -9482,7 +10130,7 @@ padding-right: 2em;
   height: 18em;
   width: auto;
   position: relative;
-  right: 6.4em;
+  right: 6em;
 }
 
 .project1-column5 img{
@@ -9506,14 +10154,14 @@ padding-right: 2em;
   height: 16em;
   width: auto;
   position: relative;
-  right: 8em
+  right: 7em;
 }
 
 
 .project1-column6 p
 {
 text-align: center;
-padding-right: 2em;
+padding-right: 0.5em;
 
 }
 
@@ -9536,7 +10184,7 @@ padding-right: 2em;
 height:13em;
 width: auto;
 position: relative;
-right: 6em
+right: 7em;
 
 }
 
@@ -9624,8 +10272,8 @@ padding-right:20em;
     font-weight: 500;
     line-height: 30px;
     letter-spacing:.5px;
-    width: 20em;
-    padding-left: 2em;
+    width: 17em;
+    padding-left: 0em;
   }
 
 
@@ -9634,36 +10282,57 @@ padding-right:20em;
   font-weight: 500;
   line-height: 30px;
   letter-spacing:.5px;
-  width: 20em;
-  padding-left: 2em;
+  width: 17em;
+  padding-left: 0em;
 }
 
 
 .cookie-pain-points img{
   height:15em;
   width: auto;
+  padding-left: 4.5em;
+
 }
+
+.cookie-user-persona img{
+  height:14.6em;
+  width: auto;
+  left: -2em;
+
+  }
+  
+  .cookie-user-persona p{
+position: relative;
+right: 0em  ;
+  }
+    
+
 
 .cookie-user-journey img
 {
-  height:18em;
+  height:14em;
   width: auto;
-
+  left: -2em;
 }
+
+
+
 
 .cookie-problem-statement-solution p{
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing:.5px;
-  width: 20em;
-  padding-left: 2em;
+  width: 16em;
+  padding-left: 0em;
 }
 
 
 .cookie-problem-statement-solution img{
-  height:30em;
+  height:26em;
   width: auto;
+  padding-left: 0em;
+
 }
 
 
@@ -9672,59 +10341,118 @@ padding-right:20em;
 
   .project3-column1 img{
 
-    height:20em;
+    height:14em;
     width: auto;
+    
   }
+
 
   .project3-column2 img
   {
-    height:20em;
+    height:17em;
     width: auto;
+    padding-left: 2em;
+
   }
+
+  .project3-column2 p
+  {
+    position: relative; 
+    right: 7em;  
+  }
+
+
+
+
 
 
   .project3-column3 img{
-    height:20em;
+    height:19em;
     width: auto;
+    position: relative; 
+    right: 1.7em;
+
   }
+
+  .project3-column3 p{
+   text-align: left;
+   padding-left: 5.8em;
+
+  }
+
+  
 
 
   .project3-column4 img  
   {
     height:17em;
-    width: auto;
+    width: 20.7em;
   }
 
   .project3-column5 img
   {
-    height:15em;
-    width: 18em;
-  }
+    height:12em;
+    width: 20.7em;
+
+ }
+
+.project3-row2 p{
+  text-align: left;
+  padding-left: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+.project3-row3 p{
+ text-align: left;
+ padding-left: 5em;
+
+}
+
 
 
   .project3-column6 img
   {
-    height:24em;
+    height:23em;
     width: auto;
+    padding-left: 4em;
   }
 
 
   .project3-column7 img
   {
-    height:20em;
+    height:17em;
     width: auto;
+    padding-left: 4em;
+
   }
+
+  
+
 
 
 
   .project3-column9 img{
     height:20em;
     width: auto;
+
   }
 
-.project3-row1 p, .project3-row2 p, .project3-row3 p{
-  font-size: 1.1em;
-}
+
+  .project3-column9 p{
+  position: relative;
+  left: 1em; 
+ }
+
+
+
 
 
 
@@ -9737,7 +10465,7 @@ padding-right:20em;
     flex-direction: column;
     padding-bottom: 3em;
     width: 50em;
-padding-right:20em;
+padding-right:17em;
      }
 
 
@@ -9753,7 +10481,8 @@ padding-right:20em;
 
 
   .research-proposal ul{
-    padding-left: 0em;
+    padding-left: 1em;
+    width: 17.7em;
   }
 
 
@@ -9906,12 +10635,12 @@ padding-right: 2em;
 
 
 .slide-button4{
-  font-size: 0.8em;
+  font-size: 1.7em;
   display: flex;
   flex-direction: column;
   padding-bottom: 3em;
   width: 50em;
-padding-right:20em;
+padding-right:36em;
    }
 
 
@@ -10007,7 +10736,7 @@ font-size:1.3em;
     flex-direction: column;
     padding-bottom: 3em;
     width: 50em;
-  padding-right:13em;
+  padding-right:10em;
      }
   
   
@@ -10153,7 +10882,7 @@ html{
   {
 
  
-    margin-left: 4.5em;
+    margin-left: 5em;
  
  
  
@@ -10166,9 +10895,8 @@ html{
  
 .project1 h1
 {
-font-size: 1.8em;
+font-size: 1.7em;
 position: relative;
-right: 9em;
 }
 
 
@@ -10183,7 +10911,7 @@ width: auto;
 .project-col {
 
 position: relative;
-right: 3em;
+right: 2em;
   }
   
 
@@ -10227,7 +10955,7 @@ font-size: 1em;
 
   position: relative;
   top: 100px;
-  right: 0.5em;
+  right: 0em;
   }
   
   .container 
@@ -10311,7 +11039,7 @@ text-align: center;
 .title h1
 {
    padding-bottom: 60px;
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: #1E3547;
     text-align: center;
     
@@ -10348,7 +11076,7 @@ font-size: 1.8em;
 padding-left: 4.5em;
 text-align:center;
 padding-top: 30px;
-padding-left: 4em;
+padding-left: 3.7em;
 }
 
 
@@ -10411,7 +11139,7 @@ font-size: 1.8em;
 .research-proposal p
 {
 
-  width: 14em;
+  width: 13em;
 
 }
 
@@ -10442,34 +11170,31 @@ font-size: 1.8em;
 
 .pain-points img
 {
-  height: 19em;
+  height: 16em;
   width: auto;
-position: relative;
-right: 10.7em;
+right: 7.5em;
 }
 
 .user-solution img
 {
-  height: 19em;
+  height: 16em;
   width: auto;
-position: relative;
-right: 10.7em;
+  right: 7.5em;
+
 }
 
 .Persona img
 {
   height: 10em;
   width: auto;
-position: relative;
-right: 8em;
+right: 7.5em;
 }
 
 
 .Empathy img {
   height: 20em;
   width: auto;
-position: relative;
-right: 8.9em;
+right: 8.7em;
 }
 
 
@@ -10485,16 +11210,14 @@ right: 8.9em;
 .selected-problem-statement img {
   height: 8em;
   width: auto;
-  position: relative;
-  right: 6.5em;
+  right: 6em;
 }
 
 
 .project0-column0 img{
   height: 16em;
   width: auto;
-  position: relative;
-  right: 8em;
+  right: 7.5em;
 }
 
 
@@ -10529,8 +11252,7 @@ right: 9em;
 {
   height: 23em;
   width: auto;
-  position: relative;
-right:8.5em;
+right:8em;
 }
 
 .project1-column3 p {
@@ -10541,15 +11263,13 @@ padding-right: 2em;
 .project1-column4 img {
   height: 15em;
   width: auto;
-  position: relative;
   right: 5em;
 }
 
 .project1-column5 img{
   height: 16em;
   width: auto;
-  position: relative;
-  right: 6.4em
+  right: 6em;
   ;}
 
 
@@ -10686,8 +11406,8 @@ padding-right: 40em;
     font-weight: 500;
     line-height: 30px;
     letter-spacing:.5px;
-    width: 15em;
-    padding-left: 2em;
+    width: 13em;
+    padding-left: 0em;
   }
 
 
@@ -10696,8 +11416,8 @@ padding-right: 40em;
   font-weight: 500;
   line-height: 30px;
   letter-spacing:.5px;
-  width: 15em;
-  padding-left: 2em;
+  width: 13em;
+  padding-left: 0em;
 }
 
 
@@ -10706,11 +11426,17 @@ padding-right: 40em;
   width: auto;
 }
 
+.cookie-user-persona img{
+  height:13em;
+  width: auto;
+}
+
+
 .cookie-user-journey img
 {
-  height:16em;
+  height:13em;
   width: auto;
-
+right:0em;
 }
 
 .cookie-problem-statement-solution p{
@@ -10723,7 +11449,7 @@ padding-right: 40em;
 
 
 .cookie-problem-statement-solution img{
-  height:30em;
+  height:22em;
   width: auto;
 }
 
@@ -10733,20 +11459,32 @@ padding-right: 40em;
 
   .project3-column1 img{
 
-    height:18em;
+    height:13em;
     width: auto;
   }
 
   .project3-column2 img
   {
-    height:18em;
+    height:14em;
     width: auto;
+    padding-right: 2em;
   }
+
+  .project3-column2 p
+  {
+   
+position: relative; 
+left: 2.5em; }
+
 
 
   .project3-column3 img{
-    height:20em;
+    height:17em;
     width: auto;
+  }
+  .project3-column3 p{
+    position: relative; 
+    right: 2.5em;
   }
 
 
@@ -10759,29 +11497,55 @@ padding-right: 40em;
   .project3-column5 img
   {
     height:12em;
-    width: 15em;
+    width: 18em;
+
+
+
   }
+
+  .project3-row2 p
+  {
+    padding-left: 0em;
+
+    
+  }
+
+
+
 
 
   .project3-column6 img
   {
-    height:24em;
+    height:20em;
     width: auto;
   }
 
 
   .project3-column7 img
   {
-    height:20em;
+    height:14.3em;
     width: auto;
   }
+
+.project3-row3 p{
+  padding-left: 3em;
+
+}
 
 
 
   .project3-column9 img{
-    height:20em;
+    height:17em;
     width: auto;
   }
+
+
+  .project3-row4 p{
+    padding-left: 1em;
+    width: 17em;
+
+  }
+
 
 .project3-row1 p, .project3-row2 p, .project3-row3 p{
   font-size: 1.1em;
@@ -10814,8 +11578,8 @@ padding-right: 40em;
 
 
   .research-proposal ul{
-    padding-left: 0em;
-    width: 14em;
+    padding-left: 1em;
+    width: 15em;
 
   }
 
@@ -10971,12 +11735,12 @@ right: 1.6em;
 
 
 .slide-button4{
-  font-size: 0.7em;
+  font-size: 1.5em;
     display: flex;
     flex-direction: column;
     padding-bottom: 3em;
     width: 70em;
-    padding-right: 40em;
+    padding-right: 56.5em;
    }
 
 
@@ -11073,7 +11837,7 @@ font-size:1.3em;
     flex-direction: column;
     padding-bottom: 3em;
     width: 70em;
-    padding-right: 34em;
+    padding-right: 32em;
      }
   
   
@@ -11158,10 +11922,9 @@ width:20em;
   flex-direction: column;
   padding-bottom: 3em;
   width: 70em;
-  padding-right: 46em;;
+  padding-right: 45em;;
    }
 }
-
 
 
 
