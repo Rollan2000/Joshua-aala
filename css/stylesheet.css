@@ -9559,6 +9559,21 @@ padding-right:28em;
 @media (max-width: 414px ) {
 
 
+#introduction h2{
+  font-size: calc(20px + (20 - 16) * (100vw - 400px) / (1800 - 400));
+
+  font-weight: 450;
+  font-family:'Calibri', sans-serif;
+
+
+
+}
+
+
+
+
+
+  
 .btn{
 position: relative;
 right: 0.7em;
