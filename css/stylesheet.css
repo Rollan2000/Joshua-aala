@@ -375,6 +375,13 @@ padding-bottom: 15em;
 
 
 
+   .btn:hover 
+   {
+    animation: none;
+    background-color: var(--accent-colour);
+    color: var(--navy-blue);
+
+   }
 
 
 
