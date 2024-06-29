@@ -396,8 +396,7 @@ padding-bottom: 15em;
    {
    
     display: grid;
-    min-height: calc(100vh - var(--section-padding-top));
-    padding-top: var(--section-padding-top);
+    
     grid-template-columns: 15% 1fr 15%;
 
     background-color: #ECF2F9;
