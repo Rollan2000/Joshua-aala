@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device">
+    <link rel="icon" type="image/png" href="images/JA Logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Joshua Aala's Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+          <a href="index.html" class="logo">
+                <img src="images/JA Logo.png" alt="Joshua Logo">
+                <span class="logo-text"> </span>
+          </a>
+            <div class="links">
+                <div class="link"><a href="home.html">Home</a></div>
+                <div class="link"><a href="about.html">About</a></div>
+                <div class="link"><a href="portfolio.html">Portfolio</a></div>
+                <div class="link"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="fade-in-section">
+        <div class="main-container">
+          <div class="content">
+            <h1 class="intro-text">Hello! <span>I'm Joshua!</span></h1>
+            <div class="typewriter">I am a <span></span></div>
+            <p>A Multimedia designer passionate about visual design, animation, and interactive media.</p>
+
+
+    
+          <a class="project-btn" href="#skills">View My Projects</a> 
+
+          
+             
+              </a>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+    <img class="icon1" src="images/Icon 1.png" />
+    <img class="icon2" src="images/Icon 2.png" />
+
+            
+    <img class="icon3" src="images/Icon 3.png" />
+    <img class="icon4" src="images/Icon 4.png" />
+
+
+
+
+
+
+
+
+    
+      <section id="skills" class="design-skills-grid">
+        <h2 class="skills-heading"></h2>
+      
+       <div class="design-box left booster-juice" alt="Booster Juice App ">
+       <a class="projects" href="booster-juice.html"><h2>UX/UI App: Booster Juice</h2></a> 
+       </div>
+
+        <div class="design-box right humber-bakery"  alt="Humber Cake Bakery App " >
+         <a class="projects" href="humber-bakery.html">  <h2>UX/UI App: Humber Cake Bakery</h2>  </a>
+        </div>
+        
+        <div class="design-box left insomia-cookie"  alt="Insomnia Cookies App ">
+        <a class="projects" href="insomnia-cookies.html">   <h2>UX/UI App: Insomnia Cookies</h2> </a>
+        </div>
+
+
+        <div class="design-box right ripple"  alt="Ripple App ">
+        <a class="projects" href="Ripple.html">   <h2>UX/UI App: Ripple </h2> </a>
+        </div>
+
+        <div class="design-box left nintendo-switch "  alt="Motion Graphics-Nintendo Switch">
+          <a class="projects" href="nintendo.html">   <h2>Motion Graphics Design: Nintendo Switch</h2> </a>
+     </div>
+
+
+        <div class="design-box right juiced "  alt="Juiced: Digital Branding">
+          <a class="projects" href="juiced.html">   <h2>Juiced: Digital Branding</h2> </a>
+     </div>
+
+
+  
+     
+      </section>
+
+    <footer>
+
+ 
+        <p>&copy;  DESIGNED AND DEVELOPED BY Joshua Aala 2026.</p>
+    </footer>
+    
+    <!-- ✅ JavaScript for Hamburger Menu -->
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector(".mobile-menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+
+<script>
+    document.querySelector('.scroll-down').addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector('#skills');
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    });
+  </script>
+
+  <script>
+    window.addEventListener('resize', function () {
+  const menu = document.querySelector('.mobile-menu');
+  const hamburger = document.querySelector('.hamburg');
+
+  if (window.innerWidth > 884 && menu.classList.contains('active')) {
+    menu.classList.remove('active');
+  }
+});
+  </script>
+
+</body>
+</html>

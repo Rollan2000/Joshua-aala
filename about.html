@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device">
+    <link rel="icon" type="image/png" href="images/JA Logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+          <a href="index.html" class="logo">
+            <img src="images/JA Logo.png" alt="Joshua Aala's Logo">
+            <span class="logo-text">   </span>
+          </a>
+            <div class="links">
+                <div class="link"><a href="home.html">Home</a></div>
+                <div class="link"><a href="about.html">About</a></div>
+                <div class="link"><a href="portfolio.html">Portfolio</a></div>
+                <div class="link"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <section>
+        <div class="main-container">
+            <div class="image">
+                <img src="images/profile-picture.png" alt="Joshua Logo">
+            </div>
+            <div class="content">
+                <h1 class="intro-text">About <span> me</span></h1>
+                <p>I'm Joshua Rollan Aala. A Multimedia Designer with experience in UX/UI, and Motion Graphics to create impactful digital experience to drive results.  
+                </p>
+
+                <p>My Technical skills:</p>
+                <ul>
+                    <li>User research & discovery (interviews, surveys, usability testing)</li>                                  
+                    <li>User personas & journey mapping</li>
+                    <li>Information architecture (IA)</li>
+                    <li>Wireframing & low-fidelity prototyping</li>
+                    <li>Interaction design fundamentals</li>
+                    <li>Accessibility (WCAG, inclusive design)</li>
+                    <li>Design thinking & problem-solving</li>
+                    <li>High-Fidelity Prototyping, User Flow </li>
+                    <li> Tools: Figma, Adobe Creative Cloud, Miro.</li>
+                </ul>
+
+
+                <!-- Social Media Icons -->
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/joshua-rollan-aala-b2480b259/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.behance.net/joshuaaala" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                    <a href="https://www.youtube.com/@MD-FORCE" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/md_force2/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>      
+
+                <!-- Button Below Social Icons -->
+                <div class="btn">
+                    <a href="pdf/Joshua_Aala.pdf" class="button">My Resume</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;  DESIGNED AND DEVELOPED BY Joshua Aala 2026.</p>
+    </footer>
+
+    <!-- ✅ JavaScript for Hamburger Menu -->
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector(".mobile-menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+
+<script>
+    window.addEventListener('resize', function () {
+  const menu = document.querySelector('.mobile-menu');
+  const hamburger = document.querySelector('.hamburg');
+
+  if (window.innerWidth > 884 && menu.classList.contains('active')) {
+    menu.classList.remove('active');
+  }
+});
+  </script>
+</body>
+</html>
