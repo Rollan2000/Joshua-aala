@@ -462,14 +462,15 @@ ul {
     list-style-type: disc; 
     padding-left: 10px; 
     margin-left: 10px; 
+        list-style-type: none;
+
 }
 
 ul li {
     margin-bottom: 5px; 
     font-size: 1.2rem; 
 }
-
-
+ 
 .social-links {
     display: flex;
     justify-content: left;
@@ -1395,394 +1396,250 @@ footer {
     }
 }
 
-@media (max-width: 884px){
-    body{
-        overflow-y: visible;
-    }
-
-    nav .logo{
-        position: absolute;
-        top: 15px;
-        left: 20px;
-        font-size: 2rem;
-        
-    }
-
-    
-
-   nav .logo img {
-        height: 70px;
-
-        position: absolute;
-        top: -10px;
-        left: 0em;
-
-    }
-
-
-
-
-
-
-    .nav-container {
-        display: flex;
-        justify-content: center; /* ✅ Centers both elements */
-        align-items: center;
-        position: relative;
-       
-
-    }
-
-
-
-
-
-
-
-    .logo {
-        font-size: 2rem; /* ✅ Same size as desktop */
-        position: relative;
-        margin-right: auto; /* ✅ Pushes logo left */
-        padding-left: 80px; /* ✅ Adjusts spacing */
-        
-    }
-
-    .hamburg {
-        position: relative;
-        margin-left: auto; /* ✅ Pushes menu right */
-        padding-right: 80px; /* ✅ Adjusts spacing */
-    }
-
-    .main-container{
-        display: flex;
-        width: 100%;
-        height: 100%; /* Ensures full screen coverage */
-        flex-direction: column;
-    }
-
-    .main-container .image img{
-        width: 100%;
-        margin-top: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .main-container .content{
-        width: 80%;
-    }
-
-    .main-container .image {
-        width: 50%; /* Ensures consistency */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .content .typewriter {
-        font-size: 1rem; /* ✅ Adjust size for mobile */
-    }
-
-    .typewriter span {
-        font-size: 2rem; 
-    }
-
-    .typewriter span::after {
-        right: -3px; 
-    }
-
+/* --- TABLET & MOBILE (Max-width: 1024px) --- */
+@media (max-width: 1024px) {
+    /* Hide Desktop Links */
     .nav-container .links {
         display: none;
-   
-  
     }
 
-
-
-
-
-
-    .hamburg, .cancel {
-        position: absolute;
-        top: 30px; 
-        right: 15px;
-        font-size: 2rem;
+    /* Show Hamburger Menu */
+    .hamburg {
         display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+        top: 25px;
+        z-index: 1000;
     }
 
-    .social-links {
-        gap: 10px; 
+    /* Logo adjustment for smaller screens */
+    .logo img {
+        height: 60px;
+        left: 2em;
     }
 
-    .social-links a {
-        width: 50px; 
-        height: 50px;
+    .logo-text {
+        font-size: 25px;
+        margin-left: 60px; /* Space for absolute logo img */
     }
 
-    .social-links a i {
-        font-size: 25px; 
-    }
-
-    .btn {
-        display: flex;
-        justify-content: left;
-        margin-bottom: 50px;
-    }
-    
-    .gallery-grid {
-        display: flex;
-        flex-direction: column; /* Stack images vertically */
-        align-items: center; /* Center images */
-        gap: 20px; /* Adds space between images */
-        padding: 10px;
-    }
-
-    .gallery-item {
-        width: 90%; /* Adjust width for smaller screens */
-        max-width: 400px; /* Prevents images from being too large */
-    }
-
-    .gallery-item img {
-        width: 100%;
-        border-radius: 5px;
-    }
-
-    .social-icons {
-        flex-direction: row;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 20px;
-    }
-
-    .container {
+    /* Stack the Main Container vertically */
+    .main-container {
         flex-direction: column;
-        text-align: center;
-    }
-
-    .logo-container img {
-        width: 250px;
-        padding-top: 40px;
-    }
-
-    .contact-form {
-        width: 100%;
-        max-width: 400px;
-        margin-top: 20px;
-    }
-
-    .btn-submit {
-        font-size: 16px;
-    }
-
-    .design-skills-grid {
-        flex-direction: column;
-        padding: 20px;
+        height: auto;
+        padding: 100px 20px;
         gap: 30px;
     }
 
+    .main-container .content
+     {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .content ul
+    {
+    list-style-type: none;
+
+   }
+
+    /* Adjust floating icons so they don't overlap text */
+    .icon1, .icon2, .icon3, .icon4 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .icon1 { left: 5%; top: 15%; }
+    .icon2 { left: 5%; bottom: 15%; }
+    .icon3 { right: 5%; top: 15%; }
+    .icon4 { right: 5%; bottom: 15%; }
+
+
+.social-links ,
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+
+
+/* Stack Gallery and Projects */
+    .gallery-grid, .projects-grid {
+        grid-template-columns: 2fr;
+        
+    }
+
+    .design-skills-grid {
+        width: 100%;
+
+    }
+
+
+}
+
+/* --- SMALL MOBILE (Max-width: 768px) --- */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+       .content p {
+        font-size: 1.7rem;
+    }
+
+    .typewriter span {
+        font-size: 1.8rem;
+    }
+
+
     .design-box {
         flex: 1 1 100%;
-        height: auto;
-        min-height: 300px;
-        transition: transform 0.3s ease;
+        height: 400px;
     }
 
-    .design-box h2 {
-        font-size: 1.8rem;
-        padding: 15px;
+    /* Adjust Buttons for touch */
+    .nav-button, .button {
+        width: 100%;
+        max-width: 300px;
+        font-size: 16px;
     }
 
-
-
-
-  .icon1 {
-
-  position: absolute;
-  left:4em;
-  bottom: 40em;
-  }
-
-
-
-  .icon2 {
-
-
-  position: absolute;
-  left:4em;
-  top: 53em;
-  }
-
-
-
-  .icon3 {
-  position: absolute;
-  right:2em;
-  bottom: 40em;
-  }
-
-.icon4 {
-  position: absolute;
-  right:2em;
-  top: 53em;
-  }
-
-
-
-
-.booster-juice img {
-    width: 90%;
-    max-width: 390px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-
-
-
-
-.cookie-app img {
-    width: 100%;
-    max-width: 390px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-@media (max-width: 768px) {
     .button-container {
-        flex-direction: column; /* Stack buttons vertically on smaller screens */
-        gap: 10px; /* Reduce gap between buttons */
-        align-items: center;
-    }
-
-    .nav-button {
-        width: 95%; /* Make buttons wider for better tapability */
-        text-align: center;
-        font-size: 14px; /* Slightly reduce font size */
-        padding: 10px 30px; /* Adjust padding */
-        min-width: unset; /* Allow dynamic width */
+        flex-direction: column;
+        gap: 15px;
     }
 
 
-
-
-
-
- .hamburg {
-        position: relative;
-        margin-left: auto; /* ✅ Pushes menu right */
-        padding-right: 40px; /* ✅ Adjusts spacing */
-        padding-bottom: 55px;
-    }
-
-
-
- 
-   nav .logo img {
-        height: 70px;
-
-        position: absolute;
-        top: -10px;
-        left: 0em;
-
-    }
-
-.nav-container .links a{
-    position: relative;
-    
-    left:10em;
-  
-}
-
-
-  .icon1 {
-
-  position: absolute;
-  left:4em;
-  bottom: 40em;
-  }
-
-
-
-  .icon2 {
-
-
-  position: absolute;
-  left:4em;
-  top: 53em;
-  }
-
-
-
-  .icon3 {
-  position: absolute;
-  right:2em;
-  bottom: 40em;
-  }
-
-.icon4 {
-  position: absolute;
-  right:2em;
-  top: 53em;
-  }
-
-  .nintendo-image-pair  img{
-    margin-top: 50px; 
-    width: 150%;
-    max-width: 350px;
-    display: block;
-  }
-
-
-
-.project-6 img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 400px; /* Adjust the width */
-    margin: auto;
-    text-align: center; /* Center text */
-    margin-top: 100px;
-}
-
-
+.footer-image img{
+   width: 100%;
+   max-width: 350px;
 
 
 }
 
 
+.project-6 img{
+ width: 100%;
+   max-width: 650px;
+
+}
+
+.image{
+ width: 100%;
+ max-width: 300px;
+}
 
 
 
+}
 
-
+/* --- VERY SMALL SCREENS (Max-width: 480px) --- */
 @media (max-width: 480px) {
-    .nav-button {
-        width: 90%; /* Make buttons nearly full-width on very small screens */
-        font-size: 14px;
-        padding: 8px 16px; /* Further reduce padding */
+
+
+nav {
+        height: 8vh; 
+    }
+
+    /* 2. Resize the Logo to prevent it from crowding the hamburger icon */
+    .logo-text {
+        font-size: 22px; /* Smaller text for tiny screens */
+        padding-left: 60px; /* Space for the logo image */
+    }
+
+    nav .logo img {
+        height: 50px; /* Scaled down logo image */
+        left: 10px;
+    }
+
+    /* 3. Fix the Hamburger Icon positioning */
+    .hamburg, .cancel {
+        top: 20px; /* Centers it vertically in the smaller nav */
+        right: 20px;
+        font-size: 1.8rem; /* Slightly smaller icon */
+    }
+
+    /* 4. Full-Screen Mobile Menu Style */
+    .mobile-menu {
+        top: 8vh; /* Starts exactly where the nav ends */
+        height: 100vh; /* Takes up the full height of the viewport */
+        padding: 40px 0;
+        display: none; /* Controlled by the .active class in JS */
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .mobile-menu ul li {
+        margin: 25px 0; /* Increase spacing between links for easier tapping */
+    }
+
+    .mobile-menu ul li a {
+        font-size: 1.8rem; /* Large, legible links */
+        font-weight: 600;
+    }
+
+    /* 5. Hide floating background icons to keep the UI clean */
+    .icon1, .icon2, .icon3, .icon4 {
+        display: none; 
     }
 
 
 
 
+    
+  .content ul
+    {
+   justify-items: left;
+   text-align: left;
+   width: 90%;
+   }
+
+
+
+    .content p {
+        font-size: 18px;
+    }
+
+
+
+    .booster-juice{
+        width: 80%;
+       max-width: 500px;
+    }
+    
+
+    .cookie-app{
+       width: 80%;
+       max-width: 500px;
+    }
+
+
+.project-6{
+       width: 80%;
+       max-width: 500px;
+    }
+
+.nintendo-image-pair img
+{
+       width: 100%;
+       max-width: 300px;
+    }
+
+
+.footer-image img{
+   width: 100%;
+   max-width: 200px;
+}
+
+
+
+.footer-content p{
+    font-size: 20px;
+    margin: 30px 0;
+}
 
 
 }
