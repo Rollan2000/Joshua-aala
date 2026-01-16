@@ -1397,6 +1397,21 @@ footer {
 }
 
 /* --- TABLET & MOBILE (Max-width: 1024px) --- */
+@media (max-width: 1254px) {
+    /* Hide Desktop Links */
+
+
+  .icon1 { left: 5%; top: 15%; }
+    .icon2 { left: 5%; bottom: 15%; }
+    .icon3 { right: 5%; top: 15%; }
+    .icon4 { right: 5%; bottom: 15%; }
+
+
+
+
+}
+
+/* --- TABLET & MOBILE (Max-width: 1024px) --- */
 @media (max-width: 1024px) {
     /* Hide Desktop Links */
     .nav-container .links {
